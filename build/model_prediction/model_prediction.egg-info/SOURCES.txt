@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+launch/predict.launch.py
+launch/record.launch.py
+model_prediction/__init__.py
+model_prediction/backandforth.py
+model_prediction/model_prediction_rate.py
+model_prediction.egg-info/PKG-INFO
+model_prediction.egg-info/SOURCES.txt
+model_prediction.egg-info/dependency_links.txt
+model_prediction.egg-info/entry_points.txt
+model_prediction.egg-info/requires.txt
+model_prediction.egg-info/top_level.txt
+model_prediction.egg-info/zip-safe
+resource/model_prediction

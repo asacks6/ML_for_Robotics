@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2c52a90ae4eaa9119914.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "floor_plane_ransac_base",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "floor_plane_ransac::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floor_plane_ransac-cd7de88223f3ae2b1829.json",
+					"name" : "floor_plane_ransac",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floor_plane_ransac_base_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floor_plane_ransac_base_uninstall-1ed959a62c958172a2a4.json",
+					"name" : "floor_plane_ransac_base_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dfe63087a1c350e5b3bf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base",
+		"source" : "/home/GTL/asacks/ros_workspace/src/floor_plane_ransac_base"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

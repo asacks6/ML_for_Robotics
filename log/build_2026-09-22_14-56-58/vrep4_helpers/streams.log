@@ -1,0 +1,76 @@
+[0.023s] Invoking command in '/home/GTL/asacks/ros_workspace/build/vrep4_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/vrep4_helpers -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/vrep4_helpers
+[0.085s] -- The C compiler identification is GNU 13.3.0
+[0.143s] -- The CXX compiler identification is GNU 13.3.0
+[0.157s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.300s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.467s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.492s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.663s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.987s] -- Found depth_image_proc: 6.0.12 (/opt/ros/kilted/share/depth_image_proc/cmake)
+[1.188s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.244s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.693s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[1.709s] -- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[1.711s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[2.026s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.082s] -- Setting yaml-cpp_DIR to: '/opt/ros/kilted/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.244s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[2.245s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.246s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.505s] -- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[2.721s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.722s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/GTL/asacks/ros_workspace/src/vrep4_helpers/include>
+[2.723s] -- Configured cppcheck exclude dirs and/or files: 
+[2.724s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.724s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.727s] -- Added test 'lint_cmake' to check CMake code style
+[2.731s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.739s] -- Added test 'uncrustify' to check C / C++ code style
+[2.740s] -- Configured uncrustify additional arguments: 
+[2.742s] -- Added test 'xmllint' to check XML markup files
+[2.760s] -- Configuring done (2.7s)
+[2.867s] -- Generating done (0.1s)
+[2.911s] -- Build files have been written to: /home/GTL/asacks/ros_workspace/build/vrep4_helpers
+[2.919s] Invoked command in '/home/GTL/asacks/ros_workspace/build/vrep4_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/vrep4_helpers -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/vrep4_helpers
+[2.921s] Invoking command in '/home/GTL/asacks/ros_workspace/build/vrep4_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/vrep4_helpers -- -j16 -l16
+[2.970s] [ 50%] Building CXX object CMakeFiles/clock_repeat.dir/src/clock_repeat.cpp.o
+[2.971s] [ 50%] Building CXX object CMakeFiles/image_flip.dir/src/image_flip.cpp.o
+[8.794s] [ 75%] Linking CXX executable image_flip
+[9.307s] [ 75%] Built target image_flip
+[13.987s] [100%] Linking CXX executable clock_repeat
+[14.693s] [100%] Built target clock_repeat
+[14.704s] Invoked command in '/home/GTL/asacks/ros_workspace/build/vrep4_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/vrep4_helpers -- -j16 -l16
+[14.713s] Invoking command in '/home/GTL/asacks/ros_workspace/build/vrep4_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/vrep4_helpers
+[14.721s] -- Install configuration: ""
+[14.725s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/lib/vrep4_helpers/image_flip
+[14.777s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/vrep4_helpers/lib/vrep4_helpers/image_flip" to ""
+[14.778s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/lib/vrep4_helpers/clock_repeat
+[14.953s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/vrep4_helpers/lib/vrep4_helpers/clock_repeat" to ""
+[14.954s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers
+[14.957s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/kinect_pc.launch.py
+[14.961s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/kinect_pc_min.launch.py
+[14.968s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/ament_index/resource_index/package_run_dependencies/vrep4_helpers
+[14.974s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/ament_index/resource_index/parent_prefix_path/vrep4_helpers
+[14.980s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.sh
+[14.982s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.dsv
+[14.986s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/environment/path.sh
+[14.988s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/environment/path.dsv
+[14.992s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/local_setup.bash
+[14.996s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/local_setup.sh
+[14.999s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/local_setup.zsh
+[15.003s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/local_setup.dsv
+[15.007s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/package.dsv
+[15.013s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/ament_index/resource_index/packages/vrep4_helpers
+[15.017s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig.cmake
+[15.021s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig-version.cmake
+[15.024s] -- Installing: /home/GTL/asacks/ros_workspace/install/vrep4_helpers/share/vrep4_helpers/package.xml
+[15.030s] Invoked command in '/home/GTL/asacks/ros_workspace/build/vrep4_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/vrep4_helpers

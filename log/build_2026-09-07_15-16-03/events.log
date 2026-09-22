@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000185] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict()}
+[0.000210] (joy_teleop) JobStarted: {'identifier': 'joy_teleop'}
+[0.098936] (-) TimerEvent: {}
+[0.199177] (-) TimerEvent: {}
+[0.299399] (-) TimerEvent: {}
+[0.399621] (-) TimerEvent: {}
+[0.499798] (-) TimerEvent: {}
+[0.599998] (-) TimerEvent: {}
+[0.700200] (-) TimerEvent: {}
+[0.800425] (-) TimerEvent: {}
+[0.900671] (-) TimerEvent: {}
+[1.000891] (-) TimerEvent: {}
+[1.101147] (-) TimerEvent: {}
+[1.123896] (joy_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/GTL/asacks/ros_workspace/build/joy_teleop/build', '--no-deps', 'symlink_data'], 'cwd': '/home/GTL/asacks/ros_workspace/build/joy_teleop', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'USER': 'asacks', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/GTL/asacks', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/asacks/ros_workspace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '240832', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc121.georgiatech-metz.fr:@/tmp/.ICE-unix/240775,unix/gtlpc121.georgiatech-metz.fr:/tmp/.ICE-unix/240775', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8af76183_728a_4b68_a720_eb47c9a51ec8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/39376', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/.mutter-Xwaylandauth.Y0BZU3', 'GNOME_TERMINAL_SERVICE': ':1.249', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/joy_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[1.201244] (-) TimerEvent: {}
+[1.301439] (-) TimerEvent: {}
+[1.401640] (-) TimerEvent: {}
+[1.415250] (joy_teleop) StdoutLine: {'line': b'running develop\n'}
+[1.501730] (-) TimerEvent: {}
+[1.601929] (-) TimerEvent: {}
+[1.626496] (joy_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[1.646250] (joy_teleop) StdoutLine: {'line': b'writing joy_teleop.egg-info/PKG-INFO\n'}
+[1.647980] (joy_teleop) StdoutLine: {'line': b'writing dependency_links to joy_teleop.egg-info/dependency_links.txt\n'}
+[1.649034] (joy_teleop) StdoutLine: {'line': b'writing entry points to joy_teleop.egg-info/entry_points.txt\n'}
+[1.649813] (joy_teleop) StdoutLine: {'line': b'writing requirements to joy_teleop.egg-info/requires.txt\n'}
+[1.650924] (joy_teleop) StdoutLine: {'line': b'writing top-level names to joy_teleop.egg-info/top_level.txt\n'}
+[1.693081] (joy_teleop) StdoutLine: {'line': b"reading manifest file 'joy_teleop.egg-info/SOURCES.txt'\n"}
+[1.695014] (joy_teleop) StdoutLine: {'line': b"writing manifest file 'joy_teleop.egg-info/SOURCES.txt'\n"}
+[1.702014] (-) TimerEvent: {}
+[1.716672] (joy_teleop) StdoutLine: {'line': b'running build_ext\n'}
+[1.716801] (joy_teleop) StdoutLine: {'line': b'Creating /home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages/joy-teleop.egg-link (link to .)\n'}
+[1.720098] (joy_teleop) StdoutLine: {'line': b'Installing teleop script to /home/GTL/asacks/ros_workspace/install/joy_teleop/lib/joy_teleop\n'}
+[1.722230] (joy_teleop) StdoutLine: {'line': b'\n'}
+[1.722305] (joy_teleop) StdoutLine: {'line': b'Installed /home/GTL/asacks/ros_workspace/build/joy_teleop\n'}
+[1.722858] (joy_teleop) StdoutLine: {'line': b'running symlink_data\n'}
+[1.749381] (joy_teleop) CommandEnded: {'returncode': 0}
+[1.778214] (joy_teleop) JobEnded: {'identifier': 'joy_teleop', 'rc': 0}
+[1.780988] (-) EventReactorShutdown: {}

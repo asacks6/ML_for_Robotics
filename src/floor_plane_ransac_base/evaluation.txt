@@ -1,0 +1,106 @@
+Step 2 - RANSAC - Evaluation
+
+
+1. Choice of n_samples and tolerance
+
+Number of samples.
+The standard RANSAC formula gives the number of iterations N needed to draw at
+least one all inlier sample with probability p:
+
+  N = log(1-p) / log(1 - w^s)
+
+with w the inlier fraction and s = 3 the sample size. For p = 0.99:
+
+  w = 0.7    N = 11
+  w = 0.5    N = 35
+  w = 0.4    N = 70
+  w = 0.3    N = 169
+
+With max_range = 2.0 the ground is the large majority of the cloud, so w is
+rarely below 0.5 and 35 iterations would already be enough. n_samples = 100 was
+chosen to stay safe down to w = 0.35, which covers the case where the robot
+faces a wall, and still costs very little. The default value of 10 in the base
+launch file only reaches 99 percent at w = 0.72, which is optimistic.
+
+Tolerance.
+It has to cover two physical effects added together: the depth noise of the
+sensor, a few millimetres up to about 1 cm at 2 m, and the real roughness of the
+floor in the scene. It must stay well below the height of the obstacles so that
+obstacle points are rejected.
+
+tolerance = 0.05 m. Measured on synthetic data, 5000 points, 30 percent
+outliers, true plane a = 0.100, b = -0.060, c = -0.300:
+
+  tolerance   inliers   a after refit   c after refit
+  0.01        2105      0.101           -0.303
+  0.05        3714      0.100           -0.300
+  0.10        3911      0.102           -0.296
+  0.30        4674      0.125           -0.256
+
+0.01 is too tight, it keeps only two thirds of the ground because the noise is
+1 cm. 0.30 is too loose, it swallows the obstacle and the estimate drifts. 0.05
+recovers essentially all 3500 ground points and nothing else.
+
+Rule of thumb: about 3 sigma of the sensor noise at working distance, then check
+in RViz on the ~/inliers cloud that the inliers stop at the foot of the
+obstacles.
+
+
+2. Sensitivity to the environment
+
+Obstacles:
+RANSAC handles them better than the Hough Transform, because the tolerance test
+is an explicit geometric rejection instead of a competition between cells. The
+inlier count is also a usable confidence measure: if it drops far below the
+usual number of ground points, the ground is mostly hidden.
+
+Smooth slope transitions:
+same failure mode as the Hough Transform. Two surfaces of similar size inside
+max_range give two consensus sets of similar size, and RANSAC picks whichever
+happens to be larger on that frame. Being randomized, it can pick a different
+one on the next frame with essentially the same data, so the marker flickers.
+Lowering max_range is the direct fix. A more principled one is to bias the
+sampling towards points close to the robot, which describe the surface the robot
+is actually standing on.
+
+
+3. RANSAC as a first step into a least squares detection
+
+Implemented in the code, right after the sampling loop.
+
+The best model found by RANSAC is built from only 3 points, so it carries the
+full measurement noise of those 3 points. The consensus set on the other hand
+contains thousands of ground points and no obstacle points, because the
+obstacles were already rejected by the tolerance test.
+
+So the two stages split the work: RANSAC decides which points belong to the
+ground, least squares decides where the ground is. The second stage is the same
+normal equations solve as the regression homework, (A^T A) X = A^T B factored
+with ldlt(), applied to the inliers instead of the raw cloud.
+
+Measured on the synthetic data above, true a = 0.100, b = -0.060, c = -0.300:
+
+  RANSAC, 100 samples    a = 0.092   b = -0.061   c = -0.291
+  after refinement       a = 0.100   b = -0.060   c = -0.300
+
+The refinement costs almost nothing compared to the sampling loop.
+
+A further improvement, not implemented, is to iterate: refit, reselect the
+inliers around the refitted plane, refit again, until the inlier set stops
+changing. This is essentially an M-estimator initialized by RANSAC.
+
+
+4. Computation load
+
+Cost is n_samples*n distance evaluations, linear in both. Measured at -O3 on
+5000 points, refinement included:
+
+   10 samples   0.21 ms
+   50 samples   0.69 ms
+  100 samples   1.4 ms
+  500 samples   5.9 ms
+
+RANSAC at 100 samples is about 40 times cheaper than the Hough Transform on the
+same cloud, and more precise thanks to the refinement. The price is that it is
+randomized, so two consecutive frames on identical data can give slightly
+different answers, whereas the Hough Transform is deterministic.

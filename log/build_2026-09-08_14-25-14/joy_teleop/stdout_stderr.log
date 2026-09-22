@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing joy_teleop.egg-info/PKG-INFO
+writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+writing entry points to joy_teleop.egg-info/entry_points.txt
+writing requirements to joy_teleop.egg-info/requires.txt
+writing top-level names to joy_teleop.egg-info/top_level.txt
+reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages/joy-teleop.egg-link (link to .)
+Installing teleop script to /home/GTL/asacks/ros_workspace/install/joy_teleop/lib/joy_teleop
+
+Installed /home/GTL/asacks/ros_workspace/build/joy_teleop
+running symlink_data

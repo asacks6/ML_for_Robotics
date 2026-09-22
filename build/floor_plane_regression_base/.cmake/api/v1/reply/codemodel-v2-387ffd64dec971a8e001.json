@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-179818b94a00fcede485.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "floor_plane_regression_base",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "floor_plane_regression::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floor_plane_regression-452a1ed2631c321532d0.json",
+					"name" : "floor_plane_regression",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floor_plane_regression_base_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floor_plane_regression_base_uninstall-ef72df2e1cc47cfcd6ce.json",
+					"name" : "floor_plane_regression_base_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-69b8bb40e141294adf86.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base",
+		"source" : "/home/GTL/asacks/ros_workspace/src/floor_plane_regression_base"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

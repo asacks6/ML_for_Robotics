@@ -1,0 +1,12 @@
+<launch>                                                                        
+    <node pkg="image_publisher" exec="image_publisher_node" name="image_publisher"
+        args="/home/cedricp/ros2_ws/src/scenes/markers/pg_0003r.png" >
+
+    <param name="flip_horizontal" value="false" />
+    <param name="flip_vertical" value="false" />
+    <param name="frame_id" value="camera" />
+    <param name="publish_rate" value="5.0" />
+    <param name="camera_info_url" value="file:///home/cedricp/ros2_ws/src/scenes/markers/camera.yaml" />   <!-- relative to ~/.ros/ -->
+
+  </node>
+</launch>

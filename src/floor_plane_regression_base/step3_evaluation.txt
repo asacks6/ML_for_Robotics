@@ -1,0 +1,69 @@
+Step 3 - Evaluation
+
+1. Computation time and load
+
+Eigen:
+- Typical solver time: about 0.08 ms
+- CPU usage observed: about 5.4 %
+- Memory usage observed: about 0.1 %
+
+CERES:
+- Typical optimization time: about 4-6 ms
+- CPU usage observed: about 84.1 %
+- Memory usage observed: about 0.2 %
+
+Eigen is clearly faster and uses much less CPU for this problem. This is expected because the plane fitting problem is linear in the parameters and Eigen solves the least-squares system directly, while CERES performs an iterative optimization.
+
+The CPU values are instantaneous measurements and should be considered typical observed values rather than a rigorous benchmark.
+
+
+2. Precision
+
+On a clean area with no nearby obstacle:
+
+Eigen:
+z ≈ 0.00x + 0.00y - 0.30
+
+CERES without robustify:
+z ≈ 0.00x + 0.00y - 0.30
+
+CERES with robustify:
+z ≈ 0.00x + 0.00y - 0.30
+
+The three approaches estimate almost exactly the same horizontal ground plane. In the bubbleRob frame, the ground is approximately 0.30 m below the robot frame origin.
+
+
+3. Robustness near obstacles
+
+With a tree trunk close to the robot, using the same robot position:
+
+Eigen:
+z = -0.21x + 0.01y + 0.09
+
+CERES without robustify:
+z = -0.21x + 0.01y + 0.09
+
+CERES with HuberLoss(1.0):
+z = -0.20x + 0.01y + 0.08
+
+The obstacle strongly affects the estimated plane because points from the trunk are also included in the regression. Eigen and CERES without robustification give almost exactly the same result.
+
+With the default HuberLoss(1.0), the improvement is very small.
+
+As an additional test, using HuberLoss(0.1) gave:
+
+z = -0.11x + 0.01y - 0.08
+
+The estimated plane was visibly closer to the real ground plane in RViz and less tilted by the obstacle. However, CERES required more iterations.
+
+
+4. Possible improvements
+
+Possible ways to improve robustness:
+- Use a smaller or more adaptive filtering range.
+- Reject points according to their height or geometric consistency with the ground.
+- Use a robust estimator such as RANSAC to detect the dominant ground plane.
+- Use a more appropriate robust loss threshold.
+- Perform an initial plane estimation and reject points with large residuals before fitting again.
+
+Overall, Eigen is the best choice for this specific linear problem because it is much faster and gives the same result as CERES in clean conditions. CERES is more general and allows robust loss functions, but with the default HuberLoss(1.0), the robustness improvement near obstacles was limited.

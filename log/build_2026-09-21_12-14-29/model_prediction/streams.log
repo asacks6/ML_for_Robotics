@@ -1,0 +1,27 @@
+[1.066s] Invoking command in '/home/GTL/asacks/ros_workspace/build/model_prediction': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/model_prediction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/model_prediction/build --no-deps symlink_data
+[1.354s] running develop
+[1.566s] running egg_info
+[1.567s] creating model_prediction.egg-info
+[1.587s] writing model_prediction.egg-info/PKG-INFO
+[1.591s] writing dependency_links to model_prediction.egg-info/dependency_links.txt
+[1.593s] writing entry points to model_prediction.egg-info/entry_points.txt
+[1.594s] writing requirements to model_prediction.egg-info/requires.txt
+[1.595s] writing top-level names to model_prediction.egg-info/top_level.txt
+[1.597s] writing manifest file 'model_prediction.egg-info/SOURCES.txt'
+[1.641s] reading manifest file 'model_prediction.egg-info/SOURCES.txt'
+[1.644s] writing manifest file 'model_prediction.egg-info/SOURCES.txt'
+[1.665s] running build_ext
+[1.666s] Creating /home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages/model-prediction.egg-link (link to .)
+[1.669s] Installing backandforth script to /home/GTL/asacks/ros_workspace/install/model_prediction/lib/model_prediction
+[1.672s] Installing model_prediction_node script to /home/GTL/asacks/ros_workspace/install/model_prediction/lib/model_prediction
+[1.675s] 
+[1.675s] Installed /home/GTL/asacks/ros_workspace/build/model_prediction
+[1.676s] running symlink_data
+[1.676s] creating /home/GTL/asacks/ros_workspace/install/model_prediction/share/ament_index
+[1.677s] creating /home/GTL/asacks/ros_workspace/install/model_prediction/share/ament_index/resource_index
+[1.677s] creating /home/GTL/asacks/ros_workspace/install/model_prediction/share/ament_index/resource_index/packages
+[1.679s] symbolically linking /home/GTL/asacks/ros_workspace/build/model_prediction/resource/model_prediction -> /home/GTL/asacks/ros_workspace/install/model_prediction/share/ament_index/resource_index/packages
+[1.680s] symbolically linking /home/GTL/asacks/ros_workspace/build/model_prediction/package.xml -> /home/GTL/asacks/ros_workspace/install/model_prediction/share/model_prediction
+[1.680s] symbolically linking /home/GTL/asacks/ros_workspace/build/model_prediction/launch/predict.launch.py -> /home/GTL/asacks/ros_workspace/install/model_prediction/share/model_prediction
+[1.681s] symbolically linking /home/GTL/asacks/ros_workspace/build/model_prediction/launch/record.launch.py -> /home/GTL/asacks/ros_workspace/install/model_prediction/share/model_prediction
+[1.706s] Invoked command in '/home/GTL/asacks/ros_workspace/build/model_prediction' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/model_prediction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/model_prediction/build --no-deps symlink_data

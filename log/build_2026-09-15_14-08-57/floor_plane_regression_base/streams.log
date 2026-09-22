@@ -1,0 +1,116 @@
+[0.026s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/floor_plane_regression_base -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base
+[0.135s] -- The C compiler identification is GNU 13.3.0
+[0.237s] -- The CXX compiler identification is GNU 13.3.0
+[0.256s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.441s] -- Detecting CXX compiler ABI info
+[0.603s] -- Detecting CXX compiler ABI info - done
+[0.623s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.624s] -- Detecting CXX compile features - done
+[0.641s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.778s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.022s] -- Found std_msgs: 5.5.2 (/opt/ros/kilted/share/std_msgs/cmake)
+[1.104s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.135s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.296s] -- Found geometry_msgs: 5.5.2 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[1.320s] -- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[1.366s] -- Found tf2_ros: 0.41.7 (/opt/ros/kilted/share/tf2_ros/cmake)
+[1.562s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[1.575s] -- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[1.576s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.823s] -- Found tf2_geometry_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+[1.860s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[1.861s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.862s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.869s] -- Found tf2_sensor_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_sensor_msgs/cmake)
+[1.880s] -- Found pcl_conversions: 2.8.0 (/opt/ros/kilted/share/pcl_conversions/cmake)
+[2.012s] -- Found flann version 1.9.2
+[2.532s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.533s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[4.452s] -- Checking for module 'libusb-1.0'
+[4.461s] --   Found libusb-1.0, version 1.0.27
+[4.482s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.483s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.520s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.524s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[4.534s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[4.549s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[4.958s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.963s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.357s] -- Found Qhull version 8.0.2
+[5.760s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.171s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.172s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.174s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.175s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.175s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.176s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.177s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[6.177s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[6.178s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.179s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.179s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.180s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.181s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.182s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.182s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.183s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.184s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.185s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.186s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.187s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.187s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[6.187s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[6.188s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[6.189s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.190s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.198s] -- Found visualization_msgs: 5.5.2 (/opt/ros/kilted/share/visualization_msgs/cmake)
+[6.238s] CS7630_msgs was not found. You may need to include it in your workspace.
+[6.249s] -- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[6.410s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.410s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/GTL/asacks/ros_workspace/src/floor_plane_regression_base/include>
+[6.412s] -- Configured cppcheck exclude dirs and/or files: 
+[6.412s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.413s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.416s] -- Added test 'lint_cmake' to check CMake code style
+[6.419s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.427s] -- Added test 'uncrustify' to check C / C++ code style
+[6.428s] -- Configured uncrustify additional arguments: 
+[6.430s] -- Added test 'xmllint' to check XML markup files
+[6.448s] -- Configuring done (6.4s)
+[6.571s] -- Generating done (0.1s)
+[6.685s] -- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base
+[6.699s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/floor_plane_regression_base -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base
+[6.701s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base -- -j16 -l16
+[6.757s] [ 50%] Building CXX object CMakeFiles/floor_plane_regression.dir/src/floor_plane_regression.cpp.o
+[28.617s] [100%] Linking CXX executable floor_plane_regression
+[30.820s] [100%] Built target floor_plane_regression
+[30.829s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base -- -j16 -l16
+[30.838s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base
+[30.846s] -- Install configuration: ""
+[30.852s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib/floor_plane_regression_base/floor_plane_regression
+[31.349s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib/floor_plane_regression_base/floor_plane_regression" to ""
+[31.355s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base
+[31.369s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/fpr.launch.py
+[31.394s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/ament_index/resource_index/package_run_dependencies/floor_plane_regression_base
+[31.415s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/ament_index/resource_index/parent_prefix_path/floor_plane_regression_base
+[31.435s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/environment/ament_prefix_path.sh
+[31.448s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/environment/ament_prefix_path.dsv
+[31.470s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/environment/path.sh
+[31.480s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/environment/path.dsv
+[31.492s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/local_setup.bash
+[31.504s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/local_setup.sh
+[31.515s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/local_setup.zsh
+[31.528s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/local_setup.dsv
+[31.540s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.dsv
+[31.559s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/ament_index/resource_index/packages/floor_plane_regression_base
+[31.579s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/cmake/floor_plane_regression_baseConfig.cmake
+[31.591s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/cmake/floor_plane_regression_baseConfig-version.cmake
+[31.603s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.xml
+[31.618s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base

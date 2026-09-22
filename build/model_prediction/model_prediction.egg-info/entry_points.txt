@@ -1,0 +1,3 @@
+[console_scripts]
+backandforth = model_prediction.backandforth:main
+model_prediction_node = model_prediction.model_prediction_rate:main

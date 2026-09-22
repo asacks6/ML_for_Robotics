@@ -1,0 +1,17 @@
+[1.023s] Invoking command in '/home/GTL/asacks/ros_workspace/build/joy_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/joy_teleop/build --no-deps symlink_data
+[1.309s] running develop
+[1.520s] running egg_info
+[1.539s] writing joy_teleop.egg-info/PKG-INFO
+[1.542s] writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+[1.543s] writing entry points to joy_teleop.egg-info/entry_points.txt
+[1.545s] writing requirements to joy_teleop.egg-info/requires.txt
+[1.547s] writing top-level names to joy_teleop.egg-info/top_level.txt
+[1.587s] reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[1.590s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[1.612s] running build_ext
+[1.612s] Creating /home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages/joy-teleop.egg-link (link to .)
+[1.618s] Installing teleop script to /home/GTL/asacks/ros_workspace/install/joy_teleop/lib/joy_teleop
+[1.621s] 
+[1.621s] Installed /home/GTL/asacks/ros_workspace/build/joy_teleop
+[1.622s] running symlink_data
+[1.642s] Invoked command in '/home/GTL/asacks/ros_workspace/build/joy_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/joy_teleop/build --no-deps symlink_data

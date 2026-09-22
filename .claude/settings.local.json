@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(which coppeliaSim coppeliaSim.sh 2>&1; ls /cs-share/pradalier/ 2>&1 | head -30; echo \"---\"; ls -d /opt/*oppelia* /cs-share/*oppelia* 2>&1)",
+      "Read(//cs-share/pradalier/**)",
+      "Read(//opt/**)",
+      "Bash(python3 -c \"import numpy, scipy; print\\('numpy', numpy.__version__, 'scipy', scipy.__version__\\)\")",
+      "Bash(python3 -c \"import matplotlib; print\\('mpl', matplotlib.__version__\\)\")",
+      "Bash(python3 -c \"import coppeliasim_zmqremoteapi_client; print\\('ok'\\)\")",
+      "Bash(python3 -c \"import zmq; print\\('pyzmq ok'\\)\")",
+      "Bash(python3 -c \"import cbor2; print\\('cbor2 ok'\\)\")",
+      "Bash(python3 -c \"import cbor; print\\('cbor ok'\\)\")",
+      "Bash(timeout 30 python3 simctl.py info)",
+      "Bash(timeout 30 python3 simctl.py start)"
+    ]
+  }
+}

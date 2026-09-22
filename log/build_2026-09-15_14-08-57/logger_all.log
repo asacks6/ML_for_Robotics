@@ -1,0 +1,176 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'floor_plane_regression_base']
+[0.098s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['floor_plane_regression_base'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e7f085abd70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e7f085519a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e7f085519a0>>)
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/GTL/asacks/ros_workspace'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_ceres_base) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/floor_plane_ceres_base' with type 'ros.ament_cmake' and name 'floor_plane_ceres_base'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/floor_plane_regression_base) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/floor_plane_regression_base' with type 'ros.ament_cmake' and name 'floor_plane_regression_base'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_teleop) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_teleop' with type 'ros.ament_python' and name 'joy_teleop'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrep4_helpers) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrep4_helpers' with type 'ros.ament_cmake' and name 'vrep4_helpers'
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.292s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'floor_plane_ceres_base' in 'src/floor_plane_ceres_base'
+[0.292s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joy_teleop' in 'src/joy_teleop'
+[0.292s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vrep4_helpers' in 'src/vrep4_helpers'
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/GTL/asacks/ros_workspace/install
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 356 installed packages in /opt/ros/kilted
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'floor_plane_regression_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'floor_plane_regression_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base', 'merge_install': False, 'path': '/home/GTL/asacks/ros_workspace/src/floor_plane_regression_base', 'symlink_install': False, 'test_result_base': None}
+[0.334s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/GTL/asacks/ros_workspace/src/floor_plane_regression_base' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/GTL/asacks/ros_workspace/src/floor_plane_regression_base'
+[0.337s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/floor_plane_regression_base -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base
+[7.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/floor_plane_regression_base -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base
+[7.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base -- -j16 -l16
+[31.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base -- -j16 -l16
+[31.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base
+[31.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(floor_plane_regression_base)
+[31.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_regression_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_regression_base
+[31.956s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base' for CMake module files
+[31.968s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base' for CMake config files
+[31.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('floor_plane_regression_base', 'cmake_prefix_path')
+[31.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/hook/cmake_prefix_path.ps1'
+[31.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/hook/cmake_prefix_path.dsv'
+[31.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/hook/cmake_prefix_path.sh'
+[31.995s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib'
+[31.996s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/bin'
+[31.997s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib/pkgconfig/floor_plane_regression_base.pc'
+[31.998s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib/python3.12/site-packages'
+[31.999s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/bin'
+[31.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.ps1'
+[32.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.dsv'
+[32.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.sh'
+[32.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.bash'
+[32.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.zsh'
+[32.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/colcon-core/packages/floor_plane_regression_base)
+[32.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(floor_plane_regression_base)
+[32.038s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base' for CMake module files
+[32.042s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base' for CMake config files
+[32.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('floor_plane_regression_base', 'cmake_prefix_path')
+[32.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/hook/cmake_prefix_path.ps1'
+[32.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/hook/cmake_prefix_path.dsv'
+[32.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/hook/cmake_prefix_path.sh'
+[32.067s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib'
+[32.068s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/bin'
+[32.068s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib/pkgconfig/floor_plane_regression_base.pc'
+[32.069s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/lib/python3.12/site-packages'
+[32.070s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/bin'
+[32.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.ps1'
+[32.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.dsv'
+[32.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.sh'
+[32.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.bash'
+[32.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/floor_plane_regression_base/package.zsh'
+[32.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base/share/colcon-core/packages/floor_plane_regression_base)
+[32.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[32.097s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.109s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.121s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/asacks/ros_workspace/install/local_setup.ps1'
+[32.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/GTL/asacks/ros_workspace/install/_local_setup_util_ps1.py'
+[32.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/asacks/ros_workspace/install/setup.ps1'
+[32.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/asacks/ros_workspace/install/local_setup.sh'
+[32.141s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/GTL/asacks/ros_workspace/install/_local_setup_util_sh.py'
+[32.145s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/asacks/ros_workspace/install/setup.sh'
+[32.151s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/asacks/ros_workspace/install/local_setup.bash'
+[32.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/asacks/ros_workspace/install/setup.bash'
+[32.160s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/asacks/ros_workspace/install/local_setup.zsh'
+[32.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/asacks/ros_workspace/install/setup.zsh'

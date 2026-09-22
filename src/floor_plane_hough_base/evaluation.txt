@@ -1,0 +1,102 @@
+Step 1 - Hough Transform - Evaluation
+
+
+1. Why 3 dimensions, and what range and discretization
+
+The model z = a*x + b*y + c has 3 free parameters, so the parameter space is 3D
+and the accumulator needs one axis per parameter.
+
+Ranges used:
+- a and b in [-0.5, 0.5]. These are slopes, 0.5 is a 26 degree incline. Steeper
+  than that is a wall, not a floor.
+- c in [-1.0, 0.5]. The bubbleRob frame is about 0.30 m above the floor, so the
+  flat case is c = -0.30. The interval leaves margin for bumps and steps.
+
+Discretization used:
+- n_a = n_b = 51, so da = db = 0.02
+- n_c = 76, so dc = 0.02 m
+- accumulator size 51x51x76, about 0.8 MB
+
+
+2. Aliasing
+
+Discretization limits the precision to half a cell: 1 cm on c and 0.01 on a and
+b. Refining the grid costs time as n_a*n_b and also flattens the peak, because
+the votes of a noisy plane spread over neighbouring cells.
+
+Proposed solution, not implemented in this package:
+use the Hough Transform only to initialize. Take the winning cell, select the
+points within a tolerance of that coarse plane, then run a linear least squares
+fit on that subset. Voting gives the robustness, least squares gives the
+precision. This is the same two stage scheme implemented in the RANSAC package.
+
+A cheaper alternative is to take the centroid of the votes in a 3x3x3
+neighbourhood of the peak instead of the peak cell itself, so that the estimate
+can fall between cells. Smoothing the accumulator with a small Gaussian before
+the search has a similar effect.
+
+
+3. Sensitivity to the environment
+
+Obstacles:
+the points of a tree trunk are spread over many planes and rarely agree on a
+single cell, while the ground points all agree on one. As long as the ground is
+the dominant surface inside max_range, the peak stays on the ground and the
+obstacle is ignored. This is a clear improvement over the plain least squares of
+the previous homework, where the same trunk gave z = -0.21x + 0.01y + 0.09.
+
+Smooth slope transitions:
+this is the weak case. When the patch inside max_range contains the end of a
+flat section and the start of a ramp, no single plane fits everything. The
+accumulator ends up with two competing peaks and the winner flips between
+frames, which shows in RViz as a marker that jumps instead of rotating smoothly.
+Lowering max_range narrows the patch and makes the transition behave, at the
+cost of using fewer points.
+
+
+4. Computation load
+
+Measured with the same inner loop compiled at -O3, including the accumulator
+scan:
+
+  2000 points,  51x51x76     24 ms
+  5000 points,  51x51x76     57 ms
+ 10000 points,  51x51x76    146 ms
+  5000 points,  21x21x41     12 ms
+  5000 points,  31x31x51     24 ms
+  5000 points, 101x101x151  218 ms
+
+The time is linear in the number of points and in n_a*n_b, and independent of
+n_c. At 5000 points with the 51x51 angular grid the node runs at about 17 Hz,
+which keeps up with the simulated Kinect.
+
+The 21x21x41 grid is four times faster but returned b = -0.050 and c = -0.287
+where the true values were -0.060 and -0.300, which is the aliasing of point 2.
+
+Trade-off chosen: 51x51x76 with max_range = 2.0. Levers if it needs to be
+faster, in order of effect: lower max_range, then lower n_b, then subsample the
+cloud.
+
+
+5. Do we need the same discretization on all parameters
+
+No.
+
+c is a length in metres and an error dc displaces the plane by dc everywhere.
+a and b are dimensionless slopes and an error da displaces the plane by da*r at
+horizontal distance r. The two are comparable when
+
+  da = dc / r_max
+
+With dc = 0.02 m and max_range = 2.0 m this gives da = 0.01. The chosen
+da = 0.02 is one step coarser, which is a deliberate trade against computation
+time. If max_range is increased, da and db should be reduced proportionally
+while dc can stay the same.
+
+There is also a cost asymmetry: the voting cost is n*n_a*n_b and does not depend
+on n_c at all, so refining c is free and refining a or b is not. A coarse
+angular grid with a fine height grid is a good configuration.
+
+Finally a and b are not equivalent either. The Kinect looks forward, so the
+cloud spans a much larger range in x than in y. The lever arm on a is longer,
+which makes a better observed than b, so n_b is the first parameter to reduce.
