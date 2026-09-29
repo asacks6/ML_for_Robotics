@@ -20,6 +20,7 @@ class FloorPlaneRegression: public rclcpp::Node {
     protected:
         rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr scan_sub_;
         rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr inlier_pub_;
+        rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr outlier_pub_;
         rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;
         // rclcpp::Client<topic_tools::srv::MuxSelect>::SharedPtr muxClt;
         std::shared_ptr<tf2_ros::TransformListener> tf_listener{nullptr};
@@ -37,7 +38,7 @@ class FloorPlaneRegression: public rclcpp::Node {
     protected: // ROS Callbacks
 
         void pointCloudCallback(sensor_msgs::msg::PointCloud2::SharedPtr msg) {
-            pcl::PointCloud<pcl::PointXYZ> pc_sensor, pc_baseframe, pc_inliers;
+            pcl::PointCloud<pcl::PointXYZ> pc_sensor, pc_baseframe, pc_inliers, pc_outliers;
             pcl::PCLPointCloud2 cloud2;
             pcl_conversions::toPCL(*msg,cloud2);    
             pcl::fromPCLPointCloud2(cloud2,pc_sensor);
@@ -170,15 +171,28 @@ class FloorPlaneRegression: public rclcpp::Node {
                 X[2] = S(2);
             }
 
-            pc_inliers.clear();
+            std::vector<bool> is_inlier(n,false);
             for (unsigned int k=0;k<pinliers.size();k++) {
-                pc_inliers.push_back(pc_baseframe[pidx[pinliers[k]]]);
+                is_inlier[pinliers[k]] = true;
             }
-            sensor_msgs::msg::PointCloud2 inlier_msg;
+            pc_inliers.clear();
+            pc_outliers.clear();
+            for (unsigned int k=0;k<n;k++) {
+                if (is_inlier[k]) {
+                    pc_inliers.push_back(pc_baseframe[pidx[k]]);
+                } else {
+                    pc_outliers.push_back(pc_baseframe[pidx[k]]);
+                }
+            }
+            sensor_msgs::msg::PointCloud2 inlier_msg, outlier_msg;
             pcl::toROSMsg(pc_inliers,inlier_msg);
             inlier_msg.header.stamp = msg->header.stamp;
             inlier_msg.header.frame_id = base_frame_;
             inlier_pub_->publish(inlier_msg);
+            pcl::toROSMsg(pc_outliers,outlier_msg);
+            outlier_msg.header.stamp = msg->header.stamp;
+            outlier_msg.header.frame_id = base_frame_;
+            outlier_pub_->publish(outlier_msg);
 
             // At the end, make sure to store the best plane estimate in X
             // X = {a,b,c}. This will be used for display
@@ -247,6 +261,7 @@ class FloorPlaneRegression: public rclcpp::Node {
             scan_sub_ = this->create_subscription<sensor_msgs::msg::PointCloud2>("~/scans",qos,
                     std::bind(&FloorPlaneRegression::pointCloudCallback,this,std::placeholders::_1));
             inlier_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("~/inliers",1);
+            outlier_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("~/outliers",1);
             marker_pub_ = this->create_publisher<visualization_msgs::msg::Marker>("~/floor_plane",1);
 
         }

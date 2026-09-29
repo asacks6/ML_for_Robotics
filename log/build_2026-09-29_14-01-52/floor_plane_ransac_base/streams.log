@@ -1,0 +1,27 @@
+[0.427s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base -- -j16 -l16
+[0.741s] [ 50%] Building CXX object CMakeFiles/floor_plane_ransac.dir/src/floor_plane_ransac.cpp.o
+[15.861s] [100%] Linking CXX executable floor_plane_ransac
+[16.327s] [100%] Built target floor_plane_ransac
+[16.338s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base -- -j16 -l16
+[16.393s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base
+[16.433s] -- Install configuration: ""
+[16.453s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/lib/floor_plane_ransac_base/floor_plane_ransac
+[16.478s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/lib/floor_plane_ransac_base/floor_plane_ransac" to ""
+[16.479s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base
+[16.480s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/fpr.launch.py
+[16.481s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/ament_index/resource_index/package_run_dependencies/floor_plane_ransac_base
+[16.481s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/ament_index/resource_index/parent_prefix_path/floor_plane_ransac_base
+[16.482s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/environment/ament_prefix_path.sh
+[16.484s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/environment/ament_prefix_path.dsv
+[16.484s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/environment/path.sh
+[16.484s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/environment/path.dsv
+[16.485s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/local_setup.bash
+[16.486s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/local_setup.sh
+[16.487s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/local_setup.zsh
+[16.489s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/local_setup.dsv
+[16.490s] -- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/package.dsv
+[16.523s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/ament_index/resource_index/packages/floor_plane_ransac_base
+[16.523s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/cmake/floor_plane_ransac_baseConfig.cmake
+[16.524s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/cmake/floor_plane_ransac_baseConfig-version.cmake
+[16.525s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base/share/floor_plane_ransac_base/package.xml
+[16.527s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_ransac_base
