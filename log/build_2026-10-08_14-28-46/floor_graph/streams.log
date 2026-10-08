@@ -1,0 +1,34 @@
+[1.742s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_graph': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/floor_graph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/floor_graph/build --no-deps symlink_data
+[2.058s] running develop
+[2.297s] running egg_info
+[2.298s] creating floor_graph.egg-info
+[2.324s] writing floor_graph.egg-info/PKG-INFO
+[2.326s] writing dependency_links to floor_graph.egg-info/dependency_links.txt
+[2.327s] writing entry points to floor_graph.egg-info/entry_points.txt
+[2.329s] writing requirements to floor_graph.egg-info/requires.txt
+[2.329s] writing top-level names to floor_graph.egg-info/top_level.txt
+[2.330s] writing manifest file 'floor_graph.egg-info/SOURCES.txt'
+[2.380s] reading manifest file 'floor_graph.egg-info/SOURCES.txt'
+[2.382s] writing manifest file 'floor_graph.egg-info/SOURCES.txt'
+[2.406s] running build_ext
+[2.406s] Creating /home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages/floor-graph.egg-link (link to .)
+[2.409s] Installing build_graph_node script to /home/GTL/asacks/ros_workspace/install/floor_graph/lib/floor_graph
+[2.412s] Installing build_graph_test_node script to /home/GTL/asacks/ros_workspace/install/floor_graph/lib/floor_graph
+[2.414s] Installing graph_viz_node script to /home/GTL/asacks/ros_workspace/install/floor_graph/lib/floor_graph
+[2.417s] 
+[2.418s] Installed /home/GTL/asacks/ros_workspace/build/floor_graph
+[2.418s] running symlink_data
+[2.418s] creating /home/GTL/asacks/ros_workspace/install/floor_graph/share/ament_index
+[2.418s] creating /home/GTL/asacks/ros_workspace/install/floor_graph/share/ament_index/resource_index
+[2.418s] creating /home/GTL/asacks/ros_workspace/install/floor_graph/share/ament_index/resource_index/packages
+[2.419s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/resource/floor_graph -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/ament_index/resource_index/packages
+[2.420s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/package.xml -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph
+[2.420s] creating /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph/graphs
+[2.421s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/graphs/graph-test.picklez -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph/graphs
+[2.423s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/graphs/graph.png -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph/graphs
+[2.424s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/graphs/graph-ref.picklez -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph/graphs
+[2.425s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/graphs/graph-ref.png -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph/graphs
+[2.426s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/graphs/graph.picklez -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph/graphs
+[2.427s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/graphs/graph-test.png -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph/graphs
+[2.429s] symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/launch/floor_graph.launch.py -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph
+[2.494s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_graph' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/floor_graph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/floor_graph/build --no-deps symlink_data

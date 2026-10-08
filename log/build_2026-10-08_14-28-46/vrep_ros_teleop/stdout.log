@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating vrep_ros_teleop.egg-info
+writing vrep_ros_teleop.egg-info/PKG-INFO
+writing dependency_links to vrep_ros_teleop.egg-info/dependency_links.txt
+writing entry points to vrep_ros_teleop.egg-info/entry_points.txt
+writing requirements to vrep_ros_teleop.egg-info/requires.txt
+writing top-level names to vrep_ros_teleop.egg-info/top_level.txt
+writing manifest file 'vrep_ros_teleop.egg-info/SOURCES.txt'
+reading manifest file 'vrep_ros_teleop.egg-info/SOURCES.txt'
+writing manifest file 'vrep_ros_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages/vrep-ros-teleop.egg-link (link to .)
+Installing teleop_mux_node script to /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/vrep_ros_teleop
+Installing teleop_node script to /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/vrep_ros_teleop
+
+Installed /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop
+running symlink_data
+creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index
+creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index/resource_index
+creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/resource/vrep_ros_teleop -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/package.xml -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop_joy_only.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop_mux_tb.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop_mux.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop

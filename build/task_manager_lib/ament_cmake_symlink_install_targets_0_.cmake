@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/GTL/asacks/ros_workspace/build/task_manager_lib/libtask_manager_lib.so" "/home/GTL/asacks/ros_workspace/build/task_manager_lib/libtask_manager_lib.so" "/home/GTL/asacks/ros_workspace/build/task_manager_lib/libtask_manager_lib.so" "TARGETS" "task_manager_lib" "DESTINATION" "lib")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/ros_task_manager/src/task_manager_lib" FILES "/home/GTL/asacks/ros_workspace/build/task_manager_lib/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/task_manager_lib")

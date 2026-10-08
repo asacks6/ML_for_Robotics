@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1f1d4d5207f8fb7ac3e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "floor_nav",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "floor_nav_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floor_nav_uninstall-5d26a07e339c49cb01c7.json",
+					"name" : "floor_nav_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskAutoDock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskAutoDock-fab05132c741e080df02.json",
+					"name" : "floornav_TaskAutoDock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskConstant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskConstant-12b04f1a5171c927b2dd.json",
+					"name" : "floornav_TaskConstant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskGoTo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskGoTo-63830248af94fc751217.json",
+					"name" : "floornav_TaskGoTo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskNav2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskNav2-20152c3484f8c5c82bd9.json",
+					"name" : "floornav_TaskNav2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskPlanTo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskPlanTo-8bc7410fd2baf56ff8cb.json",
+					"name" : "floornav_TaskPlanTo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskScan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskScan-bdee50cfb8ed9e7736d6.json",
+					"name" : "floornav_TaskScan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskSetHeading::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskSetHeading-fe3db93e1036ae808b24.json",
+					"name" : "floornav_TaskSetHeading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskSetMux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskSetMux-d9e950c566ad3812713d.json",
+					"name" : "floornav_TaskSetMux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskWaitForROI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskWaitForROI-4db684996a95a9d626d1.json",
+					"name" : "floornav_TaskWaitForROI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_TaskWander::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_TaskWander-0acde613faa08c6edf2f.json",
+					"name" : "floornav_TaskWander",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floornav_task_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floornav_task_server-ec1bfeb7687f87265181.json",
+					"name" : "floornav_task_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8ec6be14ded4c6ec06ef.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/GTL/asacks/ros_workspace/build/floor_nav",
+		"source" : "/home/GTL/asacks/ros_workspace/src/floor_nav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

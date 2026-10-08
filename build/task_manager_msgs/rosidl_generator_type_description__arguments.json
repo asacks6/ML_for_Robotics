@@ -1,0 +1,22 @@
+{
+  "package_name": "task_manager_msgs",
+  "output_dir": "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_generator_type_description/task_manager_msgs",
+  "idl_tuples": [
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:srv/GetAllTaskStatus.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:srv/StartTask.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:srv/StopTask.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:srv/GetTaskList.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:msg/TaskDescription.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:msg/TaskParameter.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:msg/TaskStatus.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:msg/TaskConfig.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:msg/SyncStatus.idl",
+    "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_adapter/task_manager_msgs:msg/EncapsulatedMessage.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/kilted/share/std_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "rcl_interfaces:/opt/ros/kilted/share/rcl_interfaces",
+    "service_msgs:/opt/ros/kilted/share/service_msgs"
+  ]
+}

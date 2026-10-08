@@ -1,0 +1,26 @@
+[0.036s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/cylinder_detector -- -j16 -l16
+[0.256s] [ 50%] Building CXX object CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o
+[20.001s] [100%] Linking CXX executable cylinder_detector
+[20.564s] [100%] Built target cylinder_detector
+[20.575s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cylinder_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/cylinder_detector -- -j16 -l16
+[20.584s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/cylinder_detector
+[20.593s] -- Install configuration: ""
+[20.594s] -- Execute custom install script
+[20.596s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/lib/cylinder_detector/cylinder_detector
+[20.597s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/cylinder_detector.launch.py
+[20.598s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/ament_index/resource_index/package_run_dependencies/cylinder_detector
+[20.599s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/ament_index/resource_index/parent_prefix_path/cylinder_detector
+[20.600s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.sh
+[20.601s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.dsv
+[20.603s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/path.sh
+[20.604s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/path.dsv
+[20.605s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.bash
+[20.606s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.sh
+[20.607s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.zsh
+[20.609s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.dsv
+[20.610s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/package.dsv
+[20.619s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/ament_index/resource_index/packages/cylinder_detector
+[20.621s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig.cmake
+[20.622s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig-version.cmake
+[20.623s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/package.xml
+[20.625s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cylinder_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/cylinder_detector

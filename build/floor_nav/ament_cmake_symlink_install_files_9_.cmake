@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/floor_nav" FILES "/home/GTL/asacks/ros_workspace/build/floor_nav/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/floor_nav")

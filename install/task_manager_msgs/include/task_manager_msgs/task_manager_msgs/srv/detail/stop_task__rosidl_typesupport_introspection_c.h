@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_typesupport_introspection_c/task_manager_msgs/srv/detail/stop_task__rosidl_typesupport_introspection_c.h

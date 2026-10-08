@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/nav2_common/ament_cmake_environment_hooks/local_setup.zsh

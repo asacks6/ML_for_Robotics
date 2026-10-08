@@ -1,0 +1,9 @@
+source;share/floor_graph/hook/pythonpath.ps1
+source;share/floor_graph/hook/pythonpath.dsv
+source;share/floor_graph/hook/pythonpath.sh
+source;share/floor_graph/hook/ament_prefix_path.ps1
+source;share/floor_graph/hook/ament_prefix_path.dsv
+source;share/floor_graph/hook/ament_prefix_path.sh
+source;../../build/floor_graph/share/floor_graph/hook/pythonpath_develop.ps1
+source;../../build/floor_graph/share/floor_graph/hook/pythonpath_develop.dsv
+source;../../build/floor_graph/share/floor_graph/hook/pythonpath_develop.sh

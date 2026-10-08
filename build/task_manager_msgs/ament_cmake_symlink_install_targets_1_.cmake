@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_generator_py/task_manager_msgs/task_manager_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "task_manager_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/task_manager_msgs")

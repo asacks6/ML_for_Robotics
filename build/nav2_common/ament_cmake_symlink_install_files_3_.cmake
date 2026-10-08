@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/nav2_common" FILES "/home/GTL/asacks/ros_workspace/build/nav2_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/nav2_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

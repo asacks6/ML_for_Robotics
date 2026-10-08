@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_generator_cpp/task_manager_msgs/msg/detail/sync_status__type_support.hpp

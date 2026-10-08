@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "task_manager_msgs/srv/StopTask_Request",
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "task_manager_msgs/srv/StopTask_Request",
+      "hash_string": "RIHS01_b70a5b02cfb995c712bb820e48cac25fd0a5eeecb49b3698be2e9934a8e7281b"
+    }
+  ]
+}

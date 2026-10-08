@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/GTL/asacks/ros_workspace/build/floor_nav/libfloornav_TaskGoTo.so" "/home/GTL/asacks/ros_workspace/build/floor_nav/libfloornav_TaskGoTo.so" "/home/GTL/asacks/ros_workspace/build/floor_nav/libfloornav_TaskGoTo.so" "TARGETS" "floornav_TaskGoTo" "DESTINATION" "lib/floor_nav")

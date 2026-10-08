@@ -1,0 +1,265 @@
+[0.000000] (-) TimerEvent: {}
+[0.000051] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000093] (-) JobUnselected: {'identifier': 'cs7630_msgs'}
+[0.000665] (-) JobUnselected: {'identifier': 'cv_bridge2'}
+[0.000992] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.001025] (-) JobUnselected: {'identifier': 'floor_nav'}
+[0.001060] (-) JobUnselected: {'identifier': 'floor_plane_ceres_base'}
+[0.001086] (-) JobUnselected: {'identifier': 'floor_plane_hough_base'}
+[0.001112] (-) JobUnselected: {'identifier': 'floor_plane_mapping'}
+[0.001136] (-) JobUnselected: {'identifier': 'floor_plane_ransac_base'}
+[0.001166] (-) JobUnselected: {'identifier': 'floor_plane_record_base'}
+[0.001197] (-) JobUnselected: {'identifier': 'floor_plane_regression_base'}
+[0.001226] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001251] (-) JobUnselected: {'identifier': 'model_prediction'}
+[0.001315] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001374] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001403] (-) JobUnselected: {'identifier': 'pytorch_models_base'}
+[0.001472] (-) JobUnselected: {'identifier': 'shore_follower_observe'}
+[0.001959] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.002418] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.002439] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.002448] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.002456] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.002463] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.002471] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.002479] (-) JobUnselected: {'identifier': 'vrep_vsv_driver'}
+[0.002489] (cylinder_detector) JobQueued: {'identifier': 'cylinder_detector', 'dependencies': OrderedDict()}
+[0.002502] (cylinder_detector) JobStarted: {'identifier': 'cylinder_detector'}
+[0.026707] (cylinder_detector) JobProgress: {'identifier': 'cylinder_detector', 'progress': 'cmake'}
+[0.031402] (cylinder_detector) JobProgress: {'identifier': 'cylinder_detector', 'progress': 'build'}
+[0.032352] (cylinder_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/asacks/ros_workspace/build/cylinder_detector', '--', '-j16', '-l16'], 'cwd': '/home/GTL/asacks/ros_workspace/build/cylinder_detector', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-284_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLAUDE_AGENT_SDK_VERSION': '0.3.284', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': 'fa910aa638c3634b223777fb5b813eed', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/asacks/ros_workspace/src/cylinder_detector', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.13-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '3232', 'SYSTEMD_EXEC_PID': '3489', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4293', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'JOURNAL_STREAM': '10:21135', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc105.georgiatech-metz.fr:@/tmp/.ICE-unix/3457,unix/gtlpc105.georgiatech-metz.fr:/tmp/.ICE-unix/3457', 'INVOCATION_ID': '94554453b5224973bf691113c7e37516', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/39376', 'GDK_BACKEND': 'x11', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':1', 'CLAUDE_PID': '10136', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'fb7b8a84-2bd9-4226-91e6-897720ba1059', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/39376/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/cylinder_detector', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.284-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/10136.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted', 'VSCODE_PID': '4293'}), 'shell': False}
+[0.099285] (-) TimerEvent: {}
+[0.199402] (-) TimerEvent: {}
+[0.258776] (cylinder_detector) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o\n'}
+[0.299485] (-) TimerEvent: {}
+[0.399643] (-) TimerEvent: {}
+[0.499801] (-) TimerEvent: {}
+[0.599951] (-) TimerEvent: {}
+[0.700131] (-) TimerEvent: {}
+[0.800283] (-) TimerEvent: {}
+[0.900441] (-) TimerEvent: {}
+[1.000607] (-) TimerEvent: {}
+[1.100780] (-) TimerEvent: {}
+[1.200957] (-) TimerEvent: {}
+[1.301129] (-) TimerEvent: {}
+[1.401315] (-) TimerEvent: {}
+[1.501475] (-) TimerEvent: {}
+[1.601632] (-) TimerEvent: {}
+[1.701811] (-) TimerEvent: {}
+[1.801981] (-) TimerEvent: {}
+[1.902139] (-) TimerEvent: {}
+[2.002431] (-) TimerEvent: {}
+[2.102758] (-) TimerEvent: {}
+[2.203098] (-) TimerEvent: {}
+[2.303481] (-) TimerEvent: {}
+[2.403903] (-) TimerEvent: {}
+[2.504261] (-) TimerEvent: {}
+[2.604686] (-) TimerEvent: {}
+[2.705048] (-) TimerEvent: {}
+[2.805429] (-) TimerEvent: {}
+[2.905783] (-) TimerEvent: {}
+[3.006122] (-) TimerEvent: {}
+[3.106536] (-) TimerEvent: {}
+[3.206900] (-) TimerEvent: {}
+[3.307222] (-) TimerEvent: {}
+[3.407506] (-) TimerEvent: {}
+[3.507725] (-) TimerEvent: {}
+[3.607929] (-) TimerEvent: {}
+[3.708114] (-) TimerEvent: {}
+[3.808301] (-) TimerEvent: {}
+[3.908506] (-) TimerEvent: {}
+[4.008691] (-) TimerEvent: {}
+[4.108851] (-) TimerEvent: {}
+[4.209013] (-) TimerEvent: {}
+[4.309189] (-) TimerEvent: {}
+[4.409354] (-) TimerEvent: {}
+[4.509593] (-) TimerEvent: {}
+[4.609855] (-) TimerEvent: {}
+[4.710024] (-) TimerEvent: {}
+[4.810193] (-) TimerEvent: {}
+[4.910369] (-) TimerEvent: {}
+[5.010636] (-) TimerEvent: {}
+[5.110888] (-) TimerEvent: {}
+[5.211064] (-) TimerEvent: {}
+[5.311238] (-) TimerEvent: {}
+[5.411413] (-) TimerEvent: {}
+[5.511575] (-) TimerEvent: {}
+[5.611740] (-) TimerEvent: {}
+[5.711924] (-) TimerEvent: {}
+[5.812099] (-) TimerEvent: {}
+[5.912298] (-) TimerEvent: {}
+[6.012457] (-) TimerEvent: {}
+[6.112615] (-) TimerEvent: {}
+[6.212782] (-) TimerEvent: {}
+[6.312960] (-) TimerEvent: {}
+[6.413149] (-) TimerEvent: {}
+[6.513417] (-) TimerEvent: {}
+[6.613598] (-) TimerEvent: {}
+[6.713775] (-) TimerEvent: {}
+[6.813949] (-) TimerEvent: {}
+[6.914151] (-) TimerEvent: {}
+[7.014372] (-) TimerEvent: {}
+[7.114545] (-) TimerEvent: {}
+[7.214727] (-) TimerEvent: {}
+[7.314906] (-) TimerEvent: {}
+[7.415104] (-) TimerEvent: {}
+[7.515281] (-) TimerEvent: {}
+[7.615472] (-) TimerEvent: {}
+[7.715635] (-) TimerEvent: {}
+[7.815810] (-) TimerEvent: {}
+[7.915985] (-) TimerEvent: {}
+[8.016168] (-) TimerEvent: {}
+[8.116368] (-) TimerEvent: {}
+[8.216520] (-) TimerEvent: {}
+[8.316705] (-) TimerEvent: {}
+[8.416877] (-) TimerEvent: {}
+[8.517039] (-) TimerEvent: {}
+[8.617188] (-) TimerEvent: {}
+[8.717373] (-) TimerEvent: {}
+[8.817549] (-) TimerEvent: {}
+[8.917735] (-) TimerEvent: {}
+[9.017914] (-) TimerEvent: {}
+[9.118082] (-) TimerEvent: {}
+[9.218259] (-) TimerEvent: {}
+[9.318416] (-) TimerEvent: {}
+[9.418572] (-) TimerEvent: {}
+[9.518745] (-) TimerEvent: {}
+[9.618942] (-) TimerEvent: {}
+[9.719156] (-) TimerEvent: {}
+[9.819334] (-) TimerEvent: {}
+[9.919489] (-) TimerEvent: {}
+[10.019672] (-) TimerEvent: {}
+[10.119856] (-) TimerEvent: {}
+[10.220051] (-) TimerEvent: {}
+[10.320225] (-) TimerEvent: {}
+[10.420427] (-) TimerEvent: {}
+[10.520618] (-) TimerEvent: {}
+[10.620810] (-) TimerEvent: {}
+[10.720990] (-) TimerEvent: {}
+[10.821178] (-) TimerEvent: {}
+[10.921352] (-) TimerEvent: {}
+[11.021518] (-) TimerEvent: {}
+[11.121683] (-) TimerEvent: {}
+[11.221868] (-) TimerEvent: {}
+[11.322025] (-) TimerEvent: {}
+[11.422209] (-) TimerEvent: {}
+[11.522397] (-) TimerEvent: {}
+[11.622559] (-) TimerEvent: {}
+[11.722717] (-) TimerEvent: {}
+[11.822891] (-) TimerEvent: {}
+[11.923067] (-) TimerEvent: {}
+[12.023239] (-) TimerEvent: {}
+[12.123485] (-) TimerEvent: {}
+[12.223640] (-) TimerEvent: {}
+[12.323794] (-) TimerEvent: {}
+[12.423960] (-) TimerEvent: {}
+[12.524139] (-) TimerEvent: {}
+[12.624355] (-) TimerEvent: {}
+[12.724546] (-) TimerEvent: {}
+[12.824718] (-) TimerEvent: {}
+[12.924951] (-) TimerEvent: {}
+[13.025147] (-) TimerEvent: {}
+[13.125324] (-) TimerEvent: {}
+[13.225493] (-) TimerEvent: {}
+[13.325658] (-) TimerEvent: {}
+[13.425841] (-) TimerEvent: {}
+[13.526080] (-) TimerEvent: {}
+[13.626260] (-) TimerEvent: {}
+[13.726441] (-) TimerEvent: {}
+[13.826652] (-) TimerEvent: {}
+[13.926815] (-) TimerEvent: {}
+[14.027027] (-) TimerEvent: {}
+[14.127226] (-) TimerEvent: {}
+[14.227432] (-) TimerEvent: {}
+[14.327612] (-) TimerEvent: {}
+[14.427778] (-) TimerEvent: {}
+[14.527935] (-) TimerEvent: {}
+[14.628146] (-) TimerEvent: {}
+[14.728320] (-) TimerEvent: {}
+[14.828482] (-) TimerEvent: {}
+[14.928688] (-) TimerEvent: {}
+[15.028900] (-) TimerEvent: {}
+[15.129085] (-) TimerEvent: {}
+[15.229273] (-) TimerEvent: {}
+[15.329452] (-) TimerEvent: {}
+[15.429611] (-) TimerEvent: {}
+[15.529795] (-) TimerEvent: {}
+[15.629972] (-) TimerEvent: {}
+[15.730141] (-) TimerEvent: {}
+[15.830342] (-) TimerEvent: {}
+[15.930500] (-) TimerEvent: {}
+[16.030652] (-) TimerEvent: {}
+[16.130836] (-) TimerEvent: {}
+[16.231012] (-) TimerEvent: {}
+[16.331191] (-) TimerEvent: {}
+[16.431380] (-) TimerEvent: {}
+[16.531558] (-) TimerEvent: {}
+[16.631768] (-) TimerEvent: {}
+[16.731935] (-) TimerEvent: {}
+[16.832107] (-) TimerEvent: {}
+[16.932283] (-) TimerEvent: {}
+[17.032410] (-) TimerEvent: {}
+[17.132580] (-) TimerEvent: {}
+[17.232769] (-) TimerEvent: {}
+[17.332941] (-) TimerEvent: {}
+[17.433134] (-) TimerEvent: {}
+[17.533310] (-) TimerEvent: {}
+[17.633481] (-) TimerEvent: {}
+[17.733657] (-) TimerEvent: {}
+[17.833821] (-) TimerEvent: {}
+[17.933990] (-) TimerEvent: {}
+[18.034186] (-) TimerEvent: {}
+[18.134360] (-) TimerEvent: {}
+[18.234536] (-) TimerEvent: {}
+[18.334763] (-) TimerEvent: {}
+[18.434947] (-) TimerEvent: {}
+[18.535148] (-) TimerEvent: {}
+[18.635325] (-) TimerEvent: {}
+[18.735527] (-) TimerEvent: {}
+[18.835683] (-) TimerEvent: {}
+[18.935833] (-) TimerEvent: {}
+[19.036005] (-) TimerEvent: {}
+[19.136184] (-) TimerEvent: {}
+[19.236364] (-) TimerEvent: {}
+[19.336530] (-) TimerEvent: {}
+[19.436733] (-) TimerEvent: {}
+[19.536920] (-) TimerEvent: {}
+[19.637117] (-) TimerEvent: {}
+[19.737296] (-) TimerEvent: {}
+[19.837452] (-) TimerEvent: {}
+[19.937633] (-) TimerEvent: {}
+[20.003271] (cylinder_detector) StdoutLine: {'line': b'[100%] Linking CXX executable cylinder_detector\n'}
+[20.037780] (-) TimerEvent: {}
+[20.137991] (-) TimerEvent: {}
+[20.238163] (-) TimerEvent: {}
+[20.338352] (-) TimerEvent: {}
+[20.438539] (-) TimerEvent: {}
+[20.538701] (-) TimerEvent: {}
+[20.566126] (cylinder_detector) StdoutLine: {'line': b'[100%] Built target cylinder_detector\n'}
+[20.577209] (cylinder_detector) CommandEnded: {'returncode': 0}
+[20.578846] (cylinder_detector) JobProgress: {'identifier': 'cylinder_detector', 'progress': 'install'}
+[20.586632] (cylinder_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/asacks/ros_workspace/build/cylinder_detector'], 'cwd': '/home/GTL/asacks/ros_workspace/build/cylinder_detector', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-284_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLAUDE_AGENT_SDK_VERSION': '0.3.284', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': 'fa910aa638c3634b223777fb5b813eed', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/asacks/ros_workspace/src/cylinder_detector', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.13-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '3232', 'SYSTEMD_EXEC_PID': '3489', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4293', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'JOURNAL_STREAM': '10:21135', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc105.georgiatech-metz.fr:@/tmp/.ICE-unix/3457,unix/gtlpc105.georgiatech-metz.fr:/tmp/.ICE-unix/3457', 'INVOCATION_ID': '94554453b5224973bf691113c7e37516', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/39376', 'GDK_BACKEND': 'x11', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':1', 'CLAUDE_PID': '10136', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'fb7b8a84-2bd9-4226-91e6-897720ba1059', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/39376/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/cylinder_detector', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.284-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/10136.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted', 'VSCODE_PID': '4293'}), 'shell': False}
+[20.595328] (cylinder_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.596360] (cylinder_detector) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.598068] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/lib/cylinder_detector/cylinder_detector\n'}
+[20.599576] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/cylinder_detector.launch.py\n'}
+[20.600448] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/ament_index/resource_index/package_run_dependencies/cylinder_detector\n'}
+[20.601790] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/ament_index/resource_index/parent_prefix_path/cylinder_detector\n'}
+[20.602927] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.sh\n'}
+[20.603892] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.dsv\n'}
+[20.605020] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/path.sh\n'}
+[20.605929] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/environment/path.dsv\n'}
+[20.607191] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.bash\n'}
+[20.608437] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.sh\n'}
+[20.609812] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.zsh\n'}
+[20.610848] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/local_setup.dsv\n'}
+[20.611830] (cylinder_detector) StdoutLine: {'line': b'-- Symlinking: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/package.dsv\n'}
+[20.621696] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/ament_index/resource_index/packages/cylinder_detector\n'}
+[20.623423] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig.cmake\n'}
+[20.624412] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig-version.cmake\n'}
+[20.625728] (cylinder_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cylinder_detector/share/cylinder_detector/package.xml\n'}
+[20.627537] (cylinder_detector) CommandEnded: {'returncode': 0}
+[20.638781] (-) TimerEvent: {}
+[20.673837] (cylinder_detector) JobEnded: {'identifier': 'cylinder_detector', 'rc': 0}
+[20.675152] (-) EventReactorShutdown: {}

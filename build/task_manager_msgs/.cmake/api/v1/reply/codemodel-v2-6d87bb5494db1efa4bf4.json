@@ -1,0 +1,276 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-415baf39314dbcc650c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "task_manager_msgs__py",
+					"jsonFile" : "directory-task_manager_msgs__py-c72bec1c27b27113eddc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/task_manager_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "task_manager_msgs__rs",
+					"jsonFile" : "directory-task_manager_msgs__rs-6f4b1101266a517d4e60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/GTL/asacks/ros_workspace/build/task_manager_msgs/task_manager_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "task_manager_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_task_manager_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_task_manager_msgs_egg-02d67a3343963dd72834.json",
+					"name" : "ament_cmake_python_build_task_manager_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_task_manager_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_task_manager_msgs-58df9dc90e3291a1f681.json",
+					"name" : "ament_cmake_python_symlink_task_manager_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs-9c18e23129e18f5c7395.json",
+					"name" : "task_manager_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__cpp-0ef5c03311f3403f8fd0.json",
+					"name" : "task_manager_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "task_manager_msgs__py::@503f48c17c44e73fe061",
+					"jsonFile" : "target-task_manager_msgs__py-328a9e8c497a12c84f97.json",
+					"name" : "task_manager_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_generator_c-24e33a462a7588d80775.json",
+					"name" : "task_manager_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_generator_py-1b96ca6ec0e191e3c2d0.json",
+					"name" : "task_manager_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_generator_type_description-10acc9e366b8489d5299.json",
+					"name" : "task_manager_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_typesupport_c-64ea67f63fd599ff583e.json",
+					"name" : "task_manager_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_typesupport_cpp-2f499e7dc141ad77bd04.json",
+					"name" : "task_manager_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_typesupport_fastrtps_c-0fb6bfdad34535fc44b2.json",
+					"name" : "task_manager_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_typesupport_fastrtps_cpp-25e76c0552f12442dbf5.json",
+					"name" : "task_manager_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_typesupport_introspection_c-e0046b65658b2bcda453.json",
+					"name" : "task_manager_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs__rosidl_typesupport_introspection_cpp-6ce7ee5ac81e5ce4178c.json",
+					"name" : "task_manager_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "task_manager_msgs__rs::@5cc6a14881bbb2d17c0d",
+					"jsonFile" : "target-task_manager_msgs__rs-1b79f80ea8c38572e21c.json",
+					"name" : "task_manager_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs_encapsulate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs_encapsulate-d1978cf75debd096e05d.json",
+					"name" : "task_manager_msgs_encapsulate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs_s__rosidl_typesupport_c-e2bbdfd940d4efe26298.json",
+					"name" : "task_manager_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs_s__rosidl_typesupport_fastrtps_c-533a609a61ee13fc43e6.json",
+					"name" : "task_manager_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs_s__rosidl_typesupport_introspection_c-6eb648a73730f49940ed.json",
+					"name" : "task_manager_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_manager_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_manager_msgs_uninstall-f89873ad0f4c22e1e0b7.json",
+					"name" : "task_manager_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-94302a823fdeeb4d274e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/GTL/asacks/ros_workspace/build/task_manager_msgs",
+		"source" : "/home/GTL/asacks/ros_workspace/src/ros_task_manager/src/task_manager_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

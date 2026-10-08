@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/ros_task_manager/src/task_manager_nav2" FILES "/home/GTL/asacks/ros_workspace/build/task_manager_nav2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/task_manager_nav2")

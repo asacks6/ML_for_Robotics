@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/nav2_msgs" FILES "/home/GTL/asacks/ros_workspace/build/nav2_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/nav2_msgs/environment")

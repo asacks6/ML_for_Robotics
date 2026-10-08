@@ -1,0 +1,95 @@
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 29.5.10 (/opt/ros/kilted/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.6.7 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_action: 29.5.10 (/opt/ros/kilted/share/rclcpp_action/cmake)
+-- Found rclpy: 9.1.6 (/opt/ros/kilted/share/rclpy/cmake)
+-- Found task_manager_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_msgs/share/task_manager_msgs/cmake)
+-- Found task_manager_lib: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake)
+-- Found sensor_msgs: 5.5.3 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found topic_tools_interfaces: 1.4.5 (/opt/ros/kilted/share/topic_tools_interfaces/cmake)
+-- Found cs7630_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake)
+-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/kilted/share/kobuki_ros_interfaces/cmake)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- Found pcl_conversions: 2.10.0 (/opt/ros/kilted/share/pcl_conversions/cmake)
+-- Found tf2: 0.41.9 (/opt/ros/kilted/share/tf2/cmake)
+-- Found tf2_ros: 0.41.9 (/opt/ros/kilted/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.41.9 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found task_manager_nav2: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_nav2/share/task_manager_nav2/cmake)
+-- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/GTL/asacks/ros_workspace/src/floor_nav/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (7.0s)
+-- Generating done (4.0s)
+-- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_nav
+[  4%] Building CXX object CMakeFiles/floornav_TaskScan.dir/tasks/TaskScan.cpp.o
+[ 13%] Built target floornav_TaskGoTo
+[ 47%] Built target floornav_TaskSetMux
+[ 47%] Built target floornav_TaskPlanTo
+[ 56%] Built target floornav_TaskConstant
+[ 56%] Built target floornav_TaskSetHeading
+[ 56%] Built target floornav_TaskNav2
+[ 65%] Built target floornav_TaskWander
+[ 73%] Built target floornav_TaskWaitForROI
+[ 82%] Built target floornav_TaskAutoDock
+[ 95%] Built target floornav_task_server
+[100%] Linking CXX shared library libfloornav_TaskScan.so
+[100%] Built target floornav_TaskScan
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskNav2.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetMux.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskConstant.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskGoTo.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetHeading.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskPlanTo.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForROI.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWander.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskAutoDock.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskScan.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/floornav_task_server
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/__pycache__/launch_server_tb.launch.cpython-310.pyc
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server.launch.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server_tb.launch.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/explore_scan.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_goto.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph_2d.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph-test.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_planto.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_set_heading.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_wander.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/package_run_dependencies/floor_nav
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/parent_prefix_path/floor_nav
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.bash
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.zsh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/packages/floor_nav
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig.cmake
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig-version.cmake
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.xml

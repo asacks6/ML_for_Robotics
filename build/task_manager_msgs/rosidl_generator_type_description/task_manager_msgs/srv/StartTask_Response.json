@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "task_manager_msgs/srv/StartTask_Response",
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "task_manager_msgs/srv/StartTask_Response",
+      "hash_string": "RIHS01_ecb712afc3a5de074271d6e997c70ab637cbb1b3779469065980dad2313a119a"
+    }
+  ]
+}

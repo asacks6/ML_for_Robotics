@@ -1,0 +1,300 @@
+[0.156s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cs7630_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/cs7630_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/cs7630_msgs
+[0.388s] -- The C compiler identification is GNU 13.3.0
+[0.388s] -- The CXX compiler identification is GNU 13.3.0
+[0.388s] -- Detecting C compiler ABI info
+[0.642s] -- Detecting C compiler ABI info - done
+[0.642s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.642s] -- Detecting C compile features
+[0.642s] -- Detecting C compile features - done
+[0.642s] -- Detecting CXX compiler ABI info
+[0.662s] -- Detecting CXX compiler ABI info - done
+[0.675s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.675s] -- Detecting CXX compile features
+[0.675s] -- Detecting CXX compile features - done
+[0.704s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.865s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.951s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.284s] -- Found std_msgs: 5.5.3 (/opt/ros/kilted/share/std_msgs/cmake)
+[1.476s] -- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.544s] -- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.818s] -- Found geometry_msgs: 5.5.3 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[1.858s] -- Found sensor_msgs: 5.5.3 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[1.926s] -- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[2.043s] -- Found rosidl_adapter: 4.9.8 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[2.790s] -- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[4.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.973s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.384s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.413s] -- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[5.614s] -- Added test 'lint_cmake' to check CMake code style
+[5.620s] -- Added test 'xmllint' to check XML markup files
+[5.671s] -- Configuring done (5.5s)
+[6.239s] -- Generating done (0.5s)
+[6.343s] -- Build files have been written to: /home/GTL/asacks/ros_workspace/build/cs7630_msgs
+[6.350s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cs7630_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/cs7630_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/cs7630_msgs
+[6.351s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cs7630_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/cs7630_msgs -- -j16 -l16
+[6.399s] [  3%] Generating type hashes for ROS interfaces
+[6.399s] [  3%] Generating Rust code for ROS interfaces
+[6.403s] [  3%] Built target ament_cmake_python_symlink_cs7630_msgs
+[6.608s] [  3%] Built target cs7630_msgs__rosidl_generator_type_description
+[6.619s] [  3%] Built target cs7630_msgs__rs
+[6.621s] [  4%] Generating C code for ROS interfaces
+[6.630s] [  6%] Generating C++ code for ROS interfaces
+[6.634s] running egg_info
+[6.635s] creating cs7630_msgs.egg-info
+[6.659s] writing cs7630_msgs.egg-info/PKG-INFO
+[6.661s] writing dependency_links to cs7630_msgs.egg-info/dependency_links.txt
+[6.662s] writing top-level names to cs7630_msgs.egg-info/top_level.txt
+[6.664s] writing manifest file 'cs7630_msgs.egg-info/SOURCES.txt'
+[6.750s] reading manifest file 'cs7630_msgs.egg-info/SOURCES.txt'
+[6.751s] writing manifest file 'cs7630_msgs.egg-info/SOURCES.txt'
+[6.777s] [  6%] Built target ament_cmake_python_build_cs7630_msgs_egg
+[6.954s] [  6%] Built target cs7630_msgs__cpp
+[7.029s] [ 13%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/roi_array__description.c.o
+[7.030s] [ 13%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/trajectory__description.c.o
+[7.032s] [ 13%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/roi_array__type_support.c.o
+[7.032s] [ 23%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/plane_description__functions.c.o
+[7.032s] [ 20%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/trajectory__type_support.c.o
+[7.033s] [ 20%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/trajectory__functions.c.o
+[7.034s] [ 20%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/trajectory_element__description.c.o
+[7.034s] [ 20%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/roi_array__functions.c.o
+[7.034s] [ 24%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/trajectory_element__type_support.c.o
+[7.034s] [ 24%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/plane_description__description.c.o
+[7.034s] [ 24%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/trajectory_element__functions.c.o
+[7.034s] [ 24%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_c.dir/rosidl_generator_c/cs7630_msgs/msg/detail/plane_description__type_support.c.o
+[7.089s] [ 26%] Linking C shared library libcs7630_msgs__rosidl_generator_c.so
+[7.154s] [ 26%] Built target cs7630_msgs__rosidl_generator_c
+[7.168s] [ 33%] Generating C++ introspection for ROS interfaces
+[7.168s] [ 33%] Generating C type support dispatch for ROS interfaces
+[7.169s] [ 33%] Generating C introspection for ROS interfaces
+[7.171s] [ 33%] Generating C++ type support for eProsima Fast-RTPS
+[7.173s] [ 33%] Generating C type support for eProsima Fast-RTPS
+[7.174s] [ 35%] Generating C++ type support dispatch for ROS interfaces
+[7.446s] [ 38%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cs7630_msgs/msg/trajectory__type_support.cpp.o
+[7.447s] [ 38%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cs7630_msgs/msg/roi_array__type_support.cpp.o
+[7.452s] [ 40%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cs7630_msgs/msg/trajectory_element__type_support.cpp.o
+[7.455s] [ 41%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cs7630_msgs/msg/plane_description__type_support.cpp.o
+[7.473s] [ 46%] Building C object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cs7630_msgs/msg/detail/roi_array__type_support.c.o
+[7.474s] [ 46%] Building C object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cs7630_msgs/msg/detail/trajectory_element__type_support.c.o
+[7.475s] [ 46%] Building C object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cs7630_msgs/msg/detail/trajectory__type_support.c.o
+[7.489s] [ 47%] Building C object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cs7630_msgs/msg/detail/plane_description__type_support.c.o
+[7.489s] [ 50%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cs7630_msgs/msg/detail/roi_array__type_support.cpp.o
+[7.491s] [ 50%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cs7630_msgs/msg/detail/trajectory__type_support.cpp.o
+[7.491s] [ 52%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cs7630_msgs/msg/detail/trajectory_element__type_support.cpp.o
+[7.502s] [ 53%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cs7630_msgs/msg/detail/plane_description__type_support.cpp.o
+[7.505s] [ 55%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cs7630_msgs/msg/trajectory__type_support.cpp.o
+[7.508s] [ 60%] Linking CXX shared library libcs7630_msgs__rosidl_typesupport_c.so
+[7.509s] [ 60%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cs7630_msgs/msg/roi_array__type_support.cpp.o
+[7.509s] [ 60%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cs7630_msgs/msg/plane_description__type_support.cpp.o
+[7.521s] [ 61%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cs7630_msgs/msg/trajectory_element__type_support.cpp.o
+[7.524s] [ 64%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cs7630_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o
+[7.524s] [ 64%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cs7630_msgs/msg/detail/dds_fastrtps/roi_array__type_support.cpp.o
+[7.536s] [ 66%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cs7630_msgs/msg/detail/dds_fastrtps/trajectory_element__type_support.cpp.o
+[7.539s] [ 67%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cs7630_msgs/msg/detail/dds_fastrtps/plane_description__type_support.cpp.o
+[7.543s] [ 69%] Linking C shared library libcs7630_msgs__rosidl_typesupport_introspection_c.so
+[7.579s] [ 69%] Built target cs7630_msgs__rosidl_typesupport_c
+[7.614s] [ 69%] Built target cs7630_msgs__rosidl_typesupport_introspection_c
+[7.620s] [ 72%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cs7630_msgs/msg/detail/roi_array__type_support_c.cpp.o
+[7.624s] [ 73%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cs7630_msgs/msg/detail/trajectory__type_support_c.cpp.o
+[7.624s] [ 73%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cs7630_msgs/msg/detail/trajectory_element__type_support_c.cpp.o
+[7.629s] [ 75%] Building CXX object CMakeFiles/cs7630_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cs7630_msgs/msg/detail/plane_description__type_support_c.cpp.o
+[7.943s] [ 76%] Linking CXX shared library libcs7630_msgs__rosidl_typesupport_cpp.so
+[8.018s] [ 78%] Linking CXX shared library libcs7630_msgs__rosidl_typesupport_introspection_cpp.so
+[8.048s] [ 78%] Built target cs7630_msgs__rosidl_typesupport_cpp
+[8.188s] [ 78%] Built target cs7630_msgs__rosidl_typesupport_introspection_cpp
+[8.241s] [ 80%] Linking CXX shared library libcs7630_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.399s] [ 81%] Linking CXX shared library libcs7630_msgs__rosidl_typesupport_fastrtps_c.so
+[8.406s] [ 81%] Built target cs7630_msgs__rosidl_typesupport_fastrtps_cpp
+[8.461s] [ 81%] Built target cs7630_msgs__rosidl_typesupport_fastrtps_c
+[8.479s] [ 81%] Built target cs7630_msgs
+[8.500s] [ 83%] Generating Python code for ROS interfaces
+[8.908s] [ 83%] Built target cs7630_msgs__py
+[8.938s] [ 87%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_py.dir/rosidl_generator_py/cs7630_msgs/msg/_trajectory_s.c.o
+[8.938s] [ 87%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_py.dir/rosidl_generator_py/cs7630_msgs/msg/_roi_array_s.c.o
+[8.939s] [ 87%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_py.dir/rosidl_generator_py/cs7630_msgs/msg/_trajectory_element_s.c.o
+[8.941s] [ 89%] Building C object CMakeFiles/cs7630_msgs__rosidl_generator_py.dir/rosidl_generator_py/cs7630_msgs/msg/_plane_description_s.c.o
+[9.141s] [ 90%] Linking C shared library libcs7630_msgs__rosidl_generator_py.so
+[9.293s] [ 90%] Built target cs7630_msgs__rosidl_generator_py
+[9.363s] [ 93%] Building C object CMakeFiles/cs7630_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/cs7630_msgs/_cs7630_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[9.369s] [ 95%] Building C object CMakeFiles/cs7630_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/cs7630_msgs/_cs7630_msgs_s.ep.rosidl_typesupport_c.c.o
+[9.370s] [ 95%] Building C object CMakeFiles/cs7630_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/cs7630_msgs/_cs7630_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[9.544s] [ 96%] Linking C shared module rosidl_generator_py/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_c.so
+[9.556s] [100%] Linking C shared module rosidl_generator_py/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_introspection_c.so
+[9.556s] [100%] Linking C shared module rosidl_generator_py/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.598s] [100%] Built target cs7630_msgs_s__rosidl_typesupport_c
+[9.615s] [100%] Built target cs7630_msgs_s__rosidl_typesupport_introspection_c
+[9.617s] [100%] Built target cs7630_msgs_s__rosidl_typesupport_fastrtps_c
+[9.665s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cs7630_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/cs7630_msgs -- -j16 -l16
+[9.671s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cs7630_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/cs7630_msgs
+[9.692s] -- Install configuration: ""
+[9.694s] -- Execute custom install script
+[9.706s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/ament_index/resource_index/rosidl_interfaces/cs7630_msgs
+[9.751s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/ROIArray.json
+[9.781s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/Trajectory.json
+[9.820s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/TrajectoryElement.json
+[9.853s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/PlaneDescription.json
+[9.890s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__functions.h
+[9.907s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__struct.h
+[9.929s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__type_support.h
+[9.943s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__functions.h
+[9.970s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__struct.h
+[9.988s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__type_support.h
+[10.010s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__functions.h
+[10.033s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__struct.h
+[10.052s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__type_support.h
+[10.068s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__functions.h
+[10.083s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__struct.h
+[10.104s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__type_support.h
+[10.124s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/plane_description.h
+[10.139s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/roi_array.h
+[10.157s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.179s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/trajectory.h
+[10.193s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/trajectory_element.h
+[10.228s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/library_path.sh
+[10.252s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/library_path.dsv
+[10.277s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__rosidl_typesupport_fastrtps_c.h
+[10.292s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__rosidl_typesupport_fastrtps_c.h
+[10.308s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[10.336s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__rosidl_typesupport_fastrtps_c.h
+[10.363s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.389s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__builder.hpp
+[10.405s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__struct.hpp
+[10.435s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__traits.hpp
+[10.470s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__type_support.hpp
+[10.501s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__builder.hpp
+[10.524s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__struct.hpp
+[10.543s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__traits.hpp
+[10.569s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__type_support.hpp
+[10.599s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__builder.hpp
+[10.614s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__struct.hpp
+[10.634s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__traits.hpp
+[10.649s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__type_support.hpp
+[10.665s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__builder.hpp
+[10.687s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__struct.hpp
+[10.717s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__traits.hpp
+[10.749s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__type_support.hpp
+[10.775s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/plane_description.hpp
+[10.806s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/roi_array.hpp
+[10.824s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.848s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/trajectory.hpp
+[10.862s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/trajectory_element.hpp
+[10.879s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__rosidl_typesupport_fastrtps_cpp.hpp
+[10.911s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[10.932s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[10.950s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__rosidl_typesupport_fastrtps_cpp.hpp
+[10.972s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.990s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__rosidl_typesupport_introspection_c.h
+[11.007s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__rosidl_typesupport_introspection_c.h
+[11.022s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h
+[11.036s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__rosidl_typesupport_introspection_c.h
+[11.049s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.061s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/plane_description__rosidl_typesupport_introspection_cpp.hpp
+[11.074s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/roi_array__rosidl_typesupport_introspection_cpp.hpp
+[11.087s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[11.101s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/include/cs7630_msgs/cs7630_msgs/msg/detail/trajectory_element__rosidl_typesupport_introspection_cpp.hpp
+[11.115s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/pythonpath.sh
+[11.130s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/pythonpath.dsv
+[11.149s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[11.162s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[11.175s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[11.189s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[11.210s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/__init__.py
+[11.223s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/_cs7630_msgs_s.ep.rosidl_typesupport_c.c
+[11.237s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/_cs7630_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.251s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/_cs7630_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.264s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_c.so
+[11.278s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_fastrtps_c.so
+[11.289s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_introspection_c.so
+[11.304s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/__init__.py
+[11.315s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_plane_description.py
+[11.325s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_plane_description_s.c
+[11.336s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_roi_array.py
+[11.348s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_roi_array_s.c
+[11.361s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_trajectory.py
+[11.372s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_trajectory_element.py
+[11.383s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_trajectory_element_s.c
+[11.393s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_trajectory_s.c
+[11.405s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_fastrtps_c.so
+[11.406s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_introspection_c.so
+[11.408s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_c.so
+[11.414s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/rust/Cargo.toml
+[11.427s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/rust/build.rs
+[11.440s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/rust/src/lib.rs
+[11.451s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/rust/src/msg.rs
+[11.463s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/rust/src/msg/rmw.rs
+[11.474s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/ROIArray.idl
+[11.484s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/Trajectory.idl
+[11.495s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/TrajectoryElement.idl
+[11.507s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/PlaneDescription.idl
+[11.518s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/ROIArray.msg
+[11.531s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/Trajectory.msg
+[11.544s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/TrajectoryElement.msg
+[11.557s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/msg/PlaneDescription.msg
+[11.571s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/ament_index/resource_index/package_run_dependencies/cs7630_msgs
+[11.585s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/ament_index/resource_index/parent_prefix_path/cs7630_msgs
+[11.595s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/ament_prefix_path.sh
+[11.605s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/ament_prefix_path.dsv
+[11.614s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/path.sh
+[11.625s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/environment/path.dsv
+[11.634s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/local_setup.bash
+[11.644s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/local_setup.sh
+[11.654s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/local_setup.zsh
+[11.663s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/local_setup.dsv
+[11.672s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/package.dsv
+[11.683s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/ament_index/resource_index/packages/cs7630_msgs
+[11.696s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/rosidl_cmake-extras.cmake
+[11.707s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.717s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.726s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.735s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.744s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.754s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.763s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[11.771s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgsConfig.cmake
+[11.780s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgsConfig-version.cmake
+[11.790s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/package.xml
+[11.798s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_generator_c.so
+[11.805s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_generator_c.so" to ""
+[11.806s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_fastrtps_c.so
+[11.814s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.815s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.822s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.823s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_introspection_c.so
+[11.828s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.829s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_c.so
+[11.836s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_c.so" to ""
+[11.837s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_introspection_cpp.so
+[11.844s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.845s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_cpp.so
+[11.852s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_typesupport_cpp.so" to ""
+[11.909s] Listing '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs'...
+[11.910s] Compiling '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/__init__.py'...
+[11.911s] Listing '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg'...
+[11.912s] Compiling '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/__init__.py'...
+[11.914s] Compiling '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_plane_description.py'...
+[11.915s] Compiling '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_roi_array.py'...
+[11.915s] Compiling '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_trajectory.py'...
+[11.915s] Compiling '/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages/cs7630_msgs/msg/_trajectory_element.py'...
+[11.917s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_generator_py.so
+[11.920s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/libcs7630_msgs__rosidl_generator_py.so" to ""
+[11.921s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_generator_cExport.cmake
+[11.925s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.930s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.934s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.938s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_generator_cppExport.cmake
+[11.942s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.947s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.951s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.955s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.959s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_cExport.cmake
+[11.962s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.967s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.971s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.974s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_cppExport.cmake
+[11.978s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/cs7630_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.982s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_generator_pyExport.cmake
+[11.987s] -- Installing: /home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake/export_cs7630_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.995s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cs7630_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/cs7630_msgs

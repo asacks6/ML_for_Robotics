@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/cylinder_detector" FILES "/home/GTL/asacks/ros_workspace/build/cylinder_detector/ament_cmake_index/share/ament_index/resource_index/packages/cylinder_detector" "DESTINATION" "share/ament_index/resource_index/packages")

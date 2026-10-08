@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/nav2_msgs/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/collision_monitor_state__rosidl_typesupport_introspection_c.h

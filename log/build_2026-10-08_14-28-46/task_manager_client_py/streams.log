@@ -1,0 +1,26 @@
+[1.140s] Invoking command in '/home/GTL/asacks/ros_workspace/build/task_manager_client_py': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/build/task_manager_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/task_manager_client_py/build --no-deps symlink_data
+[1.451s] running develop
+[1.669s] running egg_info
+[1.669s] creating task_manager_client_py.egg-info
+[1.690s] writing task_manager_client_py.egg-info/PKG-INFO
+[1.692s] writing dependency_links to task_manager_client_py.egg-info/dependency_links.txt
+[1.693s] writing entry points to task_manager_client_py.egg-info/entry_points.txt
+[1.694s] writing requirements to task_manager_client_py.egg-info/requires.txt
+[1.695s] writing top-level names to task_manager_client_py.egg-info/top_level.txt
+[1.696s] writing manifest file 'task_manager_client_py.egg-info/SOURCES.txt'
+[1.758s] reading manifest file 'task_manager_client_py.egg-info/SOURCES.txt'
+[1.760s] writing manifest file 'task_manager_client_py.egg-info/SOURCES.txt'
+[1.782s] running build_ext
+[1.783s] Creating /home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages/task-manager-client-py.egg-link (link to .)
+[1.785s] Installing tasklist script to /home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/task_manager_client_py
+[1.789s] Installing console.py script to /home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/task_manager_client_py
+[1.791s] Installing console script to /home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/task_manager_client_py
+[1.793s] 
+[1.794s] Installed /home/GTL/asacks/ros_workspace/build/task_manager_client_py
+[1.795s] running symlink_data
+[1.796s] creating /home/GTL/asacks/ros_workspace/install/task_manager_client_py/share/ament_index
+[1.797s] creating /home/GTL/asacks/ros_workspace/install/task_manager_client_py/share/ament_index/resource_index
+[1.798s] creating /home/GTL/asacks/ros_workspace/install/task_manager_client_py/share/ament_index/resource_index/packages
+[1.799s] symbolically linking /home/GTL/asacks/ros_workspace/build/task_manager_client_py/resource/task_manager_client_py -> /home/GTL/asacks/ros_workspace/install/task_manager_client_py/share/ament_index/resource_index/packages
+[1.800s] symbolically linking /home/GTL/asacks/ros_workspace/build/task_manager_client_py/package.xml -> /home/GTL/asacks/ros_workspace/install/task_manager_client_py/share/task_manager_client_py
+[1.827s] Invoked command in '/home/GTL/asacks/ros_workspace/build/task_manager_client_py' returned '0': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/build/task_manager_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/task_manager_client_py/build --no-deps symlink_data

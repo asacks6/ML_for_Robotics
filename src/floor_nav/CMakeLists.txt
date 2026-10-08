@@ -121,6 +121,7 @@ add_task(TaskPlanTo)
 add_task(TaskWaitForROI)
 add_task(TaskWander)
 add_task(TaskAutoDock)
+add_task(TaskScan)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -146,6 +147,7 @@ install(
 
 
 install(PROGRAMS  
+	missions/explore_scan.py
 	missions/graph_forever.py
 	missions/test_goto.py
 	missions/test_graph_2d.py

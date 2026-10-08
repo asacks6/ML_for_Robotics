@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+node/console
+resource/task_manager_client_py
+task_manager_client_py/TaskClient.py
+task_manager_client_py/__init__.py
+task_manager_client_py/console.py
+task_manager_client_py/tasklist.py
+task_manager_client_py.egg-info/PKG-INFO
+task_manager_client_py.egg-info/SOURCES.txt
+task_manager_client_py.egg-info/dependency_links.txt
+task_manager_client_py.egg-info/entry_points.txt
+task_manager_client_py.egg-info/requires.txt
+task_manager_client_py.egg-info/top_level.txt
+task_manager_client_py.egg-info/zip-safe

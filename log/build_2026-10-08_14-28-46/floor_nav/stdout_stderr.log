@@ -1,0 +1,144 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 29.5.10 (/opt/ros/kilted/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.6.7 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_action: 29.5.10 (/opt/ros/kilted/share/rclcpp_action/cmake)
+-- Found rclpy: 9.1.6 (/opt/ros/kilted/share/rclpy/cmake)
+-- Found task_manager_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_msgs/share/task_manager_msgs/cmake)
+-- Found task_manager_lib: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake)
+-- Found sensor_msgs: 5.5.3 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found topic_tools_interfaces: 1.4.5 (/opt/ros/kilted/share/topic_tools_interfaces/cmake)
+-- Found cs7630_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake)
+-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/kilted/share/kobuki_ros_interfaces/cmake)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.27
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found pcl_conversions: 2.10.0 (/opt/ros/kilted/share/pcl_conversions/cmake)
+-- Found tf2: 0.41.9 (/opt/ros/kilted/share/tf2/cmake)
+-- Found tf2_ros: 0.41.9 (/opt/ros/kilted/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.41.9 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found task_manager_nav2: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_nav2/share/task_manager_nav2/cmake)
+Adding task TaskNav2
+Adding task TaskSetMux
+Adding task TaskConstant
+Adding task TaskGoTo
+Adding task TaskSetHeading
+Adding task TaskPlanTo
+Adding task TaskWaitForROI
+Adding task TaskWander
+Adding task TaskAutoDock
+-- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/GTL/asacks/ros_workspace/src/floor_nav/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (13.1s)
+-- Generating done (3.6s)
+-- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_nav
+[ 14%] Building CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o
+[ 19%] Building CXX object CMakeFiles/floornav_TaskGoTo.dir/tasks/TaskGoTo.cpp.o
+[ 19%] Building CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o
+[ 19%] Building CXX object CMakeFiles/floornav_TaskSetMux.dir/tasks/TaskSetMux.cpp.o
+[ 23%] Building CXX object CMakeFiles/floornav_TaskNav2.dir/tasks/TaskNav2.cpp.o
+[ 33%] Building CXX object CMakeFiles/floornav_TaskWander.dir/tasks/TaskWander.cpp.o
+[ 38%] Building CXX object CMakeFiles/floornav_TaskSetHeading.dir/tasks/TaskSetHeading.cpp.o
+[ 52%] Building CXX object CMakeFiles/floornav_TaskWaitForROI.dir/tasks/TaskWaitForROI.cpp.o
+[ 52%] Building CXX object CMakeFiles/floornav_TaskConstant.dir/tasks/TaskConstant.cpp.o
+[ 52%] Building CXX object CMakeFiles/floornav_TaskAutoDock.dir/tasks/TaskAutoDock.cpp.o
+[ 52%] Building CXX object CMakeFiles/floornav_TaskPlanTo.dir/tasks/TaskPlanTo.cpp.o
+[ 57%] Linking CXX shared library libfloornav_TaskConstant.so
+[ 61%] Linking CXX shared library libfloornav_TaskGoTo.so
+[ 66%] Linking CXX shared library libfloornav_TaskSetHeading.so
+[ 71%] Linking CXX shared library libfloornav_TaskWaitForROI.so
+[ 76%] Linking CXX shared library libfloornav_TaskAutoDock.so
+[ 80%] Linking CXX shared library libfloornav_TaskSetMux.so
+[ 85%] Linking CXX shared library libfloornav_TaskWander.so
+[ 90%] Linking CXX shared library libfloornav_TaskNav2.so
+[ 95%] Linking CXX shared library libfloornav_TaskPlanTo.so
+[100%] Linking CXX executable floornav_task_server
+[100%] Built target floornav_TaskGoTo
+[100%] Built target floornav_TaskConstant
+[100%] Built target floornav_TaskWaitForROI
+[100%] Built target floornav_TaskSetHeading
+[100%] Built target floornav_TaskAutoDock
+[100%] Built target floornav_TaskWander
+[100%] Built target floornav_TaskSetMux
+[100%] Built target floornav_TaskPlanTo
+[100%] Built target floornav_TaskNav2
+[100%] Built target floornav_task_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskNav2.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetMux.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskConstant.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskGoTo.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetHeading.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskPlanTo.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForROI.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWander.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskAutoDock.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/floornav_task_server
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/__pycache__/launch_server_tb.launch.cpython-310.pyc
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server.launch.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server_tb.launch.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_goto.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph_2d.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph-test.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_planto.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_set_heading.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_wander.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/package_run_dependencies/floor_nav
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/parent_prefix_path/floor_nav
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.sh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.sh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.bash
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.sh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.zsh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/packages/floor_nav
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig.cmake
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig-version.cmake
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.xml

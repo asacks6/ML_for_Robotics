@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/GTL/asacks/ros_workspace/build/cs7630_msgs/rosidl_generator_py/cs7630_msgs/cs7630_msgs_s__rosidl_typesupport_c.so" "TARGETS" "cs7630_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/cs7630_msgs")

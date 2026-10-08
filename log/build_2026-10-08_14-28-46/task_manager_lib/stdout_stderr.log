@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 29.5.10 (/opt/ros/kilted/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.6.7 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_action: 29.5.10 (/opt/ros/kilted/share/rclcpp_action/cmake)
+-- Found rclpy: 9.1.6 (/opt/ros/kilted/share/rclpy/cmake)
+-- Found std_msgs: 5.5.3 (/opt/ros/kilted/share/std_msgs/cmake)
+-- Found std_srvs: 5.5.3 (/opt/ros/kilted/share/std_srvs/cmake)
+-- Found task_manager_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_msgs/share/task_manager_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+-- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/GTL/asacks/ros_workspace/src/ros_task_manager/src/task_manager_lib/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.0s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/GTL/asacks/ros_workspace/build/task_manager_lib
+[ 20%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskInstance.cpp.o
+[ 60%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskScheduler.cpp.o
+[ 60%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskConfig.cpp.o
+[ 60%] Building CXX object CMakeFiles/task_manager_lib.dir/src/DynamicTask.cpp.o
+[ 70%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskDefinition.cpp.o
+[ 70%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskIdleDefault.cpp.o
+[ 90%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskWaitDefault.cpp.o
+[ 90%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskServerDefault.cpp.o
+[ 90%] Building CXX object CMakeFiles/task_manager_lib.dir/src/TaskSystem.cpp.o
+[100%] Linking CXX shared library libtask_manager_lib.so
+[100%] Built target task_manager_lib
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/lib/libtask_manager_lib.so
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/DynamicTask.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/ParameterList.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/ServiceStorage.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskActionGeneric.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskClient.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskConfig.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskDefinition.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskEnvironment.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskIdleDefault.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskInstance.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskParameterDefinition.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskScheduler.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskServerDefault.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskServiceGeneric.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskSetBool.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskSystem.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskTrigger.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/include/task_manager_lib/TaskWaitDefault.h
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/environment/library_path.sh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/environment/library_path.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/ament_index/resource_index/package_run_dependencies/task_manager_lib
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/ament_index/resource_index/parent_prefix_path/task_manager_lib
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/environment/ament_prefix_path.sh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/environment/ament_prefix_path.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/environment/path.sh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/environment/path.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/local_setup.bash
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/local_setup.sh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/local_setup.zsh
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/local_setup.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/package.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/ament_index/resource_index/packages/task_manager_lib
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake/task_manager_libConfig.cmake
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake/task_manager_libConfig-version.cmake
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/package.xml

@@ -1,0 +1,8 @@
+msg/PlaneDescription.idl
+msg/PlaneDescription.msg
+msg/ROIArray.idl
+msg/ROIArray.msg
+msg/Trajectory.idl
+msg/Trajectory.msg
+msg/TrajectoryElement.idl
+msg/TrajectoryElement.msg

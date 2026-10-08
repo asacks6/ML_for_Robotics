@@ -1,0 +1,104 @@
+Project 1 - Objective 2 - Cylinder detection
+
+
+0. Running
+
+  ros2 launch cylinder_detector cylinder_detector.launch.py
+
+(with the same nodes as in floor_plane_mapping/evaluation.txt). Outputs:
+
+  ~/cylinders        visualization_msgs/MarkerArray, frame world, one CYLINDER
+                     and one text label per cylinder of the map
+  ~/vertical_points  points kept as vertical structure, useful for tuning
+
+When the node stops it prints the final list of cylinders.
+
+
+1. Method
+
+The cylinders of the scene stand on the floor, so their axis is vertical and the
+problem reduces to finding circles in the projection of the cloud on the ground.
+The floor itself is not flat (two plateaus, a ramp and cliffs), so it is not
+removed with a single plane.
+
+a) The cloud is transformed into the world frame (TF at the cloud stamp).
+
+b) Vertical structure. A local grid of 0.05 m cells is built around the sensor
+   (3.5 m range) and each cell keeps z_min and z_max of its points. A vertical
+   surface stacks points of many heights in the same cell, the ground does not:
+   over 0.05 m the ramp (13 deg) rises 1 cm and the steepest cliff (60 deg)
+   9 cm, while the side of a pillar spans tens of centimetres. A cell is
+   vertical when z_max - z_min > 0.2 m. In those cells the floor points that
+   share the cell with the object (z < z_min + 3 cm) are dropped.
+
+c) Clusters are the connected components (cv::connectedComponents, 8-connected)
+   of the image of vertical cells.
+
+d) Circle fit on each cluster with at least 30 points:
+   - RANSAC, 200 iterations: circle through 3 random points (circumcircle), kept
+     if its radius is in [0.07, 0.3] m; score = points within 1 cm of the circle.
+   - Least squares refit of x^2 + y^2 + D x + E y + F = 0 on the inliers, solved
+     with the normal equations and ldlt as in the regression homework, in
+     coordinates centred on the inliers so that the system is well conditioned:
+       center = (-D/2, -E/2),  r = sqrt(D^2/4 + E^2/4 - F)
+
+e) Acceptance tests on the refitted circle:
+   - at least 30 points within 1 cm of the circle;
+   - among the points closer than r + 5 cm to the center, at least 90 % are
+     within 1 cm of the circle (a box or a piece of wall leaves many points off
+     the circle in that region; a cylinder touching a wall still passes since
+     the test only looks near the circle);
+   - the inliers cover an arc of at least 90 deg (rejects short flat faces);
+   - the center is farther from the sensor than the inliers, i.e. the surface
+     is convex towards the sensor;
+   - the inliers span at least 0.4 m vertically.
+
+f) Map. Each detection is associated with the closest cylinder of the map whose
+   center is within max(r_map, r_det) + 0.15 m, or creates a new one. Position
+   and radius are averaged with weights w = 1/d^2, d being the distance from the
+   sensor: the lateral error is driven by the pixel footprint, which grows like
+   d, so the variance grows like d^2. The vertical extent is the union of the
+   observed extents. A cylinder is published once it has been detected in 3
+   frames, so that a single wrong fit never reaches the map. All the cylinders
+   found since the start are kept and republished at every frame with stable
+   ids.
+
+
+2. Tuning
+
+A bag of depth images and TF was recorded during a full explore_scan.py mission
+(151 s) and replayed through the detector with different settings:
+
+  min_inlier_ratio  min_height   pillars   false detections
+  0.7               0.3          6 / 6     9  (3 plant pots, 2 boxes, 4 sofa arms)
+  0.9               0.3          6 / 6     1  (sofa armrest, 0.31 m high)
+  0.9               0.4          6 / 6     0
+
+Why the boxes passed at 0.7: on a simulated 0.2 m square seen from 0.8 to 2.5 m
+under different angles, the best circle keeps 60 to 70 % of the nearby points,
+while a true cylinder keeps 100 % since the simulated depth has no noise. 0.9
+separates the two clearly. On real data the tolerance would have to follow the
+sensor noise.
+
+The plants stand in a cylindrical pot (radius 0.075 m, 0.165 m high) under the
+leaves. They are not reported on purpose: the leaf points around the pot keep
+the local ratio below 0.9 (they disappeared when the ratio went from 0.7 to
+0.9). Lowering the ratio would bring them back, together with the boxes.
+
+
+3. Results
+
+Final live run, ground truth read from the scene file:
+
+  pillar   true x, y          true r   estimated x, y      est. r   error
+  P        (-2.575,  3.175)   0.175    (-2.575,  3.173)    0.172    2 mm
+  P0       (-3.025, -3.000)   0.125    (-3.024, -3.000)    0.123    1 mm
+  P1       ( 4.075,  0.325)   0.100    ( 4.078,  0.327)    0.098    4 mm
+  P2       ( 0.400,  4.775)   0.125    ( 0.398,  4.775)    0.121    2 mm
+  P3       (-2.675,  0.150)   0.110    (-2.677,  0.151)    0.107    2 mm
+  P4       ( 0.775,  1.950)   0.125    ( 0.773,  1.950)    0.119    2 mm
+
+All 6 pillars are found, with no false detection. The radius is underestimated
+by 2 to 6 mm, probably because the pillar meshes are faceted and the true radius
+above is taken from their bounding box, i.e. at the vertices. P2 touches the
+wall and is still found, thanks to the local inlier ratio.

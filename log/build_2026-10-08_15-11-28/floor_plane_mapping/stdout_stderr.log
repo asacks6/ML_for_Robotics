@@ -1,0 +1,50 @@
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 29.5.10 (/opt/ros/kilted/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.6.7 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found std_msgs: 5.5.3 (/opt/ros/kilted/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.5.3 (/opt/ros/kilted/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.5.3 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.5.3 (/opt/ros/kilted/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.41.9 (/opt/ros/kilted/share/tf2_ros/cmake)
+-- Found tf2_sensor_msgs: 0.41.9 (/opt/ros/kilted/share/tf2_sensor_msgs/cmake)
+-- Found pcl_conversions: 2.10.0 (/opt/ros/kilted/share/pcl_conversions/cmake)
+-- Found flann version 1.9.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Configuring done (3.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_plane_mapping
+[100%] Built target floor_plane_mapping
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/lib/floor_plane_mapping/floor_plane_mapping
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/floor_plane_mapping.launch.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/project.launch.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/rviz/project.rviz
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/ament_index/resource_index/package_run_dependencies/floor_plane_mapping
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/ament_index/resource_index/parent_prefix_path/floor_plane_mapping
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/path.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/path.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.bash
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.zsh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/package.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/ament_index/resource_index/packages/floor_plane_mapping
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/cmake/floor_plane_mappingConfig.cmake
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/cmake/floor_plane_mappingConfig-version.cmake
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/package.xml

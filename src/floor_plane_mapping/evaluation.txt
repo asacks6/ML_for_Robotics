@@ -1,0 +1,208 @@
+Project 1 - Objectives 1 and 3 - Traversability mapping
+
+
+0. Running
+
+  ros2 launch vrep4_helpers kinect_pc.launch.py
+  ros2 launch floor_nav launch_server.launch.py
+  ros2 launch floor_graph floor_graph.launch.py
+  ros2 launch vrep_ros_teleop teleop_mux.launch.py
+  ros2 launch floor_plane_mapping floor_plane_mapping.launch.py
+  ros2 launch cylinder_detector cylinder_detector.launch.py
+  rviz2 -d ~/ros_workspace/src/floor_plane_mapping/rviz/project.rviz
+  ros2 run floor_nav explore_scan.py
+
+project.launch.py starts everything above except the mission:
+
+  ros2 launch floor_plane_mapping project.launch.py
+  ros2 run floor_nav explore_scan.py
+
+explore_scan.py selects /mux/autoCommand on the mux itself, so the manual
+service call is not needed with this mission.
+
+Topics (nav_msgs/OccupancyGrid, frame world, latched, 1 Hz):
+
+  ~/labels          objective 1, last label observed in each cell
+  ~/probability     objective 3, 100*P(not traversable), -1 if never observed
+  ~/traversability  objective 3, P thresholded into the three labels
+
+When the node stops it writes <save_prefix>_labels.png, _probability.png and
+_traversability.png (north up, white traversable, black not, grey unknown).
+The maps from the final run are in results/.
+
+
+1. The scene
+
+The floor of rosControlKinect3d.ttt is a 64x64 heightfield. Reading it from the
+scene file gives two plateaus at z = -0.5 (south) and z = +0.5 (north), joined
+in the middle by a ramp of about 13 deg (through node 0), with cliffs of 30 to
+60 deg on both sides of the ramp. Obstacles: 6 cylindrical pillars, 3 square
+boxes 0.2 x 0.2 x 1.0, 2 sofas, 3 plants, and the walls at +-5 m.
+
+So "traversable" has to accept the ramp and reject the cliffs. max_slope = 20
+deg sits between the two with margin on both sides.
+
+
+2. Method (objective 1)
+
+The cloud is transformed into the world frame with TF at the stamp of the cloud
+(world -> odom -> bubbleRob -> Vision_sensor). The grid is 110 x 110 cells of
+0.1 m, which covers the 10 x 10 m arena plus 0.5 m of margin.
+
+Peas in buckets: every point between 0.3 and 3.0 m from the sensor goes into the
+bucket of its cell. A bucket does not keep the list of points but only
+
+  n,  S = sum(p),  SS = sum(p p^T)
+
+which is all that is needed for the mean m = S/n and the covariance
+C = SS/n - m m^T. The points are taken relative to the center of the cell so
+that SS does not lose precision.
+
+For each cell with at least 6 points, C is diagonalised (PCA):
+
+  normal     = eigenvector of the smallest eigenvalue l0
+  slope      = acos(|normal_z|)
+  roughness  = sqrt(l0), thickness of the points around the plane
+
+If the middle eigenvalue l1 is also tiny (sqrt(l1) < 1.5 cm) the points lie on a
+line and the plane is not defined. This is what happens on the floor at long
+range: with the camera about 0.43 m above the ground, two consecutive image rows
+hit the floor 0.018*d^2 m apart (7 cm at 2 m, 16 cm at 3 m), so a 0.1 m cell far
+away is crossed by a single row. Such a cell is skipped for this frame rather
+than labelled from a meaningless plane.
+
+A cell is labelled traversable when
+
+  slope < 20 deg  and  roughness < 2 cm  and  no step
+
+The step test compares the cell with its 8 neighbours observed in the same
+frame: if the centroid of a neighbour is more than 5 cm away from the plane of
+the cell, there is a step between them. It catches the edges of flat elevated
+surfaces (seat of a sofa) that the slope alone would accept.
+
+PCA was preferred over the z = ax + by + c regression of the previous homeworks
+because most obstacle cells contain vertical surfaces (pillar sides, box faces,
+walls), where the regression is degenerate. PCA handles any orientation and a
+vertical surface simply gives 90 deg.
+
+The labels live in a cv::Mat_<uint8_t> that already holds the OccupancyGrid
+values (0 traversable, 100 not traversable, 0xFF read as -1 unknown), so
+mat_to_og is a plain copy, as in wifi_map_base.
+
+
+3. Bayesian model (objective 3)
+
+State of a cell:          x in {T, N}   (traversable, not traversable)
+Measurement in one frame: z in {t, n}   (output of the test of section 2)
+
+Assumptions: the world is static, and the measurements are conditionally
+independent given x.
+
+Sensor model, symmetric, with a confidence that decreases with the distance r
+(mean range of the points of the cell):
+
+  P(z=t | T) = P(z=n | N) = p(r)
+  P(z=t | N) = P(z=n | T) = 1 - p(r)
+
+  p(r) = p_near + (p_far - p_near) * min(r / r_max, 1)
+  p_near = 0.9,  p_far = 0.6,  r_max = 3 m
+
+Bayes rule after the k-th measurement:
+
+  P(x | z_1..k) = eta * P(z_k | x) * P(x | z_1..k-1)
+
+The ratio of the two hypotheses eliminates eta:
+
+  P(T | z_1..k)     P(z_k | T)     P(T | z_1..k-1)
+  -------------  =  ----------  *  ---------------
+  P(N | z_1..k)     P(z_k | N)     P(N | z_1..k-1)
+
+and with l = log(P(T)/P(N)) the product becomes a sum:
+
+  l_k = l_k-1 + log( P(z_k | T) / P(z_k | N) )
+  l_0 = log(0.5 / 0.5) = 0            (uniform prior)
+
+  z = t :  l_k = l_k-1 + log(p / (1-p))
+  z = n :  l_k = l_k-1 - log(p / (1-p))
+
+  P(T) = 1 - 1 / (1 + exp(l))
+
+Weight of one measurement:
+
+  r = 0      p = 0.90   +-2.20
+  r = 1.5 m  p = 0.75   +-1.10
+  r = 3 m    p = 0.60   +-0.41
+
+so a measurement at 3 m counts about 5 times less than one at close range, which
+is how the imprecision of long range updates is modelled.
+
+Confidence: after k agreeing measurements with the same p,
+
+  l = k log(p/(1-p)),   P(T) = p^k / (p^k + (1-p)^k)
+
+it grows with the number of observations, as required.
+
+Relation with the +1/-1 counter: the counter is exactly this filter with a
+constant p = e/(1+e) = 0.731, the counter value being l. The Bayesian version
+gives the counter a meaning (a probability) and lets the step depend on how
+reliable the measurement is.
+
+Clamping: l is kept in [-4.6, 4.6], i.e. P in [0.01, 0.99]. The cloud arrived
+at 55 Hz in these runs and consecutive frames see a cell from almost the same
+viewpoint, so the independence assumption is clearly wrong: without a bound
+the filter becomes overconfident and a cell can never change again. With the
+bound, a saturated cell changes label (crosses P = 0.3) after 3 contrary
+measurements at close range, 5 at 1.5 m, or 14 at 3 m.
+
+Outputs: ~/probability publishes 100 * P(N), so that the RViz "map" colour
+scheme shows traversable cells white and obstacles black, with grey levels for
+uncertain cells. ~/traversability gives the three labels: traversable if
+P(T) > 0.7, not traversable if P(T) < 0.3, unknown otherwise or never observed.
+
+
+4. Exploration
+
+The road graph alone leaves holes, because the camera only looks forward along
+the edges. A Scan task was added to floor_nav (tasks/TaskScan.cpp): the robot
+rotates on the spot and accumulates |delta heading| until a full turn is done.
+missions/explore_scan.py follows the Hamiltonian path of test_graph.py and does
+a scan at the start and at every node.
+
+
+5. Results
+
+Simulation run headless, mission explore_scan.py, about 2.5 min. The ground
+truth was computed from the heightfield and the object positions read from the
+scene file. A band of one cell around every boundary (objects, cliffs, walls)
+is excluded, since the label of a cell straddling a boundary depends on how the
+points split inside it.
+
+  observed cells               10325 of 12100 (the whole arena)
+  correct, off boundaries      99.7 % of 8743 cells
+  wrongly traversable          0
+  wrongly not traversable      25, all just outside object footprints
+
+The labels of objective 1 and the filtered map of objective 3 get the same
+score here: the simulated depth has no noise, so the two only disagree on cells
+whose label flips between frames. Most cells reach the bound of the filter
+(P = 0.01 or 0.99) within a second of being seen at 55 Hz, which is why the
+probability map looks almost binary at the end of the run. The few grey cells
+left are those that really receive contradictory measurements.
+
+Known limitation: the interior of a flat elevated surface is locally
+indistinguishable from the floor; only its border is rejected by the step test.
+The objects of this scene have vertical sides, so it has no effect here.
+
+
+6. Parameters
+
+  resolution      0.1 m       small enough for 0.2 m obstacles
+  min/max_range   0.3 / 3 m   beyond 3 m most floor cells are skipped anyway
+  min_points      6
+  min_spread      0.015 m     needs at least two image rows in the cell
+  max_slope_deg   20          ramp 13 deg, cliffs 30-60 deg
+  max_roughness   0.02 m
+  max_step        0.05 m
+  p_near / p_far  0.9 / 0.6
+  p_max           0.99        bound of the log-odds
+  threshold       0.7         labels of ~/traversability

@@ -1,0 +1,9 @@
+{
+  "package_name": "cs7630_msgs",
+  "non_idl_tuples": [
+    "/home/GTL/asacks/ros_workspace/src/cs7630_msgs:msg/ROIArray.msg",
+    "/home/GTL/asacks/ros_workspace/src/cs7630_msgs:msg/Trajectory.msg",
+    "/home/GTL/asacks/ros_workspace/src/cs7630_msgs:msg/TrajectoryElement.msg",
+    "/home/GTL/asacks/ros_workspace/src/cs7630_msgs:msg/PlaneDescription.msg"
+  ]
+}

@@ -1,0 +1,29 @@
+[1.613s] Invoking command in '/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/build --no-deps symlink_data
+[1.961s] running develop
+[2.196s] running egg_info
+[2.197s] creating vrep_ros_teleop.egg-info
+[2.224s] writing vrep_ros_teleop.egg-info/PKG-INFO
+[2.227s] writing dependency_links to vrep_ros_teleop.egg-info/dependency_links.txt
+[2.228s] writing entry points to vrep_ros_teleop.egg-info/entry_points.txt
+[2.229s] writing requirements to vrep_ros_teleop.egg-info/requires.txt
+[2.229s] writing top-level names to vrep_ros_teleop.egg-info/top_level.txt
+[2.231s] writing manifest file 'vrep_ros_teleop.egg-info/SOURCES.txt'
+[2.277s] reading manifest file 'vrep_ros_teleop.egg-info/SOURCES.txt'
+[2.279s] writing manifest file 'vrep_ros_teleop.egg-info/SOURCES.txt'
+[2.302s] running build_ext
+[2.303s] Creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages/vrep-ros-teleop.egg-link (link to .)
+[2.305s] Installing teleop_mux_node script to /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/vrep_ros_teleop
+[2.308s] Installing teleop_node script to /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/vrep_ros_teleop
+[2.309s] 
+[2.309s] Installed /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop
+[2.310s] running symlink_data
+[2.311s] creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index
+[2.312s] creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index/resource_index
+[2.313s] creating /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index/resource_index/packages
+[2.314s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/resource/vrep_ros_teleop -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/ament_index/resource_index/packages
+[2.315s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/package.xml -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+[2.316s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop_joy_only.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+[2.318s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+[2.319s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop_mux_tb.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+[2.320s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/launch/teleop_mux.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/share/vrep_ros_teleop
+[2.362s] Invoked command in '/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/vrep_ros_teleop/build --no-deps symlink_data

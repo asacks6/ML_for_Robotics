@@ -1,0 +1,150 @@
+[0.048s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_nav': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/floor_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/floor_nav
+[0.128s] -- The C compiler identification is GNU 13.3.0
+[0.191s] -- The CXX compiler identification is GNU 13.3.0
+[0.206s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.363s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.364s] -- Detecting C compile features
+[0.365s] -- Detecting C compile features - done
+[0.373s] -- Detecting CXX compiler ABI info
+[0.521s] -- Detecting CXX compiler ABI info - done
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.538s] -- Detecting CXX compile features
+[0.538s] -- Detecting CXX compile features - done
+[0.581s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.800s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.878s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.384s] -- Found rclcpp: 29.5.10 (/opt/ros/kilted/share/rclcpp/cmake)
+[1.684s] -- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.796s] -- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.911s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.429s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[2.467s] -- Found rmw_zenoh_cpp: 0.6.7 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[2.469s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[2.788s] -- Found rclcpp_action: 29.5.10 (/opt/ros/kilted/share/rclcpp_action/cmake)
+[2.958s] -- Found rclpy: 9.1.6 (/opt/ros/kilted/share/rclpy/cmake)
+[2.970s] -- Found task_manager_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_msgs/share/task_manager_msgs/cmake)
+[3.059s] -- Found task_manager_lib: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake)
+[3.220s] -- Found sensor_msgs: 5.5.3 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[3.320s] -- Found topic_tools_interfaces: 1.4.5 (/opt/ros/kilted/share/topic_tools_interfaces/cmake)
+[3.363s] -- Found cs7630_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake)
+[3.441s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/kilted/share/kobuki_ros_interfaces/cmake)
+[3.820s] -- Checking for module 'libusb-1.0'
+[3.829s] --   Found libusb-1.0, version 1.0.27
+[3.852s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.853s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.895s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.909s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.930s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.970s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[6.151s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[6.152s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[6.157s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.159s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.160s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.199s] -- Found pcl_conversions: 2.10.0 (/opt/ros/kilted/share/pcl_conversions/cmake)
+[6.343s] -- Found tf2: 0.41.9 (/opt/ros/kilted/share/tf2/cmake)
+[6.380s] -- Found tf2_ros: 0.41.9 (/opt/ros/kilted/share/tf2_ros/cmake)
+[6.646s] -- Found tf2_geometry_msgs: 0.41.9 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+[6.758s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[6.759s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.761s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.765s] -- Found task_manager_nav2: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_nav2/share/task_manager_nav2/cmake)
+[6.965s] Adding task TaskNav2
+[7.487s] Adding task TaskSetMux
+[8.016s] Adding task TaskConstant
+[8.544s] Adding task TaskGoTo
+[9.072s] Adding task TaskSetHeading
+[9.622s] Adding task TaskPlanTo
+[10.174s] Adding task TaskWaitForROI
+[10.750s] Adding task TaskWander
+[11.343s] Adding task TaskAutoDock
+[12.690s] -- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[13.077s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.088s] -- Configured cppcheck include dirs: /home/GTL/asacks/ros_workspace/src/floor_nav/include
+[13.090s] -- Configured cppcheck exclude dirs and/or files: 
+[13.093s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.094s] -- Configured 'flake8' exclude dirs and/or files: 
+[13.101s] -- Added test 'lint_cmake' to check CMake code style
+[13.105s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.126s] -- Added test 'uncrustify' to check C / C++ code style
+[13.127s] -- Configured uncrustify additional arguments: 
+[13.130s] -- Added test 'xmllint' to check XML markup files
+[13.150s] -- Configuring done (13.1s)
+[18.008s] -- Generating done (3.6s)
+[19.013s] -- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_nav
+[19.062s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_nav' returned '0': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/floor_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/floor_nav
+[19.083s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_nav': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_nav -- -j16 -l16
+[19.253s] [ 14%] Building CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o
+[19.254s] [ 19%] Building CXX object CMakeFiles/floornav_TaskGoTo.dir/tasks/TaskGoTo.cpp.o
+[19.257s] [ 19%] Building CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o
+[19.258s] [ 19%] Building CXX object CMakeFiles/floornav_TaskSetMux.dir/tasks/TaskSetMux.cpp.o
+[19.261s] [ 23%] Building CXX object CMakeFiles/floornav_TaskNav2.dir/tasks/TaskNav2.cpp.o
+[19.268s] [ 33%] Building CXX object CMakeFiles/floornav_TaskWander.dir/tasks/TaskWander.cpp.o
+[19.269s] [ 38%] Building CXX object CMakeFiles/floornav_TaskSetHeading.dir/tasks/TaskSetHeading.cpp.o
+[19.271s] [ 52%] Building CXX object CMakeFiles/floornav_TaskWaitForROI.dir/tasks/TaskWaitForROI.cpp.o
+[19.271s] [ 52%] Building CXX object CMakeFiles/floornav_TaskConstant.dir/tasks/TaskConstant.cpp.o
+[19.273s] [ 52%] Building CXX object CMakeFiles/floornav_TaskAutoDock.dir/tasks/TaskAutoDock.cpp.o
+[19.274s] [ 52%] Building CXX object CMakeFiles/floornav_TaskPlanTo.dir/tasks/TaskPlanTo.cpp.o
+[33.147s] [ 57%] Linking CXX shared library libfloornav_TaskConstant.so
+[33.745s] [ 61%] Linking CXX shared library libfloornav_TaskGoTo.so
+[34.144s] [ 66%] Linking CXX shared library libfloornav_TaskSetHeading.so
+[38.038s] [ 71%] Linking CXX shared library libfloornav_TaskWaitForROI.so
+[40.214s] [ 76%] Linking CXX shared library libfloornav_TaskAutoDock.so
+[40.866s] [ 80%] Linking CXX shared library libfloornav_TaskSetMux.so
+[41.244s] [ 85%] Linking CXX shared library libfloornav_TaskWander.so
+[42.550s] [ 90%] Linking CXX shared library libfloornav_TaskNav2.so
+[64.763s] [ 95%] Linking CXX shared library libfloornav_TaskPlanTo.so
+[87.772s] [100%] Linking CXX executable floornav_task_server
+[138.627s] [100%] Built target floornav_TaskGoTo
+[139.435s] [100%] Built target floornav_TaskConstant
+[141.870s] [100%] Built target floornav_TaskWaitForROI
+[142.580s] [100%] Built target floornav_TaskSetHeading
+[145.643s] [100%] Built target floornav_TaskAutoDock
+[145.769s] [100%] Built target floornav_TaskWander
+[148.129s] [100%] Built target floornav_TaskSetMux
+[155.447s] [100%] Built target floornav_TaskPlanTo
+[157.488s] [100%] Built target floornav_TaskNav2
+[158.501s] [100%] Built target floornav_task_server
+[158.520s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_nav' returned '0': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_nav -- -j16 -l16
+[158.532s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_nav': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_nav
+[158.541s] -- Install configuration: ""
+[158.542s] -- Execute custom install script
+[158.547s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskNav2.so
+[158.555s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetMux.so
+[158.563s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskConstant.so
+[158.570s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskGoTo.so
+[158.577s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetHeading.so
+[158.585s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskPlanTo.so
+[158.592s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForROI.so
+[158.600s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWander.so
+[158.607s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskAutoDock.so
+[158.614s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/floornav_task_server
+[158.627s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/__pycache__/launch_server_tb.launch.cpython-310.pyc
+[158.634s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server.launch.py
+[158.640s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server_tb.launch.py
+[158.647s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever.py
+[158.654s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_goto.py
+[158.661s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph_2d.py
+[158.668s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph.py
+[158.675s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph-test.py
+[158.682s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_planto.py
+[158.689s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_set_heading.py
+[158.697s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_wander.py
+[158.708s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/package_run_dependencies/floor_nav
+[158.717s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/parent_prefix_path/floor_nav
+[158.727s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.sh
+[158.735s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.dsv
+[158.743s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.sh
+[158.751s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.dsv
+[158.758s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.bash
+[158.766s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.sh
+[158.774s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.zsh
+[158.781s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.dsv
+[158.788s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.dsv
+[158.798s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/packages/floor_nav
+[158.807s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig.cmake
+[158.814s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig-version.cmake
+[158.822s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.xml
+[158.830s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_nav' returned '0': AMENT_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_nav

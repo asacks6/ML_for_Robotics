@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/task_manager_msgs/rosidl_generator_c/task_manager_msgs/msg/detail/task_status__type_support.h

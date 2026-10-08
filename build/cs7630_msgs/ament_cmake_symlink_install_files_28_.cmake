@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/cs7630_msgs" FILES "/home/GTL/asacks/ros_workspace/build/cs7630_msgs/ament_cmake_index/share/ament_index/resource_index/packages/cs7630_msgs" "DESTINATION" "share/ament_index/resource_index/packages")

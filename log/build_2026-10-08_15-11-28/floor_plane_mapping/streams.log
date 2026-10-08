@@ -1,0 +1,54 @@
+[0.030s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_mapping -- -j16 -l16
+[0.061s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.274s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.302s] -- Found rclcpp: 29.5.10 (/opt/ros/kilted/share/rclcpp/cmake)
+[0.320s] -- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.328s] -- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.402s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_zenoh_cpp: 0.6.7 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[0.406s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.479s] -- Found std_msgs: 5.5.3 (/opt/ros/kilted/share/std_msgs/cmake)
+[0.489s] -- Found geometry_msgs: 5.5.3 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[0.500s] -- Found sensor_msgs: 5.5.3 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[0.516s] -- Found nav_msgs: 5.5.3 (/opt/ros/kilted/share/nav_msgs/cmake)
+[0.534s] -- Found tf2_ros: 0.41.9 (/opt/ros/kilted/share/tf2_ros/cmake)
+[0.617s] -- Found tf2_sensor_msgs: 0.41.9 (/opt/ros/kilted/share/tf2_sensor_msgs/cmake)
+[0.621s] -- Found pcl_conversions: 2.10.0 (/opt/ros/kilted/share/pcl_conversions/cmake)
+[0.663s] -- Found flann version 1.9.2
+[1.163s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.167s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.171s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.655s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.660s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.099s] -- Found Qhull version 8.0.2
+[2.550s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.161s] -- Configuring done (3.1s)
+[3.324s] -- Generating done (0.1s)
+[3.364s] -- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_plane_mapping
+[3.614s] [100%] Built target floor_plane_mapping
+[3.624s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_plane_mapping -- -j16 -l16
+[3.633s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_plane_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_mapping
+[3.640s] -- Install configuration: ""
+[3.641s] -- Execute custom install script
+[3.642s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/lib/floor_plane_mapping/floor_plane_mapping
+[3.644s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/floor_plane_mapping.launch.py
+[3.645s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/project.launch.py
+[3.654s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/rviz/project.rviz
+[3.662s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/ament_index/resource_index/package_run_dependencies/floor_plane_mapping
+[3.664s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/ament_index/resource_index/parent_prefix_path/floor_plane_mapping
+[3.665s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/ament_prefix_path.sh
+[3.666s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/ament_prefix_path.dsv
+[3.667s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/path.sh
+[3.668s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/environment/path.dsv
+[3.669s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.bash
+[3.669s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.sh
+[3.670s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.zsh
+[3.672s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/local_setup.dsv
+[3.672s] -- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/package.dsv
+[3.680s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/ament_index/resource_index/packages/floor_plane_mapping
+[3.681s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/cmake/floor_plane_mappingConfig.cmake
+[3.682s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/cmake/floor_plane_mappingConfig-version.cmake
+[3.683s] -- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_plane_mapping/share/floor_plane_mapping/package.xml
+[3.684s] Invoked command in '/home/GTL/asacks/ros_workspace/build/floor_plane_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/floor_plane_mapping
