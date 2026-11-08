@@ -355,8 +355,8 @@ include("/home/GTL/asacks/ros_workspace/build/floor_nav/ament_cmake_symlink_inst
 # install(DIRECTORY "launch/" "DESTINATION" "share/floor_nav")
 ament_cmake_symlink_install_directory("/home/GTL/asacks/ros_workspace/src/floor_nav" DIRECTORY "launch/" "DESTINATION" "share/floor_nav")
 
-# install(PROGRAMS "missions/explore_scan.py" "missions/graph_forever.py" "missions/test_goto.py" "missions/test_graph_2d.py" "missions/test_graph.py" "missions/test_graph-test.py" "missions/test_planto.py" "missions/test_set_heading.py" "missions/test_wander.py" "DESTINATION" "lib/floor_nav")
-ament_cmake_symlink_install_programs("/home/GTL/asacks/ros_workspace/src/floor_nav" PROGRAMS "missions/explore_scan.py" "missions/graph_forever.py" "missions/test_goto.py" "missions/test_graph_2d.py" "missions/test_graph.py" "missions/test_graph-test.py" "missions/test_planto.py" "missions/test_set_heading.py" "missions/test_wander.py" "DESTINATION" "lib/floor_nav")
+# install(PROGRAMS "missions/explore_scan.py" "missions/graph_cover-test.py" "missions/graph_forever.py" "missions/graph_forever-test.py" "missions/test_goto.py" "missions/test_graph_2d.py" "missions/test_graph.py" "missions/test_graph-test.py" "missions/test_planto.py" "missions/test_set_heading.py" "missions/test_wander.py" "DESTINATION" "lib/floor_nav")
+ament_cmake_symlink_install_programs("/home/GTL/asacks/ros_workspace/src/floor_nav" PROGRAMS "missions/explore_scan.py" "missions/graph_cover-test.py" "missions/graph_forever.py" "missions/graph_forever-test.py" "missions/test_goto.py" "missions/test_graph_2d.py" "missions/test_graph.py" "missions/test_graph-test.py" "missions/test_planto.py" "missions/test_set_heading.py" "missions/test_wander.py" "DESTINATION" "lib/floor_nav")
 
 # install(FILES "/home/GTL/asacks/ros_workspace/build/floor_nav/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/floor_nav" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 include("/home/GTL/asacks/ros_workspace/build/floor_nav/ament_cmake_symlink_install_files_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")

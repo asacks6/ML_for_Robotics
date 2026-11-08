@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    "~/model": "/home/GTL/asacks/data/shore_follower/output_20261013_184009/models/model_ce_71.pt"
+    "~/linear_vel": 0.3
+    "~/twist_factor": 0.4

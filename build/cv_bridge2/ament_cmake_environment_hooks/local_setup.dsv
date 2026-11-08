@@ -1,0 +1,3 @@
+source;share/cv_bridge2/environment/ament_prefix_path.sh
+source;share/cv_bridge2/environment/path.sh
+source;share/cv_bridge2/environment/pythonpath.sh

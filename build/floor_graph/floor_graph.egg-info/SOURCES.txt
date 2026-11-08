@@ -18,5 +18,6 @@ graphs/graph-test.picklez
 graphs/graph-test.png
 graphs/graph.picklez
 graphs/graph.png
+launch/floor_graph-test.launch.py
 launch/floor_graph.launch.py
 resource/floor_graph

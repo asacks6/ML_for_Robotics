@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info/PKG-INFO
+writing dependency_links to ../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info/dependency_links.txt
+writing entry points to ../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info/entry_points.txt
+writing requirements to ../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info/requires.txt
+writing top-level names to ../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info/top_level.txt
+reading manifest file '../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info/SOURCES.txt'
+running build
+running build_py
+copying floor_plane_classify_torch_base/floor_plane_classify_node.py -> /home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base/build/lib/floor_plane_classify_torch_base
+running install
+running install_lib
+copying /home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base/build/lib/floor_plane_classify_torch_base/floor_plane_classify_node.py -> /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/python3.12/site-packages/floor_plane_classify_torch_base
+byte-compiling /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/python3.12/site-packages/floor_plane_classify_torch_base/floor_plane_classify_node.py to floor_plane_classify_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/python3.12/site-packages/floor_plane_classify_torch_base-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/floor_plane_classify_torch_base/floor_plane_classify_torch_base.egg-info to /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/python3.12/site-packages/floor_plane_classify_torch_base-0.0.0-py3.12.egg-info
+running install_scripts
+Installing floor_plane_classify_node script to /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/floor_plane_classify_torch_base
+writing list of installed files to '/home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base/install.log'

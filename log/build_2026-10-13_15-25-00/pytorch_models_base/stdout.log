@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/pytorch_models_base/pytorch_models_base.egg-info
+writing ../../build/pytorch_models_base/pytorch_models_base.egg-info/PKG-INFO
+writing dependency_links to ../../build/pytorch_models_base/pytorch_models_base.egg-info/dependency_links.txt
+writing entry points to ../../build/pytorch_models_base/pytorch_models_base.egg-info/entry_points.txt
+writing requirements to ../../build/pytorch_models_base/pytorch_models_base.egg-info/requires.txt
+writing top-level names to ../../build/pytorch_models_base/pytorch_models_base.egg-info/top_level.txt
+writing manifest file '../../build/pytorch_models_base/pytorch_models_base.egg-info/SOURCES.txt'
+reading manifest file '../../build/pytorch_models_base/pytorch_models_base.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pytorch_models_base/pytorch_models_base.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build
+creating /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib
+creating /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+copying pytorch_models_base/train.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+copying pytorch_models_base/reader.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+copying pytorch_models_base/sampler.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+copying pytorch_models_base/__init__.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+copying pytorch_models_base/venv_hack.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+copying pytorch_models_base/parser.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+copying pytorch_models_base/model.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+running install
+running install_lib
+creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/train.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/reader.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/sampler.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/__init__.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/venv_hack.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/parser.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/model.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/train.py to train.cpython-312.pyc
+byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/reader.py to reader.cpython-312.pyc
+byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/sampler.py to sampler.cpython-312.pyc
+byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/venv_hack.py to venv_hack.cpython-312.pyc
+byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/parser.py to parser.cpython-312.pyc
+byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/model.py to model.cpython-312.pyc
+running install_data
+creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index
+creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index
+creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index/packages
+copying resource/pytorch_models_base -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index/packages
+copying package.xml -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/pytorch_models_base
+running install_egg_info
+Copying ../../build/pytorch_models_base/pytorch_models_base.egg-info to /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base-0.0.0-py3.12.egg-info
+running install_scripts
+Installing train script to /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/pytorch_models_base
+writing list of installed files to '/home/GTL/asacks/ros_workspace/build/pytorch_models_base/install.log'

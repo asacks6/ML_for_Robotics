@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000422] (-) JobUnselected: {'identifier': 'cs7630_msgs'}
+[0.000435] (-) JobUnselected: {'identifier': 'cv_bridge2'}
+[0.000556] (-) JobUnselected: {'identifier': 'cylinder_detector'}
+[0.000799] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000809] (-) JobUnselected: {'identifier': 'floor_nav'}
+[0.000817] (-) JobUnselected: {'identifier': 'floor_plane_ceres_base'}
+[0.000825] (-) JobUnselected: {'identifier': 'floor_plane_classify_torch_base'}
+[0.000832] (-) JobUnselected: {'identifier': 'floor_plane_hough_base'}
+[0.000840] (-) JobUnselected: {'identifier': 'floor_plane_mapping'}
+[0.000848] (-) JobUnselected: {'identifier': 'floor_plane_ransac_base'}
+[0.000856] (-) JobUnselected: {'identifier': 'floor_plane_regression_base'}
+[0.000864] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.000871] (-) JobUnselected: {'identifier': 'model_prediction'}
+[0.000879] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000887] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000895] (-) JobUnselected: {'identifier': 'pytorch_models_base'}
+[0.000903] (-) JobUnselected: {'identifier': 'shore_follower_drive_torch_base'}
+[0.000911] (-) JobUnselected: {'identifier': 'shore_follower_observe'}
+[0.000924] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000932] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000940] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000947] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000956] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000963] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000971] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000979] (-) JobUnselected: {'identifier': 'vrep_vsv_driver'}
+[0.000988] (floor_plane_record_base) JobQueued: {'identifier': 'floor_plane_record_base', 'dependencies': OrderedDict()}
+[0.001000] (floor_plane_record_base) JobStarted: {'identifier': 'floor_plane_record_base'}
+[0.025613] (floor_plane_record_base) JobProgress: {'identifier': 'floor_plane_record_base', 'progress': 'cmake'}
+[0.028845] (floor_plane_record_base) JobProgress: {'identifier': 'floor_plane_record_base', 'progress': 'build'}
+[0.029630] (floor_plane_record_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/asacks/ros_workspace/build/floor_plane_record_base', '--', '-j16', '-l16'], 'cwd': '/home/GTL/asacks/ros_workspace/build/floor_plane_record_base', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'EGL_PLATFORM': 'wayland', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-296_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLAUDE_AGENT_SDK_VERSION': '0.3.296', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '5ced51499bf9a58c3a190ec3a2d52ec7', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.14-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(torch-cpu-ros2)', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '3214', 'SYSTEMD_EXEC_PID': '3442', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5997', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'CLAUDE_CODE_EMIT_STARTUP_TIMING': '1', 'JOURNAL_STREAM': '10:19407', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_QUESTION_PREVIEW_FORMAT': 'markdown', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/cs-share/pradalier/venv/torch-cpu-ros2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc101.georgiatech-metz.fr:@/tmp/.ICE-unix/3388,unix/gtlpc101.georgiatech-metz.fr:/tmp/.ICE-unix/3388', 'INVOCATION_ID': '0e6b90620186495da86d0816cd5e36ce', 'VSCODE_NODE_COMPILE_CACHE_ROOT': '/usr/share/code/resources/app/node-compile-cache', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/39376', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':0', 'CLAUDE_PID': '9248', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(torch-cpu-ros2)', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/.mutter-Xwaylandauth.8SC6W3', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/shore_follower_observe:/home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base:/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base:/home/GTL/asacks/ros_workspace/install/pytorch_models_base:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_record_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cv_bridge2:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': '13ca748f-88c9-48b7-b619-258debae7d2f', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/cs-share/pradalier/venv/torch-cpu-ros2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/floor_plane_record_base', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/2a59476c9bfcb90b3ddc372c36762471b7dfad1c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.296-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/opt/ros/kilted/opt/gz_sim_vendor/lib/python:/opt/ros/kilted/opt/sdformat_vendor/lib/python:/opt/ros/kilted/opt/gz_transport_vendor/lib/python:/opt/ros/kilted/opt/gz_msgs_vendor/lib/python:/opt/ros/kilted/opt/gz_math_vendor/lib/python:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/9248.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/shore_follower_observe:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_record_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cv_bridge2:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base:/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base:/home/GTL/asacks/ros_workspace/install/pytorch_models_base:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted', 'VSCODE_PID': '5997'}), 'shell': False}
+[0.099078] (-) TimerEvent: {}
+[0.199222] (-) TimerEvent: {}
+[0.299430] (-) TimerEvent: {}
+[0.347300] (floor_plane_record_base) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/floor_plane_record.dir/src/floor_plane_extract.cpp.o\n'}
+[0.399543] (-) TimerEvent: {}
+[0.499720] (-) TimerEvent: {}
+[0.599908] (-) TimerEvent: {}
+[0.700102] (-) TimerEvent: {}
+[0.800302] (-) TimerEvent: {}
+[0.900480] (-) TimerEvent: {}
+[1.000686] (-) TimerEvent: {}
+[1.100915] (-) TimerEvent: {}
+[1.201113] (-) TimerEvent: {}
+[1.301328] (-) TimerEvent: {}
+[1.401514] (-) TimerEvent: {}
+[1.501700] (-) TimerEvent: {}
+[1.601908] (-) TimerEvent: {}
+[1.702116] (-) TimerEvent: {}
+[1.802318] (-) TimerEvent: {}
+[1.902518] (-) TimerEvent: {}
+[2.002717] (-) TimerEvent: {}
+[2.102878] (-) TimerEvent: {}
+[2.203071] (-) TimerEvent: {}
+[2.303275] (-) TimerEvent: {}
+[2.403498] (-) TimerEvent: {}
+[2.503701] (-) TimerEvent: {}
+[2.603910] (-) TimerEvent: {}
+[2.704130] (-) TimerEvent: {}
+[2.804343] (-) TimerEvent: {}
+[2.904547] (-) TimerEvent: {}
+[3.004756] (-) TimerEvent: {}
+[3.104948] (-) TimerEvent: {}
+[3.205153] (-) TimerEvent: {}
+[3.305343] (-) TimerEvent: {}
+[3.405526] (-) TimerEvent: {}
+[3.505716] (-) TimerEvent: {}
+[3.605892] (-) TimerEvent: {}
+[3.706094] (-) TimerEvent: {}
+[3.806303] (-) TimerEvent: {}
+[3.906491] (-) TimerEvent: {}
+[4.006670] (-) TimerEvent: {}
+[4.106879] (-) TimerEvent: {}
+[4.207048] (-) TimerEvent: {}
+[4.307233] (-) TimerEvent: {}
+[4.407418] (-) TimerEvent: {}
+[4.507622] (-) TimerEvent: {}
+[4.607816] (-) TimerEvent: {}
+[4.708013] (-) TimerEvent: {}
+[4.808198] (-) TimerEvent: {}
+[4.908378] (-) TimerEvent: {}
+[5.008559] (-) TimerEvent: {}
+[5.108724] (-) TimerEvent: {}
+[5.208910] (-) TimerEvent: {}
+[5.309108] (-) TimerEvent: {}
+[5.409305] (-) TimerEvent: {}
+[5.509496] (-) TimerEvent: {}
+[5.609680] (-) TimerEvent: {}
+[5.709872] (-) TimerEvent: {}
+[5.810054] (-) TimerEvent: {}
+[5.910197] (-) TimerEvent: {}
+[6.010381] (-) TimerEvent: {}
+[6.110557] (-) TimerEvent: {}
+[6.210762] (-) TimerEvent: {}
+[6.310956] (-) TimerEvent: {}
+[6.411135] (-) TimerEvent: {}
+[6.511281] (-) TimerEvent: {}
+[6.611460] (-) TimerEvent: {}
+[6.711663] (-) TimerEvent: {}
+[6.811854] (-) TimerEvent: {}
+[6.912068] (-) TimerEvent: {}
+[7.012221] (-) TimerEvent: {}
+[7.112388] (-) TimerEvent: {}
+[7.212569] (-) TimerEvent: {}
+[7.312766] (-) TimerEvent: {}
+[7.412944] (-) TimerEvent: {}
+[7.513118] (-) TimerEvent: {}
+[7.613325] (-) TimerEvent: {}
+[7.713526] (-) TimerEvent: {}
+[7.813717] (-) TimerEvent: {}
+[7.913919] (-) TimerEvent: {}
+[8.014124] (-) TimerEvent: {}
+[8.114279] (-) TimerEvent: {}
+[8.214474] (-) TimerEvent: {}
+[8.314670] (-) TimerEvent: {}
+[8.414861] (-) TimerEvent: {}
+[8.515043] (-) TimerEvent: {}
+[8.615237] (-) TimerEvent: {}
+[8.715429] (-) TimerEvent: {}
+[8.815625] (-) TimerEvent: {}
+[8.915818] (-) TimerEvent: {}
+[9.016038] (-) TimerEvent: {}
+[9.116257] (-) TimerEvent: {}
+[9.216473] (-) TimerEvent: {}
+[9.316667] (-) TimerEvent: {}
+[9.416868] (-) TimerEvent: {}
+[9.517061] (-) TimerEvent: {}
+[9.617251] (-) TimerEvent: {}
+[9.717439] (-) TimerEvent: {}
+[9.817630] (-) TimerEvent: {}
+[9.917827] (-) TimerEvent: {}
+[10.018015] (-) TimerEvent: {}
+[10.118227] (-) TimerEvent: {}
+[10.218418] (-) TimerEvent: {}
+[10.318616] (-) TimerEvent: {}
+[10.418802] (-) TimerEvent: {}
+[10.519010] (-) TimerEvent: {}
+[10.619219] (-) TimerEvent: {}
+[10.719418] (-) TimerEvent: {}
+[10.819609] (-) TimerEvent: {}
+[10.919797] (-) TimerEvent: {}
+[11.019984] (-) TimerEvent: {}
+[11.120191] (-) TimerEvent: {}
+[11.220391] (-) TimerEvent: {}
+[11.320600] (-) TimerEvent: {}
+[11.420790] (-) TimerEvent: {}
+[11.520988] (-) TimerEvent: {}
+[11.621228] (-) TimerEvent: {}
+[11.721403] (-) TimerEvent: {}
+[11.821570] (-) TimerEvent: {}
+[11.921747] (-) TimerEvent: {}
+[12.021913] (-) TimerEvent: {}
+[12.122094] (-) TimerEvent: {}
+[12.222239] (-) TimerEvent: {}
+[12.322405] (-) TimerEvent: {}
+[12.422568] (-) TimerEvent: {}
+[12.522735] (-) TimerEvent: {}
+[12.622899] (-) TimerEvent: {}
+[12.723079] (-) TimerEvent: {}
+[12.823247] (-) TimerEvent: {}
+[12.923433] (-) TimerEvent: {}
+[13.023604] (-) TimerEvent: {}
+[13.123781] (-) TimerEvent: {}
+[13.223970] (-) TimerEvent: {}
+[13.324116] (-) TimerEvent: {}
+[13.424289] (-) TimerEvent: {}
+[13.524470] (-) TimerEvent: {}
+[13.624650] (-) TimerEvent: {}
+[13.724820] (-) TimerEvent: {}
+[13.824993] (-) TimerEvent: {}
+[13.925179] (-) TimerEvent: {}
+[14.025362] (-) TimerEvent: {}
+[14.125536] (-) TimerEvent: {}
+[14.225721] (-) TimerEvent: {}
+[14.325894] (-) TimerEvent: {}
+[14.426086] (-) TimerEvent: {}
+[14.526293] (-) TimerEvent: {}
+[14.626477] (-) TimerEvent: {}
+[14.726632] (-) TimerEvent: {}
+[14.826827] (-) TimerEvent: {}
+[14.927002] (-) TimerEvent: {}
+[15.027174] (-) TimerEvent: {}
+[15.127329] (-) TimerEvent: {}
+[15.227505] (-) TimerEvent: {}
+[15.327675] (-) TimerEvent: {}
+[15.427845] (-) TimerEvent: {}
+[15.528007] (-) TimerEvent: {}
+[15.628167] (-) TimerEvent: {}
+[15.728325] (-) TimerEvent: {}
+[15.828467] (-) TimerEvent: {}
+[15.928622] (-) TimerEvent: {}
+[16.028789] (-) TimerEvent: {}
+[16.128944] (-) TimerEvent: {}
+[16.229064] (-) TimerEvent: {}
+[16.329205] (-) TimerEvent: {}
+[16.429355] (-) TimerEvent: {}
+[16.529543] (-) TimerEvent: {}
+[16.574384] (floor_plane_record_base) StdoutLine: {'line': b'[100%] Linking CXX executable floor_plane_record\n'}
+[16.629659] (-) TimerEvent: {}
+[16.729841] (-) TimerEvent: {}
+[16.830042] (-) TimerEvent: {}
+[16.930199] (-) TimerEvent: {}
+[17.030401] (-) TimerEvent: {}
+[17.130585] (-) TimerEvent: {}
+[17.230772] (-) TimerEvent: {}
+[17.330967] (-) TimerEvent: {}
+[17.431154] (-) TimerEvent: {}
+[17.531336] (-) TimerEvent: {}
+[17.631540] (-) TimerEvent: {}
+[17.731742] (-) TimerEvent: {}
+[17.831905] (-) TimerEvent: {}
+[17.932046] (-) TimerEvent: {}
+[18.032180] (-) TimerEvent: {}
+[18.132316] (-) TimerEvent: {}
+[18.232487] (-) TimerEvent: {}
+[18.332641] (-) TimerEvent: {}
+[18.432779] (-) TimerEvent: {}
+[18.532934] (-) TimerEvent: {}
+[18.633057] (-) TimerEvent: {}
+[18.733193] (-) TimerEvent: {}
+[18.833338] (-) TimerEvent: {}
+[18.933500] (-) TimerEvent: {}
+[19.033655] (-) TimerEvent: {}
+[19.125972] (floor_plane_record_base) StdoutLine: {'line': b'[100%] Built target floor_plane_record\n'}
+[19.133735] (-) TimerEvent: {}
+[19.136209] (floor_plane_record_base) CommandEnded: {'returncode': 0}
+[19.137397] (floor_plane_record_base) JobProgress: {'identifier': 'floor_plane_record_base', 'progress': 'install'}
+[19.144750] (floor_plane_record_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/asacks/ros_workspace/build/floor_plane_record_base'], 'cwd': '/home/GTL/asacks/ros_workspace/build/floor_plane_record_base', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'EGL_PLATFORM': 'wayland', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-296_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLAUDE_AGENT_SDK_VERSION': '0.3.296', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '5ced51499bf9a58c3a190ec3a2d52ec7', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.14-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(torch-cpu-ros2)', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '3214', 'SYSTEMD_EXEC_PID': '3442', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5997', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'CLAUDE_CODE_EMIT_STARTUP_TIMING': '1', 'JOURNAL_STREAM': '10:19407', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_QUESTION_PREVIEW_FORMAT': 'markdown', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/cs-share/pradalier/venv/torch-cpu-ros2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc101.georgiatech-metz.fr:@/tmp/.ICE-unix/3388,unix/gtlpc101.georgiatech-metz.fr:/tmp/.ICE-unix/3388', 'INVOCATION_ID': '0e6b90620186495da86d0816cd5e36ce', 'VSCODE_NODE_COMPILE_CACHE_ROOT': '/usr/share/code/resources/app/node-compile-cache', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/39376', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':0', 'CLAUDE_PID': '9248', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(torch-cpu-ros2)', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/.mutter-Xwaylandauth.8SC6W3', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/shore_follower_observe:/home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base:/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base:/home/GTL/asacks/ros_workspace/install/pytorch_models_base:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_record_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cv_bridge2:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': '13ca748f-88c9-48b7-b619-258debae7d2f', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/cs-share/pradalier/venv/torch-cpu-ros2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/floor_plane_record_base', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/2a59476c9bfcb90b3ddc372c36762471b7dfad1c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.296-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/opt/ros/kilted/opt/gz_sim_vendor/lib/python:/opt/ros/kilted/opt/sdformat_vendor/lib/python:/opt/ros/kilted/opt/gz_transport_vendor/lib/python:/opt/ros/kilted/opt/gz_msgs_vendor/lib/python:/opt/ros/kilted/opt/gz_math_vendor/lib/python:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/9248.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/shore_follower_observe:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_record_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cv_bridge2:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base:/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base:/home/GTL/asacks/ros_workspace/install/pytorch_models_base:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted', 'VSCODE_PID': '5997'}), 'shell': False}
+[19.152710] (floor_plane_record_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.153828] (floor_plane_record_base) StdoutLine: {'line': b'-- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/lib/floor_plane_record_base/floor_plane_record\n'}
+[19.233843] (-) TimerEvent: {}
+[19.334034] (-) TimerEvent: {}
+[19.434179] (-) TimerEvent: {}
+[19.439968] (floor_plane_record_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/floor_plane_record_base/lib/floor_plane_record_base/floor_plane_record" to ""\n'}
+[19.440309] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base\n'}
+[19.441272] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/record.launch.py\n'}
+[19.441618] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/ament_index/resource_index/package_run_dependencies/floor_plane_record_base\n'}
+[19.442248] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/ament_index/resource_index/parent_prefix_path/floor_plane_record_base\n'}
+[19.442617] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/environment/ament_prefix_path.sh\n'}
+[19.442852] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/environment/ament_prefix_path.dsv\n'}
+[19.443303] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/environment/path.sh\n'}
+[19.443559] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/environment/path.dsv\n'}
+[19.444141] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/local_setup.bash\n'}
+[19.444627] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/local_setup.sh\n'}
+[19.445110] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/local_setup.zsh\n'}
+[19.445469] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/local_setup.dsv\n'}
+[19.446403] (floor_plane_record_base) StdoutLine: {'line': b'-- Installing: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/package.dsv\n'}
+[19.449519] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/ament_index/resource_index/packages/floor_plane_record_base\n'}
+[19.449989] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/cmake/floor_plane_record_baseConfig.cmake\n'}
+[19.450651] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/cmake/floor_plane_record_baseConfig-version.cmake\n'}
+[19.451033] (floor_plane_record_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/asacks/ros_workspace/install/floor_plane_record_base/share/floor_plane_record_base/package.xml\n'}
+[19.453139] (floor_plane_record_base) CommandEnded: {'returncode': 0}
+[19.497555] (floor_plane_record_base) JobEnded: {'identifier': 'floor_plane_record_base', 'rc': 0}
+[19.498800] (-) EventReactorShutdown: {}

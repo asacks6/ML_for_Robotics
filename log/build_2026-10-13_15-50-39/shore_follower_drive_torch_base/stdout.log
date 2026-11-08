@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating shore_follower_drive_torch_base.egg-info
+writing shore_follower_drive_torch_base.egg-info/PKG-INFO
+writing dependency_links to shore_follower_drive_torch_base.egg-info/dependency_links.txt
+writing entry points to shore_follower_drive_torch_base.egg-info/entry_points.txt
+writing requirements to shore_follower_drive_torch_base.egg-info/requires.txt
+writing top-level names to shore_follower_drive_torch_base.egg-info/top_level.txt
+writing manifest file 'shore_follower_drive_torch_base.egg-info/SOURCES.txt'
+reading manifest file 'shore_follower_drive_torch_base.egg-info/SOURCES.txt'
+writing manifest file 'shore_follower_drive_torch_base.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/lib/python3.12/site-packages/shore-follower-drive-torch-base.egg-link (link to .)
+Installing shore_follower_drive_node script to /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/lib/shore_follower_drive_torch_base
+
+Installed /home/GTL/asacks/ros_workspace/build/shore_follower_drive_torch_base
+running symlink_data
+creating /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/share/ament_index
+creating /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/share/ament_index/resource_index
+creating /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/shore_follower_drive_torch_base/resource/shore_follower_drive_torch_base -> /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/shore_follower_drive_torch_base/package.xml -> /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/share/shore_follower_drive_torch_base
+symbolically linking /home/GTL/asacks/ros_workspace/build/shore_follower_drive_torch_base/launch/start.launch.py -> /home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/share/shore_follower_drive_torch_base

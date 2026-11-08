@@ -85,15 +85,43 @@ class FloorPlaneExtract: public rclcpp::Node {
 
         ThumbType check_thumb(const cv::Mat_<cv::Vec3b> & /*thumb: unused so far*/,
                 const cv::Mat_<float> & thumb_z) {
-            // TODO: Modify this function to take a decision on the traversability of the patch of ground 
+            // TODO: Modify this function to take a decision on the traversability of the patch of ground
             // corresponding to this image.
+            // Si el robot sube a la orilla, el suelo del lago deja de estar a ground_z
+            // en su marco y todo saldria intransitable: descartamos esas imagenes
+            try {
+                geometry_msgs::msg::Quaternion q = tf_buffer->lookupTransform(world_frame_, base_frame_,
+                        tf2::TimePointZero).transform.rotation;
+                double tilt = acos(std::min(1.0, 1 - 2*(q.x*q.x + q.y*q.y)));
+                if (tilt > 1.0*M_PI/180.) {
+                    return UNUSABLE;
+                }
+            } catch (const tf2::TransformException &) {
+                return UNUSABLE;
+            }
+            // El origen de bubbleRob (Summit XL) esta a 0.31 m sobre el suelo plano del lago
+            const float ground_z = -0.31;
+            const int n_total = thumb_z.rows * thumb_z.cols;
+            int n_valid = 0, n_off = 0;
             for (int r=0;r<thumb_z.rows;r++) {
                 for (int c=0;c<thumb_z.cols;c++) {
                     if (std::isnan(thumb_z(r,c))) {
                         // ignore this point, it has not been observed from the kinect
                         continue;
                     }
+                    n_valid ++;
+                    if (fabs(thumb_z(r,c) - ground_z) > height_threshold_) {
+                        n_off ++;
+                    }
                 }
+            }
+            // Un obstaculo basta con que ocupe una parte clara de la miniatura,
+            // pero para decir transitable hay que ver casi toda la miniatura en 3D
+            if (n_off > 0.2 * n_total) {
+                return UNTRAVERSABLE;
+            }
+            if ((n_valid > 0.9 * n_total) && (n_off < 0.01 * n_total)) {
+                return TRAVERSABLE;
             }
             return UNUSABLE;
         }

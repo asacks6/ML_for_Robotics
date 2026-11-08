@@ -8,11 +8,11 @@ class CNNModel(nn.Module):
         self.cnn_layers = nn.Sequential(
             # Block 1
             # Mini 1
-            nn.Conv2d(classes, 32, 3),
+            nn.Conv2d(channel, 32, 3),
             nn.BatchNorm2d(32),
             nn.ReLU(),
             # Mini 2
-            nn.Conv2d(64, 64, 3),
+            nn.Conv2d(32, 64, 3),
             nn.BatchNorm2d(64),
             nn.MaxPool2d(2),
             nn.ReLU(),
@@ -21,13 +21,13 @@ class CNNModel(nn.Module):
             nn.Linear(12544, 4600),
             nn.ReLU(),
             nn.Dropout(drop),
-            nn.Linear(6400, 3200),
+            nn.Linear(4600, 3200),
             nn.ReLU(),
             nn.Dropout(drop),
             nn.Linear(3200, 1500),
             nn.ReLU(),
             nn.Dropout(drop),
-            nn.Linear(1500, channel),
+            nn.Linear(1500, classes),
         )
 
         self.softmax = nn.Softmax(dim=1)
@@ -47,7 +47,7 @@ class CNNModel(nn.Module):
         ############################################################################
         # normalize input
         model_output = self.cnn_layers(x)
-        # model_output = torch.flatten(model_output, start_dim=1)
+        model_output = torch.flatten(model_output, start_dim=1)
         model_output = self.fc(model_output)
         if self.classes > 1:
             model_output = self.softmax(model_output)

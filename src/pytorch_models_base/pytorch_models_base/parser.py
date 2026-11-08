@@ -19,7 +19,7 @@ class ParseArgs():
         parser.add_argument('--batch_size', type=int, default=32, help='size of the batch')
         parser.add_argument('--dropout', type=float, default=0.7, help='keep probability value')
         parser.add_argument('--loss_func', type=str, default="ce", help='Loss to use')
-        parser.add_argument('--nocuda', type=bool, default="False", help='force CPU only')
+        parser.add_argument('--nocuda', action='store_true', help='force CPU only')
         args = parser.parse_args()
         return args
 

@@ -1,0 +1,53 @@
+[1.187s] Invoking command in '/home/GTL/asacks/ros_workspace/src/pytorch_models_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) PYTHONPATH=/home/GTL/asacks/ros_workspace/build/pytorch_models_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pytorch_models_base build --build-base /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build install --record /home/GTL/asacks/ros_workspace/build/pytorch_models_base/install.log --install-scripts $base/lib/pytorch_models_base --single-version-externally-managed install_data
+[1.452s] running egg_info
+[1.453s] creating ../../build/pytorch_models_base/pytorch_models_base.egg-info
+[1.475s] writing ../../build/pytorch_models_base/pytorch_models_base.egg-info/PKG-INFO
+[1.477s] writing dependency_links to ../../build/pytorch_models_base/pytorch_models_base.egg-info/dependency_links.txt
+[1.478s] writing entry points to ../../build/pytorch_models_base/pytorch_models_base.egg-info/entry_points.txt
+[1.479s] writing requirements to ../../build/pytorch_models_base/pytorch_models_base.egg-info/requires.txt
+[1.479s] writing top-level names to ../../build/pytorch_models_base/pytorch_models_base.egg-info/top_level.txt
+[1.480s] writing manifest file '../../build/pytorch_models_base/pytorch_models_base.egg-info/SOURCES.txt'
+[1.524s] reading manifest file '../../build/pytorch_models_base/pytorch_models_base.egg-info/SOURCES.txt'
+[1.525s] adding license file 'LICENSE'
+[1.526s] writing manifest file '../../build/pytorch_models_base/pytorch_models_base.egg-info/SOURCES.txt'
+[1.527s] running build
+[1.527s] running build_py
+[1.528s] creating /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build
+[1.529s] creating /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib
+[1.530s] creating /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.531s] copying pytorch_models_base/train.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.532s] copying pytorch_models_base/reader.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.533s] copying pytorch_models_base/sampler.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.535s] copying pytorch_models_base/__init__.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.536s] copying pytorch_models_base/venv_hack.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.538s] copying pytorch_models_base/parser.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.539s] copying pytorch_models_base/model.py -> /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base
+[1.541s] running install
+[1.546s] running install_lib
+[1.570s] creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.571s] copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/train.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.573s] copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/reader.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.575s] copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/sampler.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.577s] copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/__init__.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.579s] copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/venv_hack.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.580s] copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/parser.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.582s] copying /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build/lib/pytorch_models_base/model.py -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base
+[1.585s] byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/train.py to train.cpython-312.pyc
+[1.589s] byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/reader.py to reader.cpython-312.pyc
+[1.592s] byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/sampler.py to sampler.cpython-312.pyc
+[1.595s] byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/__init__.py to __init__.cpython-312.pyc
+[1.597s] byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/venv_hack.py to venv_hack.cpython-312.pyc
+[1.599s] byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/parser.py to parser.cpython-312.pyc
+[1.601s] byte-compiling /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base/model.py to model.cpython-312.pyc
+[1.604s] running install_data
+[1.604s] creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index
+[1.605s] creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index
+[1.606s] creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index/packages
+[1.607s] copying resource/pytorch_models_base -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index/packages
+[1.609s] copying package.xml -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/pytorch_models_base
+[1.610s] running install_egg_info
+[1.635s] Copying ../../build/pytorch_models_base/pytorch_models_base.egg-info to /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch_models_base-0.0.0-py3.12.egg-info
+[1.652s] running install_scripts
+[1.805s] Installing train script to /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/pytorch_models_base
+[1.807s] writing list of installed files to '/home/GTL/asacks/ros_workspace/build/pytorch_models_base/install.log'
+[1.828s] Invoked command in '/home/GTL/asacks/ros_workspace/src/pytorch_models_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) PYTHONPATH=/home/GTL/asacks/ros_workspace/build/pytorch_models_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pytorch_models_base build --build-base /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build install --record /home/GTL/asacks/ros_workspace/build/pytorch_models_base/install.log --install-scripts $base/lib/pytorch_models_base --single-version-externally-managed install_data

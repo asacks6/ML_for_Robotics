@@ -1,0 +1,75 @@
+[ 17%] Building CXX object CMakeFiles/floornav_TaskNav2.dir/tasks/TaskNav2.cpp.o
+[ 17%] Building CXX object CMakeFiles/floornav_TaskSetMux.dir/tasks/TaskSetMux.cpp.o
+[ 17%] Building CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o
+[ 17%] Building CXX object CMakeFiles/floornav_TaskConstant.dir/tasks/TaskConstant.cpp.o
+[ 21%] Linking CXX shared library libfloornav_TaskConstant.so
+[ 26%] Linking CXX shared library libfloornav_TaskSetMux.so
+[ 30%] Building CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o
+[ 34%] Linking CXX shared library libfloornav_TaskNav2.so
+[ 39%] Linking CXX executable floornav_task_server
+[ 39%] Built target floornav_TaskConstant
+[ 43%] Building CXX object CMakeFiles/floornav_TaskGoTo.dir/tasks/TaskGoTo.cpp.o
+[ 43%] Built target floornav_TaskSetMux
+[ 47%] Building CXX object CMakeFiles/floornav_TaskSetHeading.dir/tasks/TaskSetHeading.cpp.o
+[ 52%] Linking CXX shared library libfloornav_TaskGoTo.so
+[ 56%] Linking CXX shared library libfloornav_TaskSetHeading.so
+[ 56%] Built target floornav_TaskNav2
+[ 60%] Building CXX object CMakeFiles/floornav_TaskPlanTo.dir/tasks/TaskPlanTo.cpp.o
+[ 60%] Built target floornav_task_server
+[ 65%] Building CXX object CMakeFiles/floornav_TaskWaitForROI.dir/tasks/TaskWaitForROI.cpp.o
+[ 69%] Linking CXX shared library libfloornav_TaskPlanTo.so
+[ 73%] Linking CXX shared library libfloornav_TaskWaitForROI.so
+[ 73%] Built target floornav_TaskSetHeading
+[ 73%] Built target floornav_TaskGoTo
+[ 78%] Building CXX object CMakeFiles/floornav_TaskWander.dir/tasks/TaskWander.cpp.o
+[ 82%] Building CXX object CMakeFiles/floornav_TaskAutoDock.dir/tasks/TaskAutoDock.cpp.o
+[ 86%] Linking CXX shared library libfloornav_TaskWander.so
+[ 91%] Linking CXX shared library libfloornav_TaskAutoDock.so
+[ 91%] Built target floornav_TaskWaitForROI
+[ 95%] Building CXX object CMakeFiles/floornav_TaskScan.dir/tasks/TaskScan.cpp.o
+[ 95%] Built target floornav_TaskPlanTo
+[100%] Linking CXX shared library libfloornav_TaskScan.so
+[100%] Built target floornav_TaskWander
+[100%] Built target floornav_TaskAutoDock
+[100%] Built target floornav_TaskScan
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskNav2.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetMux.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskConstant.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskGoTo.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetHeading.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskPlanTo.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForROI.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWander.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskAutoDock.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskScan.so
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/floornav_task_server
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/__pycache__/launch_server_tb.launch.cpython-310.pyc
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server.launch.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server_tb.launch.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/explore_scan.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever.py
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever-test.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_goto.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph_2d.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph-test.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_planto.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_set_heading.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_wander.py
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/package_run_dependencies/floor_nav
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/parent_prefix_path/floor_nav
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.bash
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.sh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.zsh
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.dsv
+-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.dsv
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/packages/floor_nav
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig.cmake
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig-version.cmake
+-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.xml

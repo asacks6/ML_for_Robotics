@@ -17,6 +17,11 @@ project.launch.py starts everything above except the mission:
   ros2 launch floor_plane_mapping project.launch.py
   ros2 run floor_nav explore_scan.py
 
+For the test scene (rosControlKinect3d-test.ttt), select the test graph:
+
+  ros2 launch floor_plane_mapping project.launch.py graph_launch:=floor_graph-test.launch.py
+  ros2 run floor_nav graph_forever-test.py
+
 explore_scan.py selects /mux/autoCommand on the mux itself, so the manual
 service call is not needed with this mission.
 

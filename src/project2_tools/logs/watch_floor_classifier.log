@@ -1,0 +1,26 @@
+[INFO] [launch]: All log files can be found below /home/GTL/asacks/.ros/log/2026-11-08-16-34-40-311275-gtlpc102.georgiatech-metz.fr-353737
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [floor_plane_classify_node-1]: process started with pid [353743]
+[floor_plane_classify_node-1] [INFO] [1794152082.544862378] [floor_plane_classify]: Loding pytorch model
+[floor_plane_classify_node-1] [INFO] [1794152082.987789556] [floor_plane_classify]: Model loaded, ready to run
+[floor_plane_classify_node-1] Virtual env (python3.12): /cs-share/pradalier/venv/torch-cpu-ros2
+[floor_plane_classify_node-1] Traceback (most recent call last):
+[floor_plane_classify_node-1]   File "/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/floor_plane_classify_torch_base/floor_plane_classify_node", line 33, in <module>
+[floor_plane_classify_node-1]     sys.exit(load_entry_point('floor-plane-classify-torch-base', 'console_scripts', 'floor_plane_classify_node')())
+[floor_plane_classify_node-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[floor_plane_classify_node-1]   File "/home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base/floor_plane_classify_torch_base/floor_plane_classify_node.py", line 110, in main
+[floor_plane_classify_node-1]     rclpy.spin(classify)
+[floor_plane_classify_node-1]   File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/__init__.py", line 324, in spin
+[floor_plane_classify_node-1]     executor.spin_once()
+[floor_plane_classify_node-1]   File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 1017, in spin_once
+[floor_plane_classify_node-1]     self._spin_once_impl(timeout_sec)
+[floor_plane_classify_node-1]   File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 997, in _spin_once_impl
+[floor_plane_classify_node-1]     handler, entity, node = self.wait_for_ready_callbacks(
+[floor_plane_classify_node-1]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[floor_plane_classify_node-1]   File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 967, in wait_for_ready_callbacks
+[floor_plane_classify_node-1]     return next(self._cb_iter)
+[floor_plane_classify_node-1]            ^^^^^^^^^^^^^^^^^^^
+[floor_plane_classify_node-1]   File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 873, in _wait_for_ready_callbacks
+[floor_plane_classify_node-1]     raise ExternalShutdownException()
+[floor_plane_classify_node-1] rclpy.executors.ExternalShutdownException
+[ERROR] [floor_plane_classify_node-1]: process has died [pid 353743, exit code 1, cmd '/home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/floor_plane_classify_torch_base/floor_plane_classify_node --ros-args -r __node:=floor_plane_classify --params-file /tmp/launch_params_9_lvzbvv --params-file /tmp/launch_params_4mm92zr0 --params-file /tmp/launch_params_kzfu3sem --params-file /tmp/launch_params_kazfwev7 --params-file /tmp/launch_params_t8q8ulz5 -r ~/image:=/vrep/kision/image'].

@@ -1,0 +1,4 @@
+source;share/shore_follower_observe/local_setup.bash
+source;share/shore_follower_observe/local_setup.dsv
+source;share/shore_follower_observe/local_setup.sh
+source;share/shore_follower_observe/local_setup.zsh

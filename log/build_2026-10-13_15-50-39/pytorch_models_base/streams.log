@@ -1,0 +1,24 @@
+[1.240s] Invoking command in '/home/GTL/asacks/ros_workspace/build/pytorch_models_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) PYTHONPATH=/home/GTL/asacks/ros_workspace/build/pytorch_models_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build --no-deps symlink_data
+[1.613s] running develop
+[1.936s] running egg_info
+[1.938s] creating pytorch_models_base.egg-info
+[1.960s] writing pytorch_models_base.egg-info/PKG-INFO
+[1.963s] writing dependency_links to pytorch_models_base.egg-info/dependency_links.txt
+[1.964s] writing entry points to pytorch_models_base.egg-info/entry_points.txt
+[1.965s] writing requirements to pytorch_models_base.egg-info/requires.txt
+[1.966s] writing top-level names to pytorch_models_base.egg-info/top_level.txt
+[1.968s] writing manifest file 'pytorch_models_base.egg-info/SOURCES.txt'
+[2.019s] reading manifest file 'pytorch_models_base.egg-info/SOURCES.txt'
+[2.020s] writing manifest file 'pytorch_models_base.egg-info/SOURCES.txt'
+[2.045s] running build_ext
+[2.046s] Creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages/pytorch-models-base.egg-link (link to .)
+[2.049s] Installing train script to /home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/pytorch_models_base
+[2.052s] 
+[2.053s] Installed /home/GTL/asacks/ros_workspace/build/pytorch_models_base
+[2.053s] running symlink_data
+[2.054s] creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index
+[2.055s] creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index
+[2.057s] creating /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index/packages
+[2.058s] symbolically linking /home/GTL/asacks/ros_workspace/build/pytorch_models_base/resource/pytorch_models_base -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/ament_index/resource_index/packages
+[2.059s] symbolically linking /home/GTL/asacks/ros_workspace/build/pytorch_models_base/package.xml -> /home/GTL/asacks/ros_workspace/install/pytorch_models_base/share/pytorch_models_base
+[2.084s] Invoked command in '/home/GTL/asacks/ros_workspace/build/pytorch_models_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) PYTHONPATH=/home/GTL/asacks/ros_workspace/build/pytorch_models_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/pytorch_models_base/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/pytorch_models_base/build --no-deps symlink_data

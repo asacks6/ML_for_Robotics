@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating floor_plane_classify_torch_base.egg-info
+writing floor_plane_classify_torch_base.egg-info/PKG-INFO
+writing dependency_links to floor_plane_classify_torch_base.egg-info/dependency_links.txt
+writing entry points to floor_plane_classify_torch_base.egg-info/entry_points.txt
+writing requirements to floor_plane_classify_torch_base.egg-info/requires.txt
+writing top-level names to floor_plane_classify_torch_base.egg-info/top_level.txt
+writing manifest file 'floor_plane_classify_torch_base.egg-info/SOURCES.txt'
+reading manifest file 'floor_plane_classify_torch_base.egg-info/SOURCES.txt'
+writing manifest file 'floor_plane_classify_torch_base.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/python3.12/site-packages/floor-plane-classify-torch-base.egg-link (link to .)
+Installing floor_plane_classify_node script to /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/lib/floor_plane_classify_torch_base
+
+Installed /home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base
+running symlink_data
+creating /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/share/ament_index
+creating /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/share/ament_index/resource_index
+creating /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base/resource/floor_plane_classify_torch_base -> /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base/package.xml -> /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/share/floor_plane_classify_torch_base
+symbolically linking /home/GTL/asacks/ros_workspace/build/floor_plane_classify_torch_base/launch/start.launch.py -> /home/GTL/asacks/ros_workspace/install/floor_plane_classify_torch_base/share/floor_plane_classify_torch_base

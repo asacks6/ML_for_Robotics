@@ -1,0 +1,65 @@
+[0.502s] Invoking command in '/home/GTL/asacks/ros_workspace/build/floor_nav': CMAKE_PREFIX_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib PYTHONPATH=/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/floor_nav -- -j16 -l16
+[0.673s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.947s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.010s] -- Found rclcpp: 29.5.8 (/opt/ros/kilted/share/rclcpp/cmake)
+[1.042s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.054s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.187s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[1.196s] -- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[1.199s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.322s] -- Found rclcpp_action: 29.5.8 (/opt/ros/kilted/share/rclcpp_action/cmake)
+[1.370s] -- Found rclpy: 9.1.5 (/opt/ros/kilted/share/rclpy/cmake)
+[1.385s] -- Found task_manager_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_msgs/share/task_manager_msgs/cmake)
+[1.543s] -- Found task_manager_lib: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake)
+[1.582s] -- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[1.622s] -- Found topic_tools_interfaces: 1.4.5 (/opt/ros/kilted/share/topic_tools_interfaces/cmake)
+[1.658s] -- Found cs7630_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake)
+[1.734s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/kilted/share/kobuki_ros_interfaces/cmake)
+[1.796s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.802s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.824s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.642s] -- Found pcl_conversions: 2.8.0 (/opt/ros/kilted/share/pcl_conversions/cmake)
+[2.677s] -- Found tf2: 0.41.7 (/opt/ros/kilted/share/tf2/cmake)
+[2.682s] -- Found tf2_ros: 0.41.7 (/opt/ros/kilted/share/tf2_ros/cmake)
+[2.748s] -- Found tf2_geometry_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+[2.754s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[2.755s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.759s] -- Found task_manager_nav2: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_nav2/share/task_manager_nav2/cmake)
+[2.996s] Adding task TaskNav2
+[3.614s] Adding task TaskSetMux
+[4.207s] Adding task TaskConstant
+[4.812s] Adding task TaskGoTo
+[5.397s] Adding task TaskSetHeading
+[5.982s] Adding task TaskPlanTo
+[6.567s] Adding task TaskWaitForROI
+[7.162s] Adding task TaskWander
+[7.752s] Adding task TaskAutoDock
+[8.334s] Adding task TaskScan
+[8.931s] -- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[9.140s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.154s] -- Configured cppcheck include dirs: /home/GTL/asacks/ros_workspace/src/floor_nav/include
+[9.155s] -- Configured cppcheck exclude dirs and/or files: 
+[9.157s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.158s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.163s] -- Added test 'lint_cmake' to check CMake code style
+[9.165s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.182s] -- Added test 'uncrustify' to check C / C++ code style
+[9.183s] -- Configured uncrustify additional arguments: 
+[9.185s] -- Added test 'xmllint' to check XML markup files
+[9.198s] -- Configuring done (8.6s)
+[17.131s] -- Generating done (6.3s)
+[18.390s] -- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_nav
+[18.697s] [  8%] Building CXX object CMakeFiles/floornav_TaskConstant.dir/tasks/TaskConstant.cpp.o
+[18.697s] [  8%] Building CXX object CMakeFiles/floornav_TaskGoTo.dir/tasks/TaskGoTo.cpp.o
+[18.701s] [ 21%] Building CXX object CMakeFiles/floornav_TaskScan.dir/tasks/TaskScan.cpp.o
+[18.701s] [ 21%] Building CXX object CMakeFiles/floornav_TaskWander.dir/tasks/TaskWander.cpp.o
+[18.701s] [ 21%] Building CXX object CMakeFiles/floornav_TaskNav2.dir/tasks/TaskNav2.cpp.o
+[18.715s] [ 30%] Building CXX object CMakeFiles/floornav_TaskSetMux.dir/tasks/TaskSetMux.cpp.o
+[18.716s] [ 30%] Building CXX object CMakeFiles/floornav_TaskWaitForROI.dir/tasks/TaskWaitForROI.cpp.o
+[18.722s] [ 34%] Building CXX object CMakeFiles/floornav_TaskSetHeading.dir/tasks/TaskSetHeading.cpp.o
+[18.739s] [ 39%] Building CXX object CMakeFiles/floornav_TaskAutoDock.dir/tasks/TaskAutoDock.cpp.o
+[18.743s] [ 43%] Building CXX object CMakeFiles/floornav_TaskPlanTo.dir/tasks/TaskPlanTo.cpp.o
+[18.755s] [ 47%] Building CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o
+[18.759s] [ 52%] Building CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o

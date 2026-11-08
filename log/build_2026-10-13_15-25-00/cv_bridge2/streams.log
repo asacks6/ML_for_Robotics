@@ -1,0 +1,124 @@
+[0.286s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cv_bridge2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/cv_bridge2 -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/cv_bridge2
+[0.442s] -- The C compiler identification is GNU 13.3.0
+[0.560s] -- The CXX compiler identification is GNU 13.3.0
+[0.576s] -- Detecting C compiler ABI info
+[0.731s] -- Detecting C compiler ABI info - done
+[0.738s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.738s] -- Detecting C compile features
+[0.738s] -- Detecting C compile features - done
+[0.750s] -- Detecting CXX compiler ABI info
+[0.890s] -- Detecting CXX compiler ABI info - done
+[0.898s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.898s] -- Detecting CXX compile features
+[0.899s] -- Detecting CXX compile features - done
+[0.968s] -- Found ament_cmake_ros: 0.14.8 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[1.352s] -- Found Python3: /cs-share/pradalier/venv/torch-cpu-ros2/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.688s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[2.862s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: python312 
+[2.915s] -- Found rclcpp: 29.5.11 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.300s] -- Found rosidl_generator_c: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.448s] -- Found rosidl_generator_cpp: 4.9.8 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.278s] -- Found rmw_implementation_cmake: 7.8.3 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[4.334s] -- Found rmw_zenoh_cpp: 0.6.8 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[4.336s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[4.690s] -- Found sensor_msgs: 5.5.3 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[5.030s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[5.155s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[5.156s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[5.276s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[5.277s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[5.401s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[5.465s] -- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[6.096s] -- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.229s] -- Found Threads: TRUE  
+[7.017s] -- Configuring done (6.7s)
+[7.268s] -- Generating done (0.2s)
+[7.332s] -- Build files have been written to: /home/GTL/asacks/ros_workspace/build/cv_bridge2
+[7.341s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cv_bridge2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/cmake /home/GTL/asacks/ros_workspace/src/cv_bridge2 -DCMAKE_INSTALL_PREFIX=/home/GTL/asacks/ros_workspace/install/cv_bridge2
+[7.342s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cv_bridge2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/cv_bridge2 -- -j16 -l16
+[7.397s] [ 27%] Building CXX object src/CMakeFiles/cv_bridge2.dir/cv_bridge.cpp.o
+[7.398s] [ 27%] Building CXX object src/CMakeFiles/cv_bridge2.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o
+[7.399s] [ 27%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[7.400s] [ 27%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[7.400s] [ 27%] Building CXX object src/CMakeFiles/cv_bridge2.dir/rgb_colors.cpp.o
+[7.408s] [ 27%] Built target ament_cmake_python_copy_cv_bridge2
+[7.901s] running egg_info
+[7.927s] creating cv_bridge2.egg-info
+[7.928s] writing cv_bridge2.egg-info/PKG-INFO
+[7.931s] writing dependency_links to cv_bridge2.egg-info/dependency_links.txt
+[7.933s] writing top-level names to cv_bridge2.egg-info/top_level.txt
+[7.934s] writing manifest file 'cv_bridge2.egg-info/SOURCES.txt'
+[8.010s] reading manifest file 'cv_bridge2.egg-info/SOURCES.txt'
+[8.011s] writing manifest file 'cv_bridge2.egg-info/SOURCES.txt'
+[8.059s] [ 27%] Built target ament_cmake_python_build_cv_bridge2_egg
+[8.087s] [ 33%] Linking CXX static library libgtest_main.a
+[8.235s] [ 33%] Built target gtest_main
+[10.335s] [ 38%] Linking CXX shared library libcv_bridge2.so
+[10.395s] [ 44%] Linking CXX static library libgtest.a
+[10.624s] [ 44%] Built target gtest
+[10.647s] [ 44%] Built target cv_bridge2
+[10.670s] [ 61%] Building CXX object test/CMakeFiles/cv_bridge2-utest.dir/test_rgb_colors.cpp.o
+[10.672s] [ 83%] Building CXX object test/CMakeFiles/cv_bridge2-utest.dir/test_endian.cpp.o
+[10.673s] [ 83%] Building CXX object src/CMakeFiles/cv_bridge2_boost.dir/module.cpp.o
+[10.674s] [ 83%] Building CXX object test/CMakeFiles/cv_bridge2-utest.dir/utest.cpp.o
+[10.675s] [ 83%] Building CXX object test/CMakeFiles/cv_bridge2-utest.dir/test_compression.cpp.o
+[10.676s] [ 88%] Building CXX object src/CMakeFiles/cv_bridge2_boost.dir/module_opencv4.cpp.o
+[10.678s] [ 88%] Building CXX object test/CMakeFiles/cv_bridge2-utest.dir/utest2.cpp.o
+[10.679s] [ 88%] Building CXX object test/CMakeFiles/cv_bridge2-utest.dir/test_dynamic_scaling.cpp.o
+[13.838s] [ 94%] Linking CXX executable cv_bridge2-utest
+[14.796s] [ 94%] Built target cv_bridge2-utest
+[15.020s] [100%] Linking CXX shared module boost/cv_bridge2_boost.so
+[15.271s] [100%] Built target cv_bridge2_boost
+[15.286s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cv_bridge2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/cmake --build /home/GTL/asacks/ros_workspace/build/cv_bridge2 -- -j16 -l16
+[15.295s] Invoking command in '/home/GTL/asacks/ros_workspace/build/cv_bridge2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/cv_bridge2
+[15.303s] -- Install configuration: ""
+[15.309s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/environment/pythonpath.sh
+[15.313s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/environment/pythonpath.dsv
+[15.317s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2-4.1.0-py3.12.egg-info
+[15.322s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2-4.1.0-py3.12.egg-info/dependency_links.txt
+[15.326s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2-4.1.0-py3.12.egg-info/top_level.txt
+[15.329s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2-4.1.0-py3.12.egg-info/PKG-INFO
+[15.333s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2-4.1.0-py3.12.egg-info/SOURCES.txt
+[15.337s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2
+[15.339s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2/__init__.py
+[15.343s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2/core.py
+[15.395s] Listing '/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2'...
+[15.395s] Compiling '/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2/__init__.py'...
+[15.395s] Compiling '/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2/core.py'...
+[15.401s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/libcv_bridge2.so
+[15.425s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/libcv_bridge2.so" to ""
+[15.429s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/include/cv_bridge2/cv_bridge2/cv_bridge2_export.h
+[15.436s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2/boost/cv_bridge2_boost.so
+[15.461s] -- Set non-toolchain portion of runtime path of "/home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/python3.12/site-packages/cv_bridge2/boost/cv_bridge2_boost.so" to ""
+[15.463s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/cv_bridge2/include/cv_bridge2
+[15.464s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/cv_bridge2/include/cv_bridge2/cv_bridge2
+[15.464s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/include/cv_bridge2/cv_bridge2/cv_bridge.hpp
+[15.468s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/include/cv_bridge2/cv_bridge2/visibility_control.h
+[15.471s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/include/cv_bridge2/cv_bridge2/cv_mat_sensor_msgs_image_type_adapter.hpp
+[15.475s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/include/cv_bridge2/cv_bridge2/rgb_colors.hpp
+[15.478s] -- Up-to-date: /home/GTL/asacks/ros_workspace/install/cv_bridge2/lib/libcv_bridge2.so
+[15.485s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/ament_index/resource_index/package_run_dependencies/cv_bridge2
+[15.491s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/ament_index/resource_index/parent_prefix_path/cv_bridge2
+[15.495s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/environment/ament_prefix_path.sh
+[15.498s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/environment/ament_prefix_path.dsv
+[15.502s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/environment/path.sh
+[15.505s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/environment/path.dsv
+[15.509s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/local_setup.bash
+[15.513s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/local_setup.sh
+[15.516s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/local_setup.zsh
+[15.520s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/local_setup.dsv
+[15.524s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/package.dsv
+[15.530s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/ament_index/resource_index/packages/cv_bridge2
+[15.535s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/cmake/export_cv_bridge2Export.cmake
+[15.539s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/cmake/export_cv_bridge2Export-noconfig.cmake
+[15.543s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/cmake/cv_bridge2-extras.cmake
+[15.546s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.550s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/cmake/ament_cmake_export_targets-extras.cmake
+[15.553s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/cmake/cv_bridge2Config.cmake
+[15.556s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/cmake/cv_bridge2Config-version.cmake
+[15.559s] -- Installing: /home/GTL/asacks/ros_workspace/install/cv_bridge2/share/cv_bridge2/package.xml
+[15.565s] Invoked command in '/home/GTL/asacks/ros_workspace/build/cv_bridge2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch-cpu-ros2) VIRTUAL_ENV_PROMPT=(torch-cpu-ros2) /usr/bin/cmake --install /home/GTL/asacks/ros_workspace/build/cv_bridge2

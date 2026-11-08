@@ -1,0 +1,687 @@
+[0.000000] (-) TimerEvent: {}
+[0.000046] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000297] (-) JobUnselected: {'identifier': 'cs7630_msgs'}
+[0.000585] (-) JobUnselected: {'identifier': 'cv_bridge2'}
+[0.000598] (-) JobUnselected: {'identifier': 'cylinder_detector'}
+[0.000608] (-) JobUnselected: {'identifier': 'floor_plane_ceres_base'}
+[0.000617] (-) JobUnselected: {'identifier': 'floor_plane_hough_base'}
+[0.000625] (-) JobUnselected: {'identifier': 'floor_plane_mapping'}
+[0.000634] (-) JobUnselected: {'identifier': 'floor_plane_ransac_base'}
+[0.000641] (-) JobUnselected: {'identifier': 'floor_plane_record_base'}
+[0.000649] (-) JobUnselected: {'identifier': 'floor_plane_regression_base'}
+[0.000657] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.000664] (-) JobUnselected: {'identifier': 'model_prediction'}
+[0.000673] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000680] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000688] (-) JobUnselected: {'identifier': 'pytorch_models_base'}
+[0.000696] (-) JobUnselected: {'identifier': 'shore_follower_observe'}
+[0.000703] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000711] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000724] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000740] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000749] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000757] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000765] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000773] (-) JobUnselected: {'identifier': 'vrep_vsv_driver'}
+[0.000785] (floor_graph) JobQueued: {'identifier': 'floor_graph', 'dependencies': OrderedDict()}
+[0.000798] (floor_nav) JobQueued: {'identifier': 'floor_nav', 'dependencies': OrderedDict({'cs7630_msgs': '/home/GTL/asacks/ros_workspace/install/cs7630_msgs', 'nav2_common': '/home/GTL/asacks/ros_workspace/install/nav2_common', 'task_manager_msgs': '/home/GTL/asacks/ros_workspace/install/task_manager_msgs', 'nav2_msgs': '/home/GTL/asacks/ros_workspace/install/nav2_msgs', 'task_manager_lib': '/home/GTL/asacks/ros_workspace/install/task_manager_lib', 'task_manager_nav2': '/home/GTL/asacks/ros_workspace/install/task_manager_nav2'})}
+[0.000818] (floor_graph) JobStarted: {'identifier': 'floor_graph'}
+[0.061451] (floor_nav) JobStarted: {'identifier': 'floor_nav'}
+[0.099469] (-) TimerEvent: {}
+[0.199625] (-) TimerEvent: {}
+[0.299793] (-) TimerEvent: {}
+[0.399958] (-) TimerEvent: {}
+[0.407436] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'cmake'}
+[0.500058] (-) TimerEvent: {}
+[0.543279] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'build'}
+[0.558559] (floor_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/asacks/ros_workspace/build/floor_nav', '--', '-j16', '-l16'], 'cwd': '/home/GTL/asacks/ros_workspace/build/floor_nav', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-296_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLAUDE_AGENT_SDK_VERSION': '0.3.296', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '644a98315298bd54e6f0a7ac3018da85', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/asacks/ros_workspace', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.13-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '1366782', 'SYSTEMD_EXEC_PID': '1367135', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1371993', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'CLAUDE_CODE_EMIT_STARTUP_TIMING': '1', 'JOURNAL_STREAM': '10:21833224', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_QUESTION_PREVIEW_FORMAT': 'markdown', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc101.georgiatech-metz.fr:@/tmp/.ICE-unix/1367064,unix/gtlpc101.georgiatech-metz.fr:/tmp/.ICE-unix/1367064', 'INVOCATION_ID': '1da4ae03465a40cbb98140bfd8735df1', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':7', 'XDG_RUNTIME_DIR': '/run/user/39376', 'GDK_BACKEND': 'wayland', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':6', 'CLAUDE_PID': '1373283', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/.mutter-Xwaylandauth.SDD1W3', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'fb7b8a84-2bd9-4226-91e6-897720ba1059', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/floor_nav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/110a328ea54b42367b803ec53ee0bf52ef26b419', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.296-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/1373283.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted', 'VSCODE_PID': '1371993'}), 'shell': False}
+[0.600149] (-) TimerEvent: {}
+[0.700329] (-) TimerEvent: {}
+[0.733933] (floor_nav) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.800421] (-) TimerEvent: {}
+[0.900597] (-) TimerEvent: {}
+[1.000797] (-) TimerEvent: {}
+[1.008885] (floor_nav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.071709] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp: 29.5.8 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[1.100904] (-) TimerEvent: {}
+[1.103301] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[1.115535] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[1.138296] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.160930] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200994] (-) TimerEvent: {}
+[1.248476] (floor_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[1.257648] (floor_nav) StdoutLine: {'line': b'-- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)\n'}
+[1.260302] (floor_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_zenoh_cpp' as default\n"}
+[1.301109] (-) TimerEvent: {}
+[1.383523] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp_action: 29.5.8 (/opt/ros/kilted/share/rclcpp_action/cmake)\n'}
+[1.401202] (-) TimerEvent: {}
+[1.431207] (floor_nav) StdoutLine: {'line': b'-- Found rclpy: 9.1.5 (/opt/ros/kilted/share/rclpy/cmake)\n'}
+[1.445976] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_msgs/share/task_manager_msgs/cmake)\n'}
+[1.501307] (-) TimerEvent: {}
+[1.601484] (-) TimerEvent: {}
+[1.604668] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_lib: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake)\n'}
+[1.643437] (floor_nav) StdoutLine: {'line': b'-- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)\n'}
+[1.683105] (floor_nav) StdoutLine: {'line': b'-- Found topic_tools_interfaces: 1.4.5 (/opt/ros/kilted/share/topic_tools_interfaces/cmake)\n'}
+[1.701589] (-) TimerEvent: {}
+[1.719819] (floor_nav) StdoutLine: {'line': b'-- Found cs7630_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake)\n'}
+[1.795228] (floor_nav) StdoutLine: {'line': b'-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/kilted/share/kobuki_ros_interfaces/cmake)\n'}
+[1.801695] (-) TimerEvent: {}
+[1.857317] (floor_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.863552] (floor_nav) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.885275] (floor_nav) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[1.901773] (-) TimerEvent: {}
+[2.001956] (-) TimerEvent: {}
+[2.073114] (floor_graph) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/GTL/asacks/ros_workspace/build/floor_graph/build', '--no-deps', 'symlink_data'], 'cwd': '/home/GTL/asacks/ros_workspace/build/floor_graph', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-296_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLAUDE_AGENT_SDK_VERSION': '0.3.296', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '644a98315298bd54e6f0a7ac3018da85', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/asacks/ros_workspace', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.13-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '1366782', 'SYSTEMD_EXEC_PID': '1367135', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1371993', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'CLAUDE_CODE_EMIT_STARTUP_TIMING': '1', 'JOURNAL_STREAM': '10:21833224', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_QUESTION_PREVIEW_FORMAT': 'markdown', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc101.georgiatech-metz.fr:@/tmp/.ICE-unix/1367064,unix/gtlpc101.georgiatech-metz.fr:/tmp/.ICE-unix/1367064', 'INVOCATION_ID': '1da4ae03465a40cbb98140bfd8735df1', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':7', 'XDG_RUNTIME_DIR': '/run/user/39376', 'GDK_BACKEND': 'wayland', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':6', 'CLAUDE_PID': '1373283', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/.mutter-Xwaylandauth.SDD1W3', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'fb7b8a84-2bd9-4226-91e6-897720ba1059', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/floor_graph', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/110a328ea54b42367b803ec53ee0bf52ef26b419', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.296-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/build/floor_graph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/1373283.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor', 'VSCODE_PID': '1371993'}, 'shell': False}
+[2.102054] (-) TimerEvent: {}
+[2.202218] (-) TimerEvent: {}
+[2.302392] (-) TimerEvent: {}
+[2.402582] (-) TimerEvent: {}
+[2.502739] (-) TimerEvent: {}
+[2.509358] (floor_graph) StdoutLine: {'line': b'running develop\n'}
+[2.602825] (-) TimerEvent: {}
+[2.702988] (-) TimerEvent: {}
+[2.703146] (floor_nav) StdoutLine: {'line': b'-- Found pcl_conversions: 2.8.0 (/opt/ros/kilted/share/pcl_conversions/cmake)\n'}
+[2.738545] (floor_nav) StdoutLine: {'line': b'-- Found tf2: 0.41.7 (/opt/ros/kilted/share/tf2/cmake)\n'}
+[2.743083] (floor_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.41.7 (/opt/ros/kilted/share/tf2_ros/cmake)\n'}
+[2.803109] (-) TimerEvent: {}
+[2.809080] (floor_nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)\n'}
+[2.815176] (floor_nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)\n'}
+[2.816802] (floor_nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.820978] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_nav2: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_nav2/share/task_manager_nav2/cmake)\n'}
+[2.896872] (floor_graph) StdoutLine: {'line': b'running egg_info\n'}
+[2.903189] (-) TimerEvent: {}
+[2.922192] (floor_graph) StdoutLine: {'line': b'writing floor_graph.egg-info/PKG-INFO\n'}
+[2.945502] (floor_graph) StdoutLine: {'line': b'writing dependency_links to floor_graph.egg-info/dependency_links.txt\n'}
+[2.946960] (floor_graph) StdoutLine: {'line': b'writing entry points to floor_graph.egg-info/entry_points.txt\n'}
+[2.947841] (floor_graph) StdoutLine: {'line': b'writing requirements to floor_graph.egg-info/requires.txt\n'}
+[2.949107] (floor_graph) StdoutLine: {'line': b'writing top-level names to floor_graph.egg-info/top_level.txt\n'}
+[3.003079] (floor_graph) StdoutLine: {'line': b"reading manifest file 'floor_graph.egg-info/SOURCES.txt'\n"}
+[3.003221] (-) TimerEvent: {}
+[3.035942] (floor_graph) StdoutLine: {'line': b"writing manifest file 'floor_graph.egg-info/SOURCES.txt'\n"}
+[3.057723] (floor_nav) StderrLine: {'line': b'Adding task TaskNav2\n'}
+[3.063410] (floor_graph) StdoutLine: {'line': b'running build_ext\n'}
+[3.063568] (floor_graph) StdoutLine: {'line': b'Creating /home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages/floor-graph.egg-link (link to .)\n'}
+[3.066460] (floor_graph) StdoutLine: {'line': b'Installing build_graph_node script to /home/GTL/asacks/ros_workspace/install/floor_graph/lib/floor_graph\n'}
+[3.068657] (floor_graph) StdoutLine: {'line': b'Installing build_graph_test_node script to /home/GTL/asacks/ros_workspace/install/floor_graph/lib/floor_graph\n'}
+[3.070730] (floor_graph) StdoutLine: {'line': b'Installing graph_viz_node script to /home/GTL/asacks/ros_workspace/install/floor_graph/lib/floor_graph\n'}
+[3.072971] (floor_graph) StdoutLine: {'line': b'\n'}
+[3.073131] (floor_graph) StdoutLine: {'line': b'Installed /home/GTL/asacks/ros_workspace/build/floor_graph\n'}
+[3.074057] (floor_graph) StdoutLine: {'line': b'running symlink_data\n'}
+[3.075176] (floor_graph) StdoutLine: {'line': b'symbolically linking /home/GTL/asacks/ros_workspace/build/floor_graph/launch/floor_graph-test.launch.py -> /home/GTL/asacks/ros_workspace/install/floor_graph/share/floor_graph\n'}
+[3.103348] (-) TimerEvent: {}
+[3.106078] (floor_graph) CommandEnded: {'returncode': 0}
+[3.140726] (floor_graph) JobEnded: {'identifier': 'floor_graph', 'rc': 0}
+[3.203457] (-) TimerEvent: {}
+[3.303648] (-) TimerEvent: {}
+[3.403780] (-) TimerEvent: {}
+[3.503953] (-) TimerEvent: {}
+[3.604141] (-) TimerEvent: {}
+[3.674982] (floor_nav) StderrLine: {'line': b'Adding task TaskSetMux\n'}
+[3.704256] (-) TimerEvent: {}
+[3.804435] (-) TimerEvent: {}
+[3.904612] (-) TimerEvent: {}
+[4.004789] (-) TimerEvent: {}
+[4.104947] (-) TimerEvent: {}
+[4.205131] (-) TimerEvent: {}
+[4.268848] (floor_nav) StderrLine: {'line': b'Adding task TaskConstant\n'}
+[4.305236] (-) TimerEvent: {}
+[4.405403] (-) TimerEvent: {}
+[4.505602] (-) TimerEvent: {}
+[4.605802] (-) TimerEvent: {}
+[4.706023] (-) TimerEvent: {}
+[4.806193] (-) TimerEvent: {}
+[4.873053] (floor_nav) StderrLine: {'line': b'Adding task TaskGoTo\n'}
+[4.906310] (-) TimerEvent: {}
+[5.006487] (-) TimerEvent: {}
+[5.106668] (-) TimerEvent: {}
+[5.206841] (-) TimerEvent: {}
+[5.307036] (-) TimerEvent: {}
+[5.407211] (-) TimerEvent: {}
+[5.458782] (floor_nav) StderrLine: {'line': b'Adding task TaskSetHeading\n'}
+[5.507315] (-) TimerEvent: {}
+[5.607509] (-) TimerEvent: {}
+[5.707672] (-) TimerEvent: {}
+[5.807842] (-) TimerEvent: {}
+[5.908019] (-) TimerEvent: {}
+[6.008191] (-) TimerEvent: {}
+[6.043704] (floor_nav) StderrLine: {'line': b'Adding task TaskPlanTo\n'}
+[6.108286] (-) TimerEvent: {}
+[6.208472] (-) TimerEvent: {}
+[6.308656] (-) TimerEvent: {}
+[6.408856] (-) TimerEvent: {}
+[6.509050] (-) TimerEvent: {}
+[6.609209] (-) TimerEvent: {}
+[6.628137] (floor_nav) StderrLine: {'line': b'Adding task TaskWaitForROI\n'}
+[6.709284] (-) TimerEvent: {}
+[6.809447] (-) TimerEvent: {}
+[6.909568] (-) TimerEvent: {}
+[7.009771] (-) TimerEvent: {}
+[7.109938] (-) TimerEvent: {}
+[7.210106] (-) TimerEvent: {}
+[7.223628] (floor_nav) StderrLine: {'line': b'Adding task TaskWander\n'}
+[7.310222] (-) TimerEvent: {}
+[7.410424] (-) TimerEvent: {}
+[7.510589] (-) TimerEvent: {}
+[7.610782] (-) TimerEvent: {}
+[7.710964] (-) TimerEvent: {}
+[7.811158] (-) TimerEvent: {}
+[7.813582] (floor_nav) StderrLine: {'line': b'Adding task TaskAutoDock\n'}
+[7.911286] (-) TimerEvent: {}
+[8.011497] (-) TimerEvent: {}
+[8.111669] (-) TimerEvent: {}
+[8.211829] (-) TimerEvent: {}
+[8.312025] (-) TimerEvent: {}
+[8.395522] (floor_nav) StderrLine: {'line': b'Adding task TaskScan\n'}
+[8.412117] (-) TimerEvent: {}
+[8.512290] (-) TimerEvent: {}
+[8.612487] (-) TimerEvent: {}
+[8.712675] (-) TimerEvent: {}
+[8.812832] (-) TimerEvent: {}
+[8.912995] (-) TimerEvent: {}
+[8.992255] (floor_nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[9.013101] (-) TimerEvent: {}
+[9.113276] (-) TimerEvent: {}
+[9.201528] (floor_nav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.213356] (-) TimerEvent: {}
+[9.215315] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/GTL/asacks/ros_workspace/src/floor_nav/include\n'}
+[9.215503] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.218145] (floor_nav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.218234] (floor_nav) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.224101] (floor_nav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.226768] (floor_nav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.243868] (floor_nav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.244013] (floor_nav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.246308] (floor_nav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.259155] (floor_nav) StdoutLine: {'line': b'-- Configuring done (8.6s)\n'}
+[9.313471] (-) TimerEvent: {}
+[9.413626] (-) TimerEvent: {}
+[9.513790] (-) TimerEvent: {}
+[9.613944] (-) TimerEvent: {}
+[9.714128] (-) TimerEvent: {}
+[9.814292] (-) TimerEvent: {}
+[9.914483] (-) TimerEvent: {}
+[10.014693] (-) TimerEvent: {}
+[10.114948] (-) TimerEvent: {}
+[10.215110] (-) TimerEvent: {}
+[10.315287] (-) TimerEvent: {}
+[10.415454] (-) TimerEvent: {}
+[10.515622] (-) TimerEvent: {}
+[10.615787] (-) TimerEvent: {}
+[10.715975] (-) TimerEvent: {}
+[10.816144] (-) TimerEvent: {}
+[10.916326] (-) TimerEvent: {}
+[11.016498] (-) TimerEvent: {}
+[11.116674] (-) TimerEvent: {}
+[11.216874] (-) TimerEvent: {}
+[11.317029] (-) TimerEvent: {}
+[11.417205] (-) TimerEvent: {}
+[11.517355] (-) TimerEvent: {}
+[11.617506] (-) TimerEvent: {}
+[11.717688] (-) TimerEvent: {}
+[11.817844] (-) TimerEvent: {}
+[11.918029] (-) TimerEvent: {}
+[12.018195] (-) TimerEvent: {}
+[12.118380] (-) TimerEvent: {}
+[12.218562] (-) TimerEvent: {}
+[12.318756] (-) TimerEvent: {}
+[12.418922] (-) TimerEvent: {}
+[12.519125] (-) TimerEvent: {}
+[12.619282] (-) TimerEvent: {}
+[12.719426] (-) TimerEvent: {}
+[12.819574] (-) TimerEvent: {}
+[12.919761] (-) TimerEvent: {}
+[13.019912] (-) TimerEvent: {}
+[13.120063] (-) TimerEvent: {}
+[13.220229] (-) TimerEvent: {}
+[13.320426] (-) TimerEvent: {}
+[13.420593] (-) TimerEvent: {}
+[13.520772] (-) TimerEvent: {}
+[13.620937] (-) TimerEvent: {}
+[13.721110] (-) TimerEvent: {}
+[13.821291] (-) TimerEvent: {}
+[13.921512] (-) TimerEvent: {}
+[14.021712] (-) TimerEvent: {}
+[14.121893] (-) TimerEvent: {}
+[14.222084] (-) TimerEvent: {}
+[14.322279] (-) TimerEvent: {}
+[14.422443] (-) TimerEvent: {}
+[14.522620] (-) TimerEvent: {}
+[14.622793] (-) TimerEvent: {}
+[14.722989] (-) TimerEvent: {}
+[14.823176] (-) TimerEvent: {}
+[14.923336] (-) TimerEvent: {}
+[15.023562] (-) TimerEvent: {}
+[15.123750] (-) TimerEvent: {}
+[15.223922] (-) TimerEvent: {}
+[15.324109] (-) TimerEvent: {}
+[15.424277] (-) TimerEvent: {}
+[15.524446] (-) TimerEvent: {}
+[15.624634] (-) TimerEvent: {}
+[15.724775] (-) TimerEvent: {}
+[15.824929] (-) TimerEvent: {}
+[15.925085] (-) TimerEvent: {}
+[16.025285] (-) TimerEvent: {}
+[16.125453] (-) TimerEvent: {}
+[16.225607] (-) TimerEvent: {}
+[16.325800] (-) TimerEvent: {}
+[16.425948] (-) TimerEvent: {}
+[16.526119] (-) TimerEvent: {}
+[16.626288] (-) TimerEvent: {}
+[16.726457] (-) TimerEvent: {}
+[16.826632] (-) TimerEvent: {}
+[16.926793] (-) TimerEvent: {}
+[17.026972] (-) TimerEvent: {}
+[17.127152] (-) TimerEvent: {}
+[17.192183] (floor_nav) StdoutLine: {'line': b'-- Generating done (6.3s)\n'}
+[17.227285] (-) TimerEvent: {}
+[17.327448] (-) TimerEvent: {}
+[17.427620] (-) TimerEvent: {}
+[17.527795] (-) TimerEvent: {}
+[17.627968] (-) TimerEvent: {}
+[17.728145] (-) TimerEvent: {}
+[17.828310] (-) TimerEvent: {}
+[17.928476] (-) TimerEvent: {}
+[18.028662] (-) TimerEvent: {}
+[18.128797] (-) TimerEvent: {}
+[18.228942] (-) TimerEvent: {}
+[18.329098] (-) TimerEvent: {}
+[18.429267] (-) TimerEvent: {}
+[18.451689] (floor_nav) StdoutLine: {'line': b'-- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_nav\n'}
+[18.529373] (-) TimerEvent: {}
+[18.629547] (-) TimerEvent: {}
+[18.729736] (-) TimerEvent: {}
+[18.758566] (floor_nav) StdoutLine: {'line': b'[  8%] Building CXX object CMakeFiles/floornav_TaskConstant.dir/tasks/TaskConstant.cpp.o\n'}
+[18.758833] (floor_nav) StdoutLine: {'line': b'[  8%] Building CXX object CMakeFiles/floornav_TaskGoTo.dir/tasks/TaskGoTo.cpp.o\n'}
+[18.762434] (floor_nav) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/floornav_TaskScan.dir/tasks/TaskScan.cpp.o\n'}
+[18.762664] (floor_nav) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/floornav_TaskWander.dir/tasks/TaskWander.cpp.o\n'}
+[18.762892] (floor_nav) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/floornav_TaskNav2.dir/tasks/TaskNav2.cpp.o\n'}
+[18.776535] (floor_nav) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/floornav_TaskSetMux.dir/tasks/TaskSetMux.cpp.o\n'}
+[18.777794] (floor_nav) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/floornav_TaskWaitForROI.dir/tasks/TaskWaitForROI.cpp.o\n'}
+[18.783550] (floor_nav) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/floornav_TaskSetHeading.dir/tasks/TaskSetHeading.cpp.o\n'}
+[18.800305] (floor_nav) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/floornav_TaskAutoDock.dir/tasks/TaskAutoDock.cpp.o\n'}
+[18.804595] (floor_nav) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/floornav_TaskPlanTo.dir/tasks/TaskPlanTo.cpp.o\n'}
+[18.815930] (floor_nav) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o\n'}
+[18.820042] (floor_nav) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o\n'}
+[18.829803] (-) TimerEvent: {}
+[18.930021] (-) TimerEvent: {}
+[19.030232] (-) TimerEvent: {}
+[19.130446] (-) TimerEvent: {}
+[19.230661] (-) TimerEvent: {}
+[19.331009] (-) TimerEvent: {}
+[19.431186] (-) TimerEvent: {}
+[19.531684] (-) TimerEvent: {}
+[19.631937] (-) TimerEvent: {}
+[19.732200] (-) TimerEvent: {}
+[19.832747] (-) TimerEvent: {}
+[19.933663] (-) TimerEvent: {}
+[20.034561] (-) TimerEvent: {}
+[20.134769] (-) TimerEvent: {}
+[20.235171] (-) TimerEvent: {}
+[20.336342] (-) TimerEvent: {}
+[20.436577] (-) TimerEvent: {}
+[20.538857] (-) TimerEvent: {}
+[20.639110] (-) TimerEvent: {}
+[20.739343] (-) TimerEvent: {}
+[20.840782] (-) TimerEvent: {}
+[20.941006] (-) TimerEvent: {}
+[21.042784] (-) TimerEvent: {}
+[21.143065] (-) TimerEvent: {}
+[21.243394] (-) TimerEvent: {}
+[21.343990] (-) TimerEvent: {}
+[21.445939] (-) TimerEvent: {}
+[21.546347] (-) TimerEvent: {}
+[21.646587] (-) TimerEvent: {}
+[21.747436] (-) TimerEvent: {}
+[21.847665] (-) TimerEvent: {}
+[21.947901] (-) TimerEvent: {}
+[22.051981] (-) TimerEvent: {}
+[22.152321] (-) TimerEvent: {}
+[22.252611] (-) TimerEvent: {}
+[22.353261] (-) TimerEvent: {}
+[22.455839] (-) TimerEvent: {}
+[22.556071] (-) TimerEvent: {}
+[22.656573] (-) TimerEvent: {}
+[22.759798] (-) TimerEvent: {}
+[22.860068] (-) TimerEvent: {}
+[22.978901] (-) TimerEvent: {}
+[23.079811] (-) TimerEvent: {}
+[23.180815] (-) TimerEvent: {}
+[23.281056] (-) TimerEvent: {}
+[23.381308] (-) TimerEvent: {}
+[23.481697] (-) TimerEvent: {}
+[23.582053] (-) TimerEvent: {}
+[23.684668] (-) TimerEvent: {}
+[23.784916] (-) TimerEvent: {}
+[23.889137] (-) TimerEvent: {}
+[23.989395] (-) TimerEvent: {}
+[24.089650] (-) TimerEvent: {}
+[24.189894] (-) TimerEvent: {}
+[24.292825] (-) TimerEvent: {}
+[24.393764] (-) TimerEvent: {}
+[24.495844] (-) TimerEvent: {}
+[24.596821] (-) TimerEvent: {}
+[24.697074] (-) TimerEvent: {}
+[24.797313] (-) TimerEvent: {}
+[24.897651] (-) TimerEvent: {}
+[24.999521] (-) TimerEvent: {}
+[25.100888] (-) TimerEvent: {}
+[25.201253] (-) TimerEvent: {}
+[25.301800] (-) TimerEvent: {}
+[25.402036] (-) TimerEvent: {}
+[25.505768] (-) TimerEvent: {}
+[25.606820] (-) TimerEvent: {}
+[25.707812] (-) TimerEvent: {}
+[25.808050] (-) TimerEvent: {}
+[25.908327] (-) TimerEvent: {}
+[26.008980] (-) TimerEvent: {}
+[26.109740] (-) TimerEvent: {}
+[26.210445] (-) TimerEvent: {}
+[26.311116] (-) TimerEvent: {}
+[26.411653] (-) TimerEvent: {}
+[26.513641] (-) TimerEvent: {}
+[26.614816] (-) TimerEvent: {}
+[26.715051] (-) TimerEvent: {}
+[26.815316] (-) TimerEvent: {}
+[26.916500] (-) TimerEvent: {}
+[27.017814] (-) TimerEvent: {}
+[27.118078] (-) TimerEvent: {}
+[27.219186] (-) TimerEvent: {}
+[27.319639] (-) TimerEvent: {}
+[27.422133] (-) TimerEvent: {}
+[27.522381] (-) TimerEvent: {}
+[27.622620] (-) TimerEvent: {}
+[27.722908] (-) TimerEvent: {}
+[27.824212] (-) TimerEvent: {}
+[27.928201] (-) TimerEvent: {}
+[28.029802] (-) TimerEvent: {}
+[28.130300] (-) TimerEvent: {}
+[28.238841] (-) TimerEvent: {}
+[28.339101] (-) TimerEvent: {}
+[28.439374] (-) TimerEvent: {}
+[28.539634] (-) TimerEvent: {}
+[28.642809] (-) TimerEvent: {}
+[28.745101] (-) TimerEvent: {}
+[28.845802] (-) TimerEvent: {}
+[28.946038] (-) TimerEvent: {}
+[29.046397] (-) TimerEvent: {}
+[29.146803] (-) TimerEvent: {}
+[29.247914] (-) TimerEvent: {}
+[29.348237] (-) TimerEvent: {}
+[29.467040] (-) TimerEvent: {}
+[29.568836] (-) TimerEvent: {}
+[29.669367] (-) TimerEvent: {}
+[29.769843] (-) TimerEvent: {}
+[29.870100] (-) TimerEvent: {}
+[29.971087] (-) TimerEvent: {}
+[30.072455] (-) TimerEvent: {}
+[30.175530] (-) TimerEvent: {}
+[30.288259] (-) TimerEvent: {}
+[30.411295] (-) TimerEvent: {}
+[30.537968] (-) TimerEvent: {}
+[30.701288] (-) TimerEvent: {}
+[30.846465] (-) TimerEvent: {}
+[30.992107] (-) TimerEvent: {}
+[31.216858] (-) TimerEvent: {}
+[31.410278] (-) TimerEvent: {}
+[31.574879] (-) TimerEvent: {}
+[31.756679] (-) TimerEvent: {}
+[31.914798] (-) TimerEvent: {}
+[32.075208] (-) TimerEvent: {}
+[32.372368] (-) TimerEvent: {}
+[32.495296] (-) TimerEvent: {}
+[32.661616] (-) TimerEvent: {}
+[32.858743] (-) TimerEvent: {}
+[32.994756] (-) TimerEvent: {}
+[33.143519] (-) TimerEvent: {}
+[33.402661] (-) TimerEvent: {}
+[33.754919] (-) TimerEvent: {}
+[34.163293] (-) TimerEvent: {}
+[34.295925] (-) TimerEvent: {}
+[34.540345] (-) TimerEvent: {}
+[34.703683] (-) TimerEvent: {}
+[34.863086] (-) TimerEvent: {}
+[35.434988] (-) TimerEvent: {}
+[35.611767] (-) TimerEvent: {}
+[37.420875] (-) TimerEvent: {}
+[37.525227] (-) TimerEvent: {}
+[37.625833] (-) TimerEvent: {}
+[37.734520] (-) TimerEvent: {}
+[37.835054] (-) TimerEvent: {}
+[37.935523] (-) TimerEvent: {}
+[38.038900] (-) TimerEvent: {}
+[38.151778] (-) TimerEvent: {}
+[38.253039] (-) TimerEvent: {}
+[38.356919] (-) TimerEvent: {}
+[38.458544] (-) TimerEvent: {}
+[38.558828] (-) TimerEvent: {}
+[38.685846] (-) TimerEvent: {}
+[38.797880] (-) TimerEvent: {}
+[38.901846] (-) TimerEvent: {}
+[39.002968] (-) TimerEvent: {}
+[39.118835] (-) TimerEvent: {}
+[39.219555] (-) TimerEvent: {}
+[39.335315] (-) TimerEvent: {}
+[39.436441] (-) TimerEvent: {}
+[39.539767] (-) TimerEvent: {}
+[39.679973] (-) TimerEvent: {}
+[39.799844] (-) TimerEvent: {}
+[39.962534] (-) TimerEvent: {}
+[40.240523] (-) TimerEvent: {}
+[40.452641] (-) TimerEvent: {}
+[40.611941] (-) TimerEvent: {}
+[41.087344] (-) TimerEvent: {}
+[41.300550] (-) TimerEvent: {}
+[41.446195] (-) TimerEvent: {}
+[41.727652] (-) TimerEvent: {}
+[42.085717] (-) TimerEvent: {}
+[42.244772] (-) TimerEvent: {}
+[42.389830] (-) TimerEvent: {}
+[42.602895] (-) TimerEvent: {}
+[42.800070] (-) TimerEvent: {}
+[42.925240] (-) TimerEvent: {}
+[43.110048] (-) TimerEvent: {}
+[43.342881] (-) TimerEvent: {}
+[43.539930] (-) TimerEvent: {}
+[43.792327] (-) TimerEvent: {}
+[44.095683] (-) TimerEvent: {}
+[44.283785] (-) TimerEvent: {}
+[44.527105] (-) TimerEvent: {}
+[44.648935] (-) TimerEvent: {}
+[44.763430] (-) TimerEvent: {}
+[44.909062] (-) TimerEvent: {}
+[45.141774] (-) TimerEvent: {}
+[45.305798] (-) TimerEvent: {}
+[45.630899] (-) TimerEvent: {}
+[45.827878] (-) TimerEvent: {}
+[45.986802] (-) TimerEvent: {}
+[46.298163] (-) TimerEvent: {}
+[46.672109] (-) TimerEvent: {}
+[46.982886] (-) TimerEvent: {}
+[47.271191] (-) TimerEvent: {}
+[47.410564] (-) TimerEvent: {}
+[47.734779] (-) TimerEvent: {}
+[48.131545] (-) TimerEvent: {}
+[48.319176] (-) TimerEvent: {}
+[48.433476] (-) TimerEvent: {}
+[48.570383] (-) TimerEvent: {}
+[48.926732] (-) TimerEvent: {}
+[49.083733] (-) TimerEvent: {}
+[49.399768] (-) TimerEvent: {}
+[49.615611] (-) TimerEvent: {}
+[49.858802] (-) TimerEvent: {}
+[50.128600] (-) TimerEvent: {}
+[50.437801] (-) TimerEvent: {}
+[50.734907] (-) TimerEvent: {}
+[50.984650] (-) TimerEvent: {}
+[51.344486] (-) TimerEvent: {}
+[51.785746] (-) TimerEvent: {}
+[52.280249] (-) TimerEvent: {}
+[52.461644] (-) TimerEvent: {}
+[52.829778] (-) TimerEvent: {}
+[53.231751] (-) TimerEvent: {}
+[53.582729] (-) TimerEvent: {}
+[54.053765] (-) TimerEvent: {}
+[54.390780] (-) TimerEvent: {}
+[54.692817] (-) TimerEvent: {}
+[54.879220] (-) TimerEvent: {}
+[55.084698] (-) TimerEvent: {}
+[55.426749] (-) TimerEvent: {}
+[55.672274] (-) TimerEvent: {}
+[56.017631] (-) TimerEvent: {}
+[56.239322] (-) TimerEvent: {}
+[56.399100] (-) TimerEvent: {}
+[56.558789] (-) TimerEvent: {}
+[56.807752] (-) TimerEvent: {}
+[57.189902] (-) TimerEvent: {}
+[57.330968] (-) TimerEvent: {}
+[57.510943] (-) TimerEvent: {}
+[57.953729] (-) TimerEvent: {}
+[58.344032] (-) TimerEvent: {}
+[58.653717] (-) TimerEvent: {}
+[58.899729] (-) TimerEvent: {}
+[59.296551] (-) TimerEvent: {}
+[59.463837] (-) TimerEvent: {}
+[59.711646] (-) TimerEvent: {}
+[60.030504] (-) TimerEvent: {}
+[60.411213] (-) TimerEvent: {}
+[60.817751] (-) TimerEvent: {}
+[60.979856] (-) TimerEvent: {}
+[61.186871] (-) TimerEvent: {}
+[61.477298] (-) TimerEvent: {}
+[61.762125] (-) TimerEvent: {}
+[61.961177] (-) TimerEvent: {}
+[62.451117] (-) TimerEvent: {}
+[62.849019] (-) TimerEvent: {}
+[63.289936] (-) TimerEvent: {}
+[64.110811] (-) TimerEvent: {}
+[65.045736] (-) TimerEvent: {}
+[65.569082] (-) TimerEvent: {}
+[66.785929] (-) TimerEvent: {}
+[66.886309] (-) TimerEvent: {}
+[66.986634] (-) TimerEvent: {}
+[67.089324] (-) TimerEvent: {}
+[67.189590] (-) TimerEvent: {}
+[67.289828] (-) TimerEvent: {}
+[67.456831] (-) TimerEvent: {}
+[67.560834] (-) TimerEvent: {}
+[67.662812] (-) TimerEvent: {}
+[67.766409] (-) TimerEvent: {}
+[67.869740] (-) TimerEvent: {}
+[67.970650] (-) TimerEvent: {}
+[68.071049] (-) TimerEvent: {}
+[68.171977] (-) TimerEvent: {}
+[68.273814] (-) TimerEvent: {}
+[68.381914] (-) TimerEvent: {}
+[68.487245] (-) TimerEvent: {}
+[68.602413] (-) TimerEvent: {}
+[68.711867] (-) TimerEvent: {}
+[68.960406] (-) TimerEvent: {}
+[69.096388] (-) TimerEvent: {}
+[69.212517] (-) TimerEvent: {}
+[69.446039] (-) TimerEvent: {}
+[69.662149] (-) TimerEvent: {}
+[69.765825] (-) TimerEvent: {}
+[69.922832] (-) TimerEvent: {}
+[70.051817] (-) TimerEvent: {}
+[70.196676] (-) TimerEvent: {}
+[70.379767] (-) TimerEvent: {}
+[70.541624] (-) TimerEvent: {}
+[70.780764] (-) TimerEvent: {}
+[70.930022] (-) TimerEvent: {}
+[71.128547] (-) TimerEvent: {}
+[71.298294] (-) TimerEvent: {}
+[71.428814] (-) TimerEvent: {}
+[71.601191] (-) TimerEvent: {}
+[71.809985] (-) TimerEvent: {}
+[72.052628] (-) TimerEvent: {}
+[72.290409] (-) TimerEvent: {}
+[72.538879] (-) TimerEvent: {}
+[72.743669] (-) TimerEvent: {}
+[72.934647] (-) TimerEvent: {}
+[73.243066] (-) TimerEvent: {}
+[73.501788] (-) TimerEvent: {}
+[73.803755] (-) TimerEvent: {}
+[73.999936] (-) TimerEvent: {}
+[74.168062] (-) TimerEvent: {}
+[74.322211] (-) TimerEvent: {}
+[74.454575] (-) TimerEvent: {}
+[74.947329] (-) TimerEvent: {}
+[75.082923] (-) TimerEvent: {}
+[75.410515] (-) TimerEvent: {}
+[75.582779] (-) TimerEvent: {}
+[75.847326] (-) TimerEvent: {}
+[76.009908] (-) TimerEvent: {}
+[76.197767] (-) TimerEvent: {}
+[76.392562] (-) TimerEvent: {}
+[76.594557] (-) TimerEvent: {}
+[76.837883] (-) TimerEvent: {}
+[76.971397] (-) TimerEvent: {}
+[77.178765] (-) TimerEvent: {}
+[77.471765] (-) TimerEvent: {}
+[77.741743] (-) TimerEvent: {}
+[78.080885] (-) TimerEvent: {}
+[78.296407] (-) TimerEvent: {}
+[78.667138] (-) TimerEvent: {}
+[78.861449] (-) TimerEvent: {}
+[79.238336] (-) TimerEvent: {}
+[79.518833] (-) TimerEvent: {}
+[79.874633] (-) TimerEvent: {}
+[80.051763] (-) TimerEvent: {}
+[80.160767] (-) TimerEvent: {}
+[80.377590] (-) TimerEvent: {}
+[80.598236] (-) TimerEvent: {}
+[80.775627] (-) TimerEvent: {}
+[80.938830] (-) TimerEvent: {}
+[81.179795] (-) TimerEvent: {}
+[81.462340] (-) TimerEvent: {}
+[81.831150] (-) TimerEvent: {}
+[82.006783] (-) TimerEvent: {}
+[82.197781] (-) TimerEvent: {}
+[82.395023] (-) TimerEvent: {}
+[82.553870] (-) TimerEvent: {}
+[82.773673] (-) TimerEvent: {}
+[83.044315] (-) TimerEvent: {}
+[83.286478] (-) TimerEvent: {}
+[83.505918] (-) TimerEvent: {}
+[83.834368] (-) TimerEvent: {}
+[83.991277] (-) TimerEvent: {}
+[84.519764] (-) TimerEvent: {}
+[84.745786] (-) TimerEvent: {}
+[84.889357] (-) TimerEvent: {}
+[85.107619] (-) TimerEvent: {}
+[85.405971] (-) TimerEvent: {}
+[85.719827] (-) TimerEvent: {}
+[86.074654] (-) TimerEvent: {}
+[86.240690] (-) TimerEvent: {}
+[86.364003] (-) TimerEvent: {}
+[86.667284] (-) TimerEvent: {}
+[86.898289] (-) TimerEvent: {}
+[87.469453] (-) TimerEvent: {}
+[87.857707] (-) TimerEvent: {}
+[88.135192] (-) TimerEvent: {}
+[88.447885] (-) TimerEvent: {}
+[89.001592] (-) TimerEvent: {}
+[89.566676] (-) TimerEvent: {}
+[89.773268] (-) TimerEvent: {}
+[89.882685] (-) TimerEvent: {}
+[90.008177] (-) TimerEvent: {}
+[90.108497] (-) TimerEvent: {}
+[90.212821] (-) TimerEvent: {}
+[90.313850] (-) TimerEvent: {}
+[90.414123] (-) TimerEvent: {}
+[90.514606] (-) TimerEvent: {}
+[90.616918] (-) TimerEvent: {}
+[90.717134] (-) TimerEvent: {}
+[90.817571] (-) TimerEvent: {}
+[90.920412] (-) TimerEvent: {}
+[91.020646] (-) TimerEvent: {}
+[91.121334] (-) TimerEvent: {}
+[91.221577] (-) TimerEvent: {}
+[91.321939] (-) TimerEvent: {}
+[91.423659] (-) TimerEvent: {}
+[91.524888] (-) TimerEvent: {}
+[91.625577] (-) TimerEvent: {}
+[91.726871] (-) TimerEvent: {}
+[91.827162] (-) TimerEvent: {}
+[91.927940] (-) TimerEvent: {}
+[92.029309] (-) TimerEvent: {}

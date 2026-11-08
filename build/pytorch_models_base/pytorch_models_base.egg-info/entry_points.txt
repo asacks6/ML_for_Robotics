@@ -1,0 +1,2 @@
+[console_scripts]
+train = pytorch_models_base.train:main

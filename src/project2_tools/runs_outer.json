@@ -1,0 +1,3 @@
+[{"tags": ["A_expert", "A_expert_r2"], "label": "A: outer rim, expert only (9.5k img)", "dstar": 1.5, "track": "outer"},
+ {"tags": ["B_dagger", "B_dagger_r2"], "label": "B: outer rim, expert + DAgger (13.1k)", "dstar": 1.5, "track": "outer"},
+ {"tags": ["C_outer", "C_outer_r2", "C_outer_r3"], "label": "C: island network (cross test, rolled over at lap 0.87)", "dstar": 1.5, "track": "outer"}]

@@ -31,30 +31,35 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 import os
+import time
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, OpaqueFunction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration
 
 import launch_ros.actions
 import launch_ros.descriptions
 
 
-def generate_launch_description():
-    return LaunchDescription([
+def launch_setup(context):
+    # El nodo reinicia labels.txt al arrancar: cada sesion va en su propia carpeta
+    out_dir = os.path.expanduser(LaunchConfiguration('out_dir').perform(context))
+    os.makedirs(out_dir, exist_ok=True)
+    return [
         launch_ros.actions.Node(
             package='floor_plane_record_base', executable='floor_plane_record', name='floor_plane_record',
             parameters=[
                 {'~/base_frame': 'bubbleRob'},
                 {'~/world_frame': 'world'},
-                {'~/out_dir': "/tmp"},
+                {'~/out_dir': out_dir},
                 {'~/thumb_size': 32},
                 {'~/max_range': 3.0},
                 {'~/height_threshold': 0.05},
-                {'~/min_displacement': 0.1},
-                {'~/min_rotation': 0.1},
-                {'~/max_image_per_type': 1000},
+                {'~/min_displacement': 0.15},
+                {'~/min_rotation': 0.25},
+                {'~/max_image_per_type': 3000},
                 {'~/joystick_button': 3},
                 ],
             remappings=[
@@ -64,8 +69,17 @@ def generate_launch_description():
                 ('~/info', '/vrep/kision/camera_info'),
                 ],
             output='screen'),
-        # IncludeLaunchDescription(
-        #       PythonLaunchDescriptionSource([get_package_share_directory('vrep4_helpers') ,
-        #                 '/kinect_pc_min.launch.py'])
-        #       )
+    ]
+
+
+def generate_launch_description():
+    default_dir = '~/data/floor_plane/raw_' + time.strftime('%Y%m%d_%H%M%S')
+    return LaunchDescription([
+        DeclareLaunchArgument('out_dir', default_value=default_dir,
+            description='output folder for thumbnails and labels.txt'),
+        OpaqueFunction(function=launch_setup),
+        IncludeLaunchDescription(
+              PythonLaunchDescriptionSource([get_package_share_directory('vrep4_helpers') ,
+                        '/kinect_pc_min.launch.py'])
+              )
     ])

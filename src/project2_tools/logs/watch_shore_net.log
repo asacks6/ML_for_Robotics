@@ -1,0 +1,31 @@
+[INFO] [1794152280.439527765] [classify]: Loding pytorch model '/home/GTL/asacks/data/shore_follower/output_20261013_184009/models/model_ce_71.pt'
+[INFO] [1794152284.330221954] [classify]: Model loaded, ready to run
+Virtual env (python3.12): /cs-share/pradalier/venv/torch-cpu-ros2
+Traceback (most recent call last):
+  File "/home/GTL/asacks/ros_workspace/install/shore_follower_drive_torch_base/lib/shore_follower_drive_torch_base/shore_follower_drive_node", line 33, in <module>
+    sys.exit(load_entry_point('shore-follower-drive-torch-base', 'console_scripts', 'shore_follower_drive_node')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/GTL/asacks/ros_workspace/build/shore_follower_drive_torch_base/shore_follower_drive_torch_base/shore_follower_drive.py", line 107, in main
+    rclpy.spin(drive)
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/__init__.py", line 324, in spin
+    executor.spin_once()
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 1017, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 1009, in _spin_once_impl
+    raise exception
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/task.py", line 344, in _execute_coroutine_step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 669, in handler
+    await call_coroutine()
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 550, in _execute
+    await await_or_execute(sub.callback, *msg_tuple)
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/executors.py", line 138, in await_or_execute
+    return callback(*args)
+           ^^^^^^^^^^^^^^^
+  File "/home/GTL/asacks/ros_workspace/build/shore_follower_drive_torch_base/shore_follower_drive_torch_base/shore_follower_drive.py", line 78, in image_callback
+    self.twist_pub_.publish(self.image_to_rot(processed_))
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rclpy/publisher.py", line 72, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:427
+[ros2run]: Process exited with failure 1

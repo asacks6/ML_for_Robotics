@@ -1,0 +1,20 @@
+[100%] Built target shore_follower_observe
+-- Install configuration: ""
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/lib/shore_follower_observe/shore_follower_observe
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe
+-- Installing: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/record.launch.py
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/ament_index/resource_index/package_run_dependencies/shore_follower_observe
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/ament_index/resource_index/parent_prefix_path/shore_follower_observe
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/ament_prefix_path.sh
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/path.sh
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/path.dsv
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.bash
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.sh
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.zsh
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.dsv
+-- Installing: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/package.dsv
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/ament_index/resource_index/packages/shore_follower_observe
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/cmake/shore_follower_observeConfig.cmake
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/cmake/shore_follower_observeConfig-version.cmake
+-- Up-to-date: /home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/package.xml

@@ -1,10 +1,10 @@
 
-import venv_hack
+import pytorch_models_base.venv_hack
 
-from parser import ParseArgs
-from reader import PNGReader
-from model import CNNModel
-from sampler import UniformSampler
+from pytorch_models_base.parser import ParseArgs
+from pytorch_models_base.reader import PNGReader
+from pytorch_models_base.model import CNNModel
+from pytorch_models_base.sampler import UniformSampler
 
 import numpy as np
 import os
@@ -161,7 +161,7 @@ class Train:
             if batch_acc_val >= best_acc:
                 best_acc = batch_acc_val
                 type_ =  "ce" if self.is_cross_entropy else "mse"
-                torch.save(self.model.state_dict(), f"{self.settings.model_dir}/model_{type_}_{round(val_acc.item()*100)}.pt")
+                torch.save(self.model.state_dict(), f"{self.settings.model_dir}/model_{type_}_{round(batch_acc_val*100)}.pt")
         self.writer.add_hparams(
             {
                 "lr": self.settings.lr,

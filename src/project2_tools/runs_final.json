@@ -1,0 +1,8 @@
+[{"tags": ["EXP_outer"], "label": "Expert reference", "dstar": 1.5, "track": "outer", "expert": true},
+ {"tags": ["A_expert", "A_expert_r2"], "label": "A: outer rim, expert only (9.5k img)", "dstar": 1.5, "track": "outer"},
+ {"tags": ["B_dagger", "B_dagger_r2"], "label": "B: outer rim, expert + DAgger (13.1k)", "dstar": 1.5, "track": "outer"},
+ {"tags": ["C_outer", "C_outer_r2", "C_outer_r3"], "label": "C: island network (cross test)", "dstar": 1.5, "track": "outer"},
+ {"tags": ["EXP_island"], "label": "Expert reference", "dstar": 1.5, "track": "island", "expert": true},
+ {"tags": ["C0_island", "C0_island_r2"], "label": "C0: island, expert only (4.5k img)", "dstar": 1.5, "track": "island"},
+ {"tags": ["C_island", "C_island_r2"], "label": "C: island, expert + DAgger (8.1k)", "dstar": 1.5, "track": "island"},
+ {"tags": ["B_island", "B_island_r2"], "label": "B: outer-rim network (cross test)", "dstar": 1.5, "track": "island"}]

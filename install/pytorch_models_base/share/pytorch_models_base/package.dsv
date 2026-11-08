@@ -1,0 +1,9 @@
+source;share/pytorch_models_base/hook/pythonpath.ps1
+source;share/pytorch_models_base/hook/pythonpath.dsv
+source;share/pytorch_models_base/hook/pythonpath.sh
+source;share/pytorch_models_base/hook/ament_prefix_path.ps1
+source;share/pytorch_models_base/hook/ament_prefix_path.dsv
+source;share/pytorch_models_base/hook/ament_prefix_path.sh
+source;../../build/pytorch_models_base/share/pytorch_models_base/hook/pythonpath_develop.ps1
+source;../../build/pytorch_models_base/share/pytorch_models_base/hook/pythonpath_develop.dsv
+source;../../build/pytorch_models_base/share/pytorch_models_base/hook/pythonpath_develop.sh

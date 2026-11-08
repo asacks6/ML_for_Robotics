@@ -13,7 +13,9 @@
 /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server.launch.py
 /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server_tb.launch.py
 /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/explore_scan.py
+/home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_cover-test.py
 /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever.py
+/home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever-test.py
 /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_goto.py
 /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph_2d.py
 /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph.py

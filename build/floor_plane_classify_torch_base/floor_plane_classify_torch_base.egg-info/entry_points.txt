@@ -1,0 +1,2 @@
+[console_scripts]
+floor_plane_classify_node = floor_plane_classify_torch_base.floor_plane_classify_node:main

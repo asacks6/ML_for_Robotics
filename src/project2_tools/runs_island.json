@@ -1,0 +1,3 @@
+[{"tags": ["C0_island", "C0_island_r2"], "label": "C0: island, expert only (4.5k img)", "dstar": 1.5, "track": "island"},
+ {"tags": ["C_island", "C_island_r2"], "label": "C: island, expert + DAgger (8.1k)", "dstar": 1.5, "track": "island"},
+ {"tags": ["B_island", "B_island_r2"], "label": "B: outer-rim network (cross test)", "dstar": 1.5, "track": "island"}]

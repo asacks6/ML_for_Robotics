@@ -148,7 +148,9 @@ install(
 
 install(PROGRAMS  
 	missions/explore_scan.py
+	missions/graph_cover-test.py
 	missions/graph_forever.py
+	missions/graph_forever-test.py
 	missions/test_goto.py
 	missions/test_graph_2d.py
 	missions/test_graph.py

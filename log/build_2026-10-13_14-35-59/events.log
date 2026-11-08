@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000142] (-) JobUnselected: {'identifier': 'cs7630_msgs'}
+[0.000548] (-) JobUnselected: {'identifier': 'cv_bridge2'}
+[0.000755] (-) JobUnselected: {'identifier': 'cylinder_detector'}
+[0.000776] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000792] (-) JobUnselected: {'identifier': 'floor_plane_ceres_base'}
+[0.000830] (-) JobUnselected: {'identifier': 'floor_plane_hough_base'}
+[0.000855] (-) JobUnselected: {'identifier': 'floor_plane_mapping'}
+[0.000879] (-) JobUnselected: {'identifier': 'floor_plane_ransac_base'}
+[0.000945] (-) JobUnselected: {'identifier': 'floor_plane_record_base'}
+[0.001028] (-) JobUnselected: {'identifier': 'floor_plane_regression_base'}
+[0.001044] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001058] (-) JobUnselected: {'identifier': 'model_prediction'}
+[0.001071] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001095] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001433] (-) JobUnselected: {'identifier': 'pytorch_models_base'}
+[0.001922] (-) JobUnselected: {'identifier': 'shore_follower_observe'}
+[0.002330] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.002562] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.003021] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.003207] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.003223] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.003235] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.003247] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.003260] (-) JobUnselected: {'identifier': 'vrep_vsv_driver'}
+[0.003276] (floor_nav) JobQueued: {'identifier': 'floor_nav', 'dependencies': OrderedDict({'cs7630_msgs': '/home/GTL/asacks/ros_workspace/install/cs7630_msgs', 'nav2_common': '/home/GTL/asacks/ros_workspace/install/nav2_common', 'task_manager_msgs': '/home/GTL/asacks/ros_workspace/install/task_manager_msgs', 'nav2_msgs': '/home/GTL/asacks/ros_workspace/install/nav2_msgs', 'task_manager_lib': '/home/GTL/asacks/ros_workspace/install/task_manager_lib', 'task_manager_nav2': '/home/GTL/asacks/ros_workspace/install/task_manager_nav2'})}
+[0.003310] (floor_nav) JobStarted: {'identifier': 'floor_nav'}
+[0.047488] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'cmake'}
+[0.077135] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'build'}
+[0.092019] (floor_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/asacks/ros_workspace/build/floor_nav'], 'cwd': '/home/GTL/asacks/ros_workspace/build/floor_nav', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-296_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLAUDE_AGENT_SDK_VERSION': '0.3.296', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '3e01edf0be5fd3543b6b148062221e4e', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/asacks/ros_workspace/src/floor_nav', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.13-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '1366782', 'MAKEFLAGS': '-j4', 'SYSTEMD_EXEC_PID': '1367135', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1382716', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'CLAUDE_CODE_EMIT_STARTUP_TIMING': '1', 'JOURNAL_STREAM': '10:21833224', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_QUESTION_PREVIEW_FORMAT': 'markdown', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc101.georgiatech-metz.fr:@/tmp/.ICE-unix/1367064,unix/gtlpc101.georgiatech-metz.fr:/tmp/.ICE-unix/1367064', 'INVOCATION_ID': '1da4ae03465a40cbb98140bfd8735df1', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':7', 'XDG_RUNTIME_DIR': '/run/user/39376', 'GDK_BACKEND': 'wayland', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':6', 'CLAUDE_PID': '1384336', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/.mutter-Xwaylandauth.SDD1W3', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'fb7b8a84-2bd9-4226-91e6-897720ba1059', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/floor_nav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/110a328ea54b42367b803ec53ee0bf52ef26b419', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.296-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/1384336.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted', 'VSCODE_PID': '1382716'}), 'shell': False}
+[0.099344] (-) TimerEvent: {}
+[0.168794] (floor_nav) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.199447] (-) TimerEvent: {}
+[0.299627] (-) TimerEvent: {}
+[0.399866] (-) TimerEvent: {}
+[0.484675] (floor_nav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.499975] (-) TimerEvent: {}
+[0.521558] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp: 29.5.8 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[0.556619] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[0.570627] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[0.597984] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600057] (-) TimerEvent: {}
+[0.629582] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700140] (-) TimerEvent: {}
+[0.718043] (floor_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[0.728552] (floor_nav) StdoutLine: {'line': b'-- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)\n'}
+[0.730554] (floor_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_zenoh_cpp' as default\n"}
+[0.800229] (-) TimerEvent: {}
+[0.846422] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp_action: 29.5.8 (/opt/ros/kilted/share/rclcpp_action/cmake)\n'}
+[0.892737] (floor_nav) StdoutLine: {'line': b'-- Found rclpy: 9.1.5 (/opt/ros/kilted/share/rclpy/cmake)\n'}
+[0.895867] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_msgs/share/task_manager_msgs/cmake)\n'}
+[0.900386] (-) TimerEvent: {}
+[0.980899] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_lib: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_lib/share/task_manager_lib/cmake)\n'}
+[1.000489] (-) TimerEvent: {}
+[1.017587] (floor_nav) StdoutLine: {'line': b'-- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)\n'}
+[1.060255] (floor_nav) StdoutLine: {'line': b'-- Found topic_tools_interfaces: 1.4.5 (/opt/ros/kilted/share/topic_tools_interfaces/cmake)\n'}
+[1.089539] (floor_nav) StdoutLine: {'line': b'-- Found cs7630_msgs: 0.0.0 (/home/GTL/asacks/ros_workspace/install/cs7630_msgs/share/cs7630_msgs/cmake)\n'}
+[1.100590] (-) TimerEvent: {}
+[1.144363] (floor_nav) StdoutLine: {'line': b'-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/kilted/share/kobuki_ros_interfaces/cmake)\n'}
+[1.200696] (-) TimerEvent: {}
+[1.209989] (floor_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.216845] (floor_nav) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.242013] (floor_nav) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[1.300784] (-) TimerEvent: {}
+[1.401303] (-) TimerEvent: {}
+[1.501627] (-) TimerEvent: {}
+[1.601905] (-) TimerEvent: {}
+[1.702154] (-) TimerEvent: {}
+[1.802406] (-) TimerEvent: {}
+[1.902613] (-) TimerEvent: {}
+[2.002778] (-) TimerEvent: {}
+[2.102984] (-) TimerEvent: {}
+[2.113713] (floor_nav) StdoutLine: {'line': b'-- Found pcl_conversions: 2.8.0 (/opt/ros/kilted/share/pcl_conversions/cmake)\n'}
+[2.152766] (floor_nav) StdoutLine: {'line': b'-- Found tf2: 0.41.7 (/opt/ros/kilted/share/tf2/cmake)\n'}
+[2.157604] (floor_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.41.7 (/opt/ros/kilted/share/tf2_ros/cmake)\n'}
+[2.203101] (-) TimerEvent: {}
+[2.234681] (floor_nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)\n'}
+[2.242121] (floor_nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)\n'}
+[2.243712] (floor_nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.247831] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_nav2: 0.0.0 (/home/GTL/asacks/ros_workspace/install/task_manager_nav2/share/task_manager_nav2/cmake)\n'}
+[2.303188] (-) TimerEvent: {}
+[2.403380] (-) TimerEvent: {}
+[2.422629] (floor_nav) StderrLine: {'line': b'Adding task TaskNav2\n'}
+[2.503494] (-) TimerEvent: {}
+[2.603718] (-) TimerEvent: {}
+[2.703937] (-) TimerEvent: {}
+[2.804162] (-) TimerEvent: {}
+[2.904354] (-) TimerEvent: {}
+[3.004580] (-) TimerEvent: {}
+[3.104806] (-) TimerEvent: {}
+[3.149889] (floor_nav) StderrLine: {'line': b'Adding task TaskSetMux\n'}
+[3.204902] (-) TimerEvent: {}
+[3.305107] (-) TimerEvent: {}
+[3.405301] (-) TimerEvent: {}
+[3.505500] (-) TimerEvent: {}
+[3.605698] (-) TimerEvent: {}
+[3.705887] (-) TimerEvent: {}
+[3.806071] (-) TimerEvent: {}
+[3.835327] (floor_nav) StderrLine: {'line': b'Adding task TaskConstant\n'}
+[3.906151] (-) TimerEvent: {}
+[4.006352] (-) TimerEvent: {}
+[4.106553] (-) TimerEvent: {}
+[4.206757] (-) TimerEvent: {}
+[4.306945] (-) TimerEvent: {}
+[4.407154] (-) TimerEvent: {}
+[4.507308] (floor_nav) StderrLine: {'line': b'Adding task TaskGoTo\n'}
+[4.507687] (-) TimerEvent: {}
+[4.608063] (-) TimerEvent: {}
+[4.708232] (-) TimerEvent: {}
+[4.808384] (-) TimerEvent: {}
+[4.908534] (-) TimerEvent: {}
+[5.008703] (-) TimerEvent: {}
+[5.108892] (-) TimerEvent: {}
+[5.177254] (floor_nav) StderrLine: {'line': b'Adding task TaskSetHeading\n'}
+[5.209009] (-) TimerEvent: {}
+[5.309182] (-) TimerEvent: {}
+[5.409347] (-) TimerEvent: {}
+[5.509522] (-) TimerEvent: {}
+[5.609707] (-) TimerEvent: {}
+[5.709961] (-) TimerEvent: {}
+[5.810192] (-) TimerEvent: {}
+[5.848007] (floor_nav) StderrLine: {'line': b'Adding task TaskPlanTo\n'}
+[5.910284] (-) TimerEvent: {}
+[6.010484] (-) TimerEvent: {}
+[6.110666] (-) TimerEvent: {}
+[6.210847] (-) TimerEvent: {}
+[6.311108] (-) TimerEvent: {}
+[6.411324] (-) TimerEvent: {}
+[6.511521] (-) TimerEvent: {}
+[6.529791] (floor_nav) StderrLine: {'line': b'Adding task TaskWaitForROI\n'}
+[6.611656] (-) TimerEvent: {}
+[6.711855] (-) TimerEvent: {}
+[6.812037] (-) TimerEvent: {}
+[6.912228] (-) TimerEvent: {}
+[7.012404] (-) TimerEvent: {}
+[7.112600] (-) TimerEvent: {}
+[7.211853] (floor_nav) StderrLine: {'line': b'Adding task TaskWander\n'}
+[7.212657] (-) TimerEvent: {}
+[7.312794] (-) TimerEvent: {}
+[7.412995] (-) TimerEvent: {}
+[7.513154] (-) TimerEvent: {}
+[7.613359] (-) TimerEvent: {}
+[7.713565] (-) TimerEvent: {}
+[7.814161] (-) TimerEvent: {}
+[7.889296] (floor_nav) StderrLine: {'line': b'Adding task TaskAutoDock\n'}
+[7.914260] (-) TimerEvent: {}
+[8.014426] (-) TimerEvent: {}
+[8.114648] (-) TimerEvent: {}
+[8.214910] (-) TimerEvent: {}
+[8.315104] (-) TimerEvent: {}
+[8.415320] (-) TimerEvent: {}
+[8.515552] (-) TimerEvent: {}
+[8.562042] (floor_nav) StderrLine: {'line': b'Adding task TaskScan\n'}
+[8.615646] (-) TimerEvent: {}
+[8.715821] (-) TimerEvent: {}
+[8.815996] (-) TimerEvent: {}
+[8.916143] (-) TimerEvent: {}
+[9.016324] (-) TimerEvent: {}
+[9.116483] (-) TimerEvent: {}
+[9.216647] (-) TimerEvent: {}
+[9.260697] (floor_nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[9.316762] (-) TimerEvent: {}
+[9.416930] (-) TimerEvent: {}
+[9.445985] (floor_nav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.464742] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/GTL/asacks/ros_workspace/src/floor_nav/include\n'}
+[9.464903] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.469485] (floor_nav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.469753] (floor_nav) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.474903] (floor_nav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.477818] (floor_nav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.497093] (floor_nav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.497244] (floor_nav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.500256] (floor_nav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.511162] (floor_nav) StdoutLine: {'line': b'-- Configuring done (9.4s)\n'}
+[9.517022] (-) TimerEvent: {}
+[9.617148] (-) TimerEvent: {}
+[9.717322] (-) TimerEvent: {}
+[9.817503] (-) TimerEvent: {}
+[9.917687] (-) TimerEvent: {}
+[10.017871] (-) TimerEvent: {}
+[10.118063] (-) TimerEvent: {}
+[10.218279] (-) TimerEvent: {}
+[10.318491] (-) TimerEvent: {}
+[10.418699] (-) TimerEvent: {}
+[10.518897] (-) TimerEvent: {}
+[10.619093] (-) TimerEvent: {}
+[10.719321] (-) TimerEvent: {}
+[10.819561] (-) TimerEvent: {}
+[10.919753] (-) TimerEvent: {}
+[11.019971] (-) TimerEvent: {}
+[11.120156] (-) TimerEvent: {}
+[11.220316] (-) TimerEvent: {}
+[11.320465] (-) TimerEvent: {}
+[11.420628] (-) TimerEvent: {}
+[11.520787] (-) TimerEvent: {}
+[11.620959] (-) TimerEvent: {}
+[11.721199] (-) TimerEvent: {}
+[11.821382] (-) TimerEvent: {}
+[11.921554] (-) TimerEvent: {}
+[12.021773] (-) TimerEvent: {}
+[12.122044] (-) TimerEvent: {}
+[12.222249] (-) TimerEvent: {}
+[12.322432] (-) TimerEvent: {}
+[12.422597] (-) TimerEvent: {}
+[12.522775] (-) TimerEvent: {}
+[12.622937] (-) TimerEvent: {}
+[12.723120] (-) TimerEvent: {}
+[12.823267] (-) TimerEvent: {}
+[12.923489] (-) TimerEvent: {}
+[13.023742] (-) TimerEvent: {}
+[13.123935] (-) TimerEvent: {}
+[13.224142] (-) TimerEvent: {}
+[13.324298] (-) TimerEvent: {}
+[13.424479] (-) TimerEvent: {}
+[13.524665] (-) TimerEvent: {}
+[13.624856] (-) TimerEvent: {}
+[13.725066] (-) TimerEvent: {}
+[13.825253] (-) TimerEvent: {}
+[13.925413] (-) TimerEvent: {}
+[14.025566] (-) TimerEvent: {}
+[14.125731] (-) TimerEvent: {}
+[14.225902] (-) TimerEvent: {}
+[14.326083] (-) TimerEvent: {}
+[14.426241] (-) TimerEvent: {}
+[14.526397] (-) TimerEvent: {}
+[14.626558] (-) TimerEvent: {}
+[14.979239] (-) TimerEvent: {}
+[15.079433] (-) TimerEvent: {}
+[15.179584] (-) TimerEvent: {}
+[15.279754] (-) TimerEvent: {}
+[15.379956] (-) TimerEvent: {}
+[15.480137] (-) TimerEvent: {}
+[15.580298] (-) TimerEvent: {}
+[15.680469] (-) TimerEvent: {}
+[15.780645] (-) TimerEvent: {}
+[15.880823] (-) TimerEvent: {}
+[15.981013] (-) TimerEvent: {}
+[16.081146] (-) TimerEvent: {}
+[16.181314] (-) TimerEvent: {}
+[16.281506] (-) TimerEvent: {}
+[16.381669] (-) TimerEvent: {}
+[16.481827] (-) TimerEvent: {}
+[16.582024] (-) TimerEvent: {}
+[16.682196] (-) TimerEvent: {}
+[16.782379] (-) TimerEvent: {}
+[16.821923] (floor_nav) StdoutLine: {'line': b'-- Generating done (5.5s)\n'}
+[16.882523] (-) TimerEvent: {}
+[16.982725] (-) TimerEvent: {}
+[17.082889] (-) TimerEvent: {}
+[17.183059] (-) TimerEvent: {}
+[17.283234] (-) TimerEvent: {}
+[17.383377] (-) TimerEvent: {}
+[17.483533] (-) TimerEvent: {}
+[17.583728] (-) TimerEvent: {}
+[17.683910] (-) TimerEvent: {}
+[17.784085] (-) TimerEvent: {}
+[17.884248] (-) TimerEvent: {}
+[17.921556] (floor_nav) StdoutLine: {'line': b'-- Build files have been written to: /home/GTL/asacks/ros_workspace/build/floor_nav\n'}
+[17.984346] (-) TimerEvent: {}
+[18.084537] (-) TimerEvent: {}
+[18.183114] (floor_nav) StdoutLine: {'line': b'[  8%] Built target floornav_TaskConstant\n'}
+[18.184604] (-) TimerEvent: {}
+[18.186422] (floor_nav) StdoutLine: {'line': b'[ 21%] Built target floornav_task_server\n'}
+[18.193592] (floor_nav) StdoutLine: {'line': b'[ 39%] Built target floornav_TaskNav2\n'}
+[18.193845] (floor_nav) StdoutLine: {'line': b'[ 39%] Built target floornav_TaskSetMux\n'}
+[18.284720] (-) TimerEvent: {}
+[18.371325] (floor_nav) StdoutLine: {'line': b'[ 47%] Built target floornav_TaskPlanTo\n'}
+[18.376691] (floor_nav) StdoutLine: {'line': b'[ 60%] Built target floornav_TaskGoTo\n'}
+[18.378196] (floor_nav) StdoutLine: {'line': b'[ 65%] Built target floornav_TaskSetHeading\n'}
+[18.380737] (floor_nav) StdoutLine: {'line': b'[ 73%] Built target floornav_TaskWaitForROI\n'}
+[18.384838] (-) TimerEvent: {}
+[18.485015] (-) TimerEvent: {}
+[18.553064] (floor_nav) StdoutLine: {'line': b'[ 82%] Built target floornav_TaskScan\n'}
+[18.557339] (floor_nav) StdoutLine: {'line': b'[ 91%] Built target floornav_TaskWander\n'}
+[18.583765] (floor_nav) StdoutLine: {'line': b'[100%] Built target floornav_TaskAutoDock\n'}
+[18.585124] (-) TimerEvent: {}
+[18.604636] (floor_nav) CommandEnded: {'returncode': 0}
+[18.606631] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'install'}
+[18.631470] (floor_nav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/asacks/ros_workspace/build/floor_nav'], 'cwd': '/home/GTL/asacks/ros_workspace/build/floor_nav', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VSCODE_CWD': '/home/GTL/asacks', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'AI_AGENT': 'claude-code_2-1-296_agent', 'USER': 'asacks', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLAUDE_AGENT_SDK_VERSION': '0.3.296', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_lib/lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '3e01edf0be5fd3543b6b148062221e4e', 'HOME': '/home/GTL/asacks', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/asacks/ros_workspace/src/floor_nav', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/39376/vscode-769fe6ca-1.13-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'MANAGERPID': '1366782', 'MAKEFLAGS': '-j4', 'SYSTEMD_EXEC_PID': '1367135', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/39376/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1382716', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'asacks', 'CLAUDE_CODE_EMIT_STARTUP_TIMING': '1', 'JOURNAL_STREAM': '10:21833224', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_QUESTION_PREVIEW_FORMAT': 'markdown', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-39376.slice/user@39376.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asacks', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc101.georgiatech-metz.fr:@/tmp/.ICE-unix/1367064,unix/gtlpc101.georgiatech-metz.fr:/tmp/.ICE-unix/1367064', 'INVOCATION_ID': '1da4ae03465a40cbb98140bfd8735df1', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':7', 'XDG_RUNTIME_DIR': '/run/user/39376', 'GDK_BACKEND': 'wayland', 'CLAUDE_EFFORT': 'xhigh', 'DISPLAY': ':6', 'CLAUDE_PID': '1384336', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/39376/.mutter-Xwaylandauth.SDD1W3', 'SSH_AUTH_SOCK': '/run/user/39376/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/floor_graph:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/opt/ros/kilted', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_39376', 'MXC_BIN_DIR': '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'fb7b8a84-2bd9-4226-91e6-897720ba1059', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/asacks/ros_workspace/build/floor_nav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/GTL/asacks/.config/Code/CachedData/110a328ea54b42367b803ec53ee0bf52ef26b419', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/GTL/asacks/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/GTL/asacks/.vscode/extensions/anthropic.claude-code-2.1.296-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/GTL/asacks/ros_workspace/install/nav2_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/task_manager_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/nav2_common/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/install/cs7630_msgs/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/task_manager_client_py/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/model_prediction:/home/GTL/asacks/ros_workspace/install/model_prediction/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/joy_teleop:/home/GTL/asacks/ros_workspace/install/joy_teleop/lib/python3.12/site-packages:/home/GTL/asacks/ros_workspace/build/floor_graph:/home/GTL/asacks/ros_workspace/install/floor_graph/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/39376/cc-socks/1384336.sock', 'CMAKE_PREFIX_PATH': '/home/GTL/asacks/ros_workspace/install/task_manager_nav2:/home/GTL/asacks/ros_workspace/install/task_manager_lib:/home/GTL/asacks/ros_workspace/install/nav2_msgs:/home/GTL/asacks/ros_workspace/install/task_manager_msgs:/home/GTL/asacks/ros_workspace/install/nav2_common:/home/GTL/asacks/ros_workspace/install/cs7630_msgs:/home/GTL/asacks/ros_workspace/install/vrep4_helpers:/home/GTL/asacks/ros_workspace/install/floor_nav:/home/GTL/asacks/ros_workspace/install/floor_plane_regression_base:/home/GTL/asacks/ros_workspace/install/floor_plane_ransac_base:/home/GTL/asacks/ros_workspace/install/floor_plane_mapping:/home/GTL/asacks/ros_workspace/install/floor_plane_hough_base:/home/GTL/asacks/ros_workspace/install/cylinder_detector:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/GTL/asacks/ros_workspace/install/vrep_ros_teleop:/home/GTL/asacks/ros_workspace/install/task_manager_client_py:/home/GTL/asacks/ros_workspace/install/model_prediction:/home/GTL/asacks/ros_workspace/install/joy_teleop:/home/GTL/asacks/ros_workspace/install/floor_graph:/opt/ros/kilted', 'VSCODE_PID': '1382716'}), 'shell': False}
+[18.640684] (floor_nav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.642042] (floor_nav) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.643345] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskNav2.so\n'}
+[18.644400] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetMux.so\n'}
+[18.645450] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskConstant.so\n'}
+[18.646432] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskGoTo.so\n'}
+[18.647352] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskSetHeading.so\n'}
+[18.648438] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskPlanTo.so\n'}
+[18.649585] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForROI.so\n'}
+[18.650765] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskWander.so\n'}
+[18.651820] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskAutoDock.so\n'}
+[18.652976] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/libfloornav_TaskScan.so\n'}
+[18.654429] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/floornav_task_server\n'}
+[18.656145] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/__pycache__/launch_server_tb.launch.cpython-310.pyc\n'}
+[18.656743] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server.launch.py\n'}
+[18.657649] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/launch_server_tb.launch.py\n'}
+[18.658279] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/explore_scan.py\n'}
+[18.659388] (floor_nav) StdoutLine: {'line': b'-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_cover-test.py\n'}
+[18.670479] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever.py\n'}
+[18.671039] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/graph_forever-test.py\n'}
+[18.671701] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_goto.py\n'}
+[18.672949] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph_2d.py\n'}
+[18.673107] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph.py\n'}
+[18.673625] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_graph-test.py\n'}
+[18.674233] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_planto.py\n'}
+[18.674896] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_set_heading.py\n'}
+[18.676138] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/lib/floor_nav/test_wander.py\n'}
+[18.677343] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/package_run_dependencies/floor_nav\n'}
+[18.678460] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/parent_prefix_path/floor_nav\n'}
+[18.679416] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.sh\n'}
+[18.679772] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/ament_prefix_path.dsv\n'}
+[18.680799] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.sh\n'}
+[18.681815] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/environment/path.dsv\n'}
+[18.683293] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.bash\n'}
+[18.684481] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.sh\n'}
+[18.685189] (-) TimerEvent: {}
+[18.685238] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.zsh\n'}
+[18.686328] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/local_setup.dsv\n'}
+[18.687611] (floor_nav) StdoutLine: {'line': b'-- Symlinking: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.dsv\n'}
+[18.699323] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/ament_index/resource_index/packages/floor_nav\n'}
+[18.700655] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig.cmake\n'}
+[18.701280] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/cmake/floor_navConfig-version.cmake\n'}
+[18.702287] (floor_nav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/GTL/asacks/ros_workspace/install/floor_nav/share/floor_nav/package.xml\n'}
+[18.704290] (floor_nav) CommandEnded: {'returncode': 0}
+[18.752849] (floor_nav) JobEnded: {'identifier': 'floor_nav', 'rc': 0}
+[18.754272] (-) EventReactorShutdown: {}

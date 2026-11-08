@@ -1,0 +1,17 @@
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/lib/shore_follower_observe/shore_follower_observe
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/record.launch.py
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/ament_index/resource_index/package_run_dependencies/shore_follower_observe
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/ament_index/resource_index/parent_prefix_path/shore_follower_observe
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/ament_prefix_path.sh
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/ament_prefix_path.dsv
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/path.sh
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/environment/path.dsv
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.bash
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.sh
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.zsh
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/local_setup.dsv
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/package.dsv
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/ament_index/resource_index/packages/shore_follower_observe
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/cmake/shore_follower_observeConfig.cmake
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/cmake/shore_follower_observeConfig-version.cmake
+/home/GTL/asacks/ros_workspace/install/shore_follower_observe/share/shore_follower_observe/package.xml
