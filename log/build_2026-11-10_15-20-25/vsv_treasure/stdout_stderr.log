@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating vsv_treasure.egg-info
+writing vsv_treasure.egg-info/PKG-INFO
+writing dependency_links to vsv_treasure.egg-info/dependency_links.txt
+writing entry points to vsv_treasure.egg-info/entry_points.txt
+writing requirements to vsv_treasure.egg-info/requires.txt
+writing top-level names to vsv_treasure.egg-info/top_level.txt
+writing manifest file 'vsv_treasure.egg-info/SOURCES.txt'
+reading manifest file 'vsv_treasure.egg-info/SOURCES.txt'
+writing manifest file 'vsv_treasure.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/GTL/asacks/ros_workspace/install/vsv_treasure/lib/python3.12/site-packages/vsv-treasure.egg-link (link to .)
+Installing arm_follower script to /home/GTL/asacks/ros_workspace/install/vsv_treasure/lib/vsv_treasure
+Installing treasure_detector script to /home/GTL/asacks/ros_workspace/install/vsv_treasure/lib/vsv_treasure
+Installing truck_follower script to /home/GTL/asacks/ros_workspace/install/vsv_treasure/lib/vsv_treasure
+
+Installed /home/GTL/asacks/ros_workspace/build/vsv_treasure
+running symlink_data
+creating /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/ament_index
+creating /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/ament_index/resource_index
+creating /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/resource/vsv_treasure -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/package.xml -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/vsv_treasure
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/launch/auto.launch.py -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/vsv_treasure
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/launch/teleop.launch.py -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/vsv_treasure
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/launch/teach.launch.py -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/vsv_treasure
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/rviz/treasure.rviz -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/share/vsv_treasure
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/scripts/sim_rate.py -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/lib/vsv_treasure
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/scripts/train_arm.sh -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/lib/vsv_treasure
+symbolically linking /home/GTL/asacks/ros_workspace/build/vsv_treasure/scripts/split_dataset.py -> /home/GTL/asacks/ros_workspace/install/vsv_treasure/lib/vsv_treasure

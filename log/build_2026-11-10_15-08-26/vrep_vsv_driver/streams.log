@@ -1,0 +1,31 @@
+[1.504s] Invoking command in '/home/GTL/asacks/ros_workspace/build/vrep_vsv_driver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/build --no-deps symlink_data
+[1.880s] running develop
+[2.186s] running egg_info
+[2.188s] creating vrep_vsv_driver.egg-info
+[2.210s] writing vrep_vsv_driver.egg-info/PKG-INFO
+[2.216s] writing dependency_links to vrep_vsv_driver.egg-info/dependency_links.txt
+[2.217s] writing entry points to vrep_vsv_driver.egg-info/entry_points.txt
+[2.218s] writing requirements to vrep_vsv_driver.egg-info/requires.txt
+[2.219s] writing top-level names to vrep_vsv_driver.egg-info/top_level.txt
+[2.221s] writing manifest file 'vrep_vsv_driver.egg-info/SOURCES.txt'
+[2.275s] reading manifest file 'vrep_vsv_driver.egg-info/SOURCES.txt'
+[2.277s] writing manifest file 'vrep_vsv_driver.egg-info/SOURCES.txt'
+[2.302s] running build_ext
+[2.304s] Creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/python3.12/site-packages/vrep-vsv-driver.egg-link (link to .)
+[2.307s] Installing teleop_geom script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+[2.310s] Installing vsv_arm script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+[2.312s] Installing vsv_arm_ik script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+[2.314s] Installing vsv_driver script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+[2.316s] Installing vsv_odom script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+[2.318s] 
+[2.319s] Installed /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver
+[2.320s] running symlink_data
+[2.321s] creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index
+[2.322s] creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index/resource_index
+[2.322s] creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index/resource_index/packages
+[2.323s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/resource/vrep_vsv_driver -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index/resource_index/packages
+[2.323s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/package.xml -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver
+[2.324s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/launch/vsv_pc_min.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver
+[2.324s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/launch/vsv_pc.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver
+[2.324s] symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/launch/vsv_geom_mux.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver
+[2.347s] Invoked command in '/home/GTL/asacks/ros_workspace/build/vrep_vsv_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/build --no-deps symlink_data

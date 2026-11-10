@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/vsv_shore_observe/ament_cmake_core/vsv_shore_observeConfig.cmake

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c5562247c48d4e460f24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vsv_shore_observe",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bf945996b40ea0a5df28.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vsv_shore_observe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vsv_shore_observe-783f5c15848505ea71ac.json",
+					"name" : "vsv_shore_observe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vsv_shore_observe_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vsv_shore_observe_uninstall-5aecf3ee011eaea15b21.json",
+					"name" : "vsv_shore_observe_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/GTL/asacks/ros_workspace/build/vsv_shore_observe",
+		"source" : "/home/GTL/asacks/ros_workspace/src/final_project/vsv_shore_observe"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

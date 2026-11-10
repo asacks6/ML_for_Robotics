@@ -1,0 +1,6 @@
+[console_scripts]
+teleop_geom = vrep_vsv_driver.teleop_geom:main
+vsv_arm = vrep_vsv_driver.vsv_arm:main
+vsv_arm_ik = vrep_vsv_driver.vsv_arm_ik:main
+vsv_driver = vrep_vsv_driver.vsv_driver:main
+vsv_odom = vrep_vsv_driver.vsv_odom:main

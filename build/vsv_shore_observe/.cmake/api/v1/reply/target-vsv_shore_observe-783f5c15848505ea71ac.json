@@ -1,0 +1,2340 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "vsv_shore_observe"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"add_compile_options",
+			"target_include_directories",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/kilted/share/tf2_geometry_msgs/cmake/export_tf2_geometry_msgsExport.cmake",
+			"/opt/ros/kilted/share/tf2_geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake",
+			"/opt/ros/kilted/share/image_transport/cmake/export_image_transportExport.cmake",
+			"/opt/ros/kilted/share/image_transport/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/image_transport/cmake/image_transportConfig.cmake",
+			"/opt/ros/kilted/share/tf2_ros/cmake/export_tf2_rosExport.cmake",
+			"/opt/ros/kilted/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/tf2_ros/cmake/tf2_rosConfig.cmake",
+			"/opt/ros/kilted/share/cv_bridge/cmake/export_cv_bridgeExport.cmake",
+			"/opt/ros/kilted/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/cv_bridge/cmake/cv_bridgeConfig.cmake",
+			"/opt/ros/kilted/share/rclcpp/cmake/rclcppExport.cmake",
+			"/opt/ros/kilted/share/rclcpp/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/rclcpp/cmake/rclcppConfig.cmake",
+			"/opt/ros/kilted/share/rclcpp_components/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/rclcpp_components/cmake/rclcpp_componentsConfig.cmake",
+			"/opt/ros/kilted/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/rclcpp_action/cmake/rclcpp_actionExport.cmake",
+			"/opt/ros/kilted/share/rclcpp_action/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/rclcpp_action/cmake/rclcpp_actionConfig.cmake",
+			"/opt/ros/kilted/share/tracetools/cmake/tracetools_exportExport.cmake",
+			"/opt/ros/kilted/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/tracetools/cmake/tracetoolsConfig.cmake",
+			"/opt/ros/kilted/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/rcl/cmake/rclExport.cmake",
+			"/opt/ros/kilted/share/rcl/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/rcl/cmake/rclConfig.cmake",
+			"/opt/ros/kilted/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/tf2_msgsConfig.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cExport.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cppExport.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cppExport.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/sensor_msgsConfig.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cExport.cmake",
+			"/opt/ros/kilted/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cExport.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake",
+			"/opt/ros/kilted/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport.cmake",
+			"/opt/ros/kilted/share/rmw/cmake/rmwExport.cmake",
+			"/opt/ros/kilted/share/rmw/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/rmw/cmake/rmwConfig.cmake",
+			"/opt/ros/kilted/share/rosidl_typesupport_fastrtps_cpp/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cppConfig.cmake",
+			"/opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport.cmake",
+			"/opt/ros/kilted/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport.cmake",
+			"/opt/ros/kilted/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cppExport.cmake",
+			"/opt/ros/kilted/share/rosidl_typesupport_cpp/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cppConfig.cmake",
+			"/opt/ros/kilted/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 13
+			},
+			{
+				"file" : 4,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 8,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 20
+			},
+			{
+				"file" : 7,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 69,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 61,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 12,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 26
+			},
+			{
+				"file" : 11,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 9,
+				"parent" : 28
+			},
+			{
+				"file" : 10,
+				"parent" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 18,
+				"parent" : 32
+			},
+			{
+				"command" : 4,
+				"file" : 18,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"file" : 17,
+				"parent" : 34
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 41,
+				"parent" : 35
+			},
+			{
+				"file" : 16,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"file" : 15,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 41,
+				"parent" : 39
+			},
+			{
+				"file" : 14,
+				"parent" : 40
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 9,
+				"parent" : 41
+			},
+			{
+				"file" : 13,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 61,
+				"parent" : 43
+			},
+			{
+				"command" : 4,
+				"file" : 18,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"file" : 21,
+				"parent" : 45
+			},
+			{
+				"command" : 3,
+				"file" : 21,
+				"line" : 41,
+				"parent" : 46
+			},
+			{
+				"file" : 20,
+				"parent" : 47
+			},
+			{
+				"command" : 3,
+				"file" : 20,
+				"line" : 9,
+				"parent" : 48
+			},
+			{
+				"file" : 19,
+				"parent" : 49
+			},
+			{
+				"command" : 2,
+				"file" : 19,
+				"line" : 61,
+				"parent" : 50
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 41,
+				"parent" : 39
+			},
+			{
+				"file" : 25,
+				"parent" : 52
+			},
+			{
+				"command" : 4,
+				"file" : 25,
+				"line" : 21,
+				"parent" : 53
+			},
+			{
+				"file" : 24,
+				"parent" : 54
+			},
+			{
+				"command" : 3,
+				"file" : 24,
+				"line" : 41,
+				"parent" : 55
+			},
+			{
+				"file" : 23,
+				"parent" : 56
+			},
+			{
+				"command" : 3,
+				"file" : 23,
+				"line" : 9,
+				"parent" : 57
+			},
+			{
+				"file" : 22,
+				"parent" : 58
+			},
+			{
+				"command" : 2,
+				"file" : 22,
+				"line" : 61,
+				"parent" : 59
+			},
+			{
+				"command" : 4,
+				"file" : 25,
+				"line" : 21,
+				"parent" : 53
+			},
+			{
+				"file" : 30,
+				"parent" : 61
+			},
+			{
+				"command" : 3,
+				"file" : 30,
+				"line" : 41,
+				"parent" : 62
+			},
+			{
+				"file" : 29,
+				"parent" : 63
+			},
+			{
+				"command" : 4,
+				"file" : 29,
+				"line" : 21,
+				"parent" : 64
+			},
+			{
+				"file" : 28,
+				"parent" : 65
+			},
+			{
+				"command" : 3,
+				"file" : 28,
+				"line" : 41,
+				"parent" : 66
+			},
+			{
+				"file" : 27,
+				"parent" : 67
+			},
+			{
+				"command" : 3,
+				"file" : 27,
+				"line" : 9,
+				"parent" : 68
+			},
+			{
+				"file" : 26,
+				"parent" : 69
+			},
+			{
+				"command" : 2,
+				"file" : 26,
+				"line" : 61,
+				"parent" : 70
+			},
+			{
+				"command" : 4,
+				"file" : 18,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"file" : 33,
+				"parent" : 72
+			},
+			{
+				"command" : 3,
+				"file" : 33,
+				"line" : 41,
+				"parent" : 73
+			},
+			{
+				"file" : 32,
+				"parent" : 74
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 9,
+				"parent" : 75
+			},
+			{
+				"file" : 31,
+				"parent" : 76
+			},
+			{
+				"command" : 2,
+				"file" : 31,
+				"line" : 61,
+				"parent" : 77
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 9,
+				"parent" : 75
+			},
+			{
+				"file" : 34,
+				"parent" : 79
+			},
+			{
+				"command" : 2,
+				"file" : 34,
+				"line" : 61,
+				"parent" : 80
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 9,
+				"parent" : 75
+			},
+			{
+				"file" : 35,
+				"parent" : 82
+			},
+			{
+				"command" : 2,
+				"file" : 35,
+				"line" : 61,
+				"parent" : 83
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 9,
+				"parent" : 75
+			},
+			{
+				"file" : 36,
+				"parent" : 85
+			},
+			{
+				"command" : 2,
+				"file" : 36,
+				"line" : 61,
+				"parent" : 86
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 9,
+				"parent" : 75
+			},
+			{
+				"file" : 37,
+				"parent" : 88
+			},
+			{
+				"command" : 2,
+				"file" : 37,
+				"line" : 61,
+				"parent" : 89
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 40,
+				"parent" : 91
+			},
+			{
+				"command" : 3,
+				"file" : 40,
+				"line" : 41,
+				"parent" : 92
+			},
+			{
+				"file" : 39,
+				"parent" : 93
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 94
+			},
+			{
+				"file" : 38,
+				"parent" : 95
+			},
+			{
+				"command" : 2,
+				"file" : 38,
+				"line" : 61,
+				"parent" : 96
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 94
+			},
+			{
+				"file" : 41,
+				"parent" : 98
+			},
+			{
+				"command" : 2,
+				"file" : 41,
+				"line" : 61,
+				"parent" : 99
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 94
+			},
+			{
+				"file" : 42,
+				"parent" : 101
+			},
+			{
+				"command" : 2,
+				"file" : 42,
+				"line" : 61,
+				"parent" : 102
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 94
+			},
+			{
+				"file" : 43,
+				"parent" : 104
+			},
+			{
+				"command" : 2,
+				"file" : 43,
+				"line" : 61,
+				"parent" : 105
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 94
+			},
+			{
+				"file" : 44,
+				"parent" : 107
+			},
+			{
+				"command" : 2,
+				"file" : 44,
+				"line" : 61,
+				"parent" : 108
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 9,
+				"parent" : 75
+			},
+			{
+				"file" : 45,
+				"parent" : 110
+			},
+			{
+				"command" : 2,
+				"file" : 45,
+				"line" : 61,
+				"parent" : 111
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 9,
+				"parent" : 75
+			},
+			{
+				"file" : 46,
+				"parent" : 113
+			},
+			{
+				"command" : 2,
+				"file" : 46,
+				"line" : 61,
+				"parent" : 114
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 94
+			},
+			{
+				"file" : 47,
+				"parent" : 116
+			},
+			{
+				"command" : 2,
+				"file" : 47,
+				"line" : 61,
+				"parent" : 117
+			},
+			{
+				"command" : 3,
+				"file" : 39,
+				"line" : 9,
+				"parent" : 94
+			},
+			{
+				"file" : 48,
+				"parent" : 119
+			},
+			{
+				"command" : 2,
+				"file" : 48,
+				"line" : 61,
+				"parent" : 120
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 51,
+				"parent" : 122
+			},
+			{
+				"command" : 3,
+				"file" : 51,
+				"line" : 41,
+				"parent" : 123
+			},
+			{
+				"file" : 50,
+				"parent" : 124
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 9,
+				"parent" : 125
+			},
+			{
+				"file" : 49,
+				"parent" : 126
+			},
+			{
+				"command" : 2,
+				"file" : 49,
+				"line" : 61,
+				"parent" : 127
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 9,
+				"parent" : 125
+			},
+			{
+				"file" : 52,
+				"parent" : 129
+			},
+			{
+				"command" : 2,
+				"file" : 52,
+				"line" : 61,
+				"parent" : 130
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 9,
+				"parent" : 125
+			},
+			{
+				"file" : 53,
+				"parent" : 132
+			},
+			{
+				"command" : 2,
+				"file" : 53,
+				"line" : 61,
+				"parent" : 133
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"file" : 62,
+				"parent" : 135
+			},
+			{
+				"command" : 3,
+				"file" : 62,
+				"line" : 41,
+				"parent" : 136
+			},
+			{
+				"file" : 61,
+				"parent" : 137
+			},
+			{
+				"command" : 4,
+				"file" : 61,
+				"line" : 21,
+				"parent" : 138
+			},
+			{
+				"file" : 60,
+				"parent" : 139
+			},
+			{
+				"command" : 3,
+				"file" : 60,
+				"line" : 41,
+				"parent" : 140
+			},
+			{
+				"file" : 59,
+				"parent" : 141
+			},
+			{
+				"command" : 4,
+				"file" : 59,
+				"line" : 21,
+				"parent" : 142
+			},
+			{
+				"file" : 58,
+				"parent" : 143
+			},
+			{
+				"command" : 3,
+				"file" : 58,
+				"line" : 41,
+				"parent" : 144
+			},
+			{
+				"file" : 57,
+				"parent" : 145
+			},
+			{
+				"command" : 4,
+				"file" : 57,
+				"line" : 21,
+				"parent" : 146
+			},
+			{
+				"file" : 56,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 56,
+				"line" : 41,
+				"parent" : 148
+			},
+			{
+				"file" : 55,
+				"parent" : 149
+			},
+			{
+				"command" : 3,
+				"file" : 55,
+				"line" : 9,
+				"parent" : 150
+			},
+			{
+				"file" : 54,
+				"parent" : 151
+			},
+			{
+				"command" : 2,
+				"file" : 54,
+				"line" : 61,
+				"parent" : 152
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 9,
+				"parent" : 125
+			},
+			{
+				"file" : 63,
+				"parent" : 154
+			},
+			{
+				"command" : 2,
+				"file" : 63,
+				"line" : 61,
+				"parent" : 155
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 9,
+				"parent" : 125
+			},
+			{
+				"file" : 64,
+				"parent" : 157
+			},
+			{
+				"command" : 2,
+				"file" : 64,
+				"line" : 61,
+				"parent" : 158
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 9,
+				"parent" : 125
+			},
+			{
+				"file" : 65,
+				"parent" : 160
+			},
+			{
+				"command" : 2,
+				"file" : 65,
+				"line" : 61,
+				"parent" : 161
+			},
+			{
+				"command" : 3,
+				"file" : 50,
+				"line" : 9,
+				"parent" : 125
+			},
+			{
+				"file" : 66,
+				"parent" : 163
+			},
+			{
+				"command" : 2,
+				"file" : 66,
+				"line" : 61,
+				"parent" : 164
+			},
+			{
+				"command" : 4,
+				"file" : 59,
+				"line" : 21,
+				"parent" : 142
+			},
+			{
+				"file" : 69,
+				"parent" : 166
+			},
+			{
+				"command" : 3,
+				"file" : 69,
+				"line" : 41,
+				"parent" : 167
+			},
+			{
+				"file" : 68,
+				"parent" : 168
+			},
+			{
+				"command" : 3,
+				"file" : 68,
+				"line" : 9,
+				"parent" : 169
+			},
+			{
+				"file" : 67,
+				"parent" : 170
+			},
+			{
+				"command" : 2,
+				"file" : 67,
+				"line" : 61,
+				"parent" : 171
+			},
+			{
+				"command" : 4,
+				"file" : 59,
+				"line" : 21,
+				"parent" : 142
+			},
+			{
+				"file" : 74,
+				"parent" : 173
+			},
+			{
+				"command" : 3,
+				"file" : 74,
+				"line" : 41,
+				"parent" : 174
+			},
+			{
+				"file" : 73,
+				"parent" : 175
+			},
+			{
+				"command" : 4,
+				"file" : 73,
+				"line" : 21,
+				"parent" : 176
+			},
+			{
+				"file" : 72,
+				"parent" : 177
+			},
+			{
+				"command" : 3,
+				"file" : 72,
+				"line" : 41,
+				"parent" : 178
+			},
+			{
+				"file" : 71,
+				"parent" : 179
+			},
+			{
+				"command" : 3,
+				"file" : 71,
+				"line" : 9,
+				"parent" : 180
+			},
+			{
+				"file" : 70,
+				"parent" : 181
+			},
+			{
+				"command" : 2,
+				"file" : 70,
+				"line" : 61,
+				"parent" : 182
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 184,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 184,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 184,
+					"fragment" : "-Wpedantic"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FASTCDR_DYN_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 185,
+					"path" : "/home/GTL/asacks/ros_workspace/src/final_project/vsv_shore_observe/include"
+				},
+				{
+					"backtrace" : 186,
+					"isSystem" : true,
+					"path" : "/usr/include/opencv4"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/std_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rcutils"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/includefastcdr"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rmw"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_dynamic_typesupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_typesupport_fastrtps_c"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_typesupport_introspection_cpp"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/sensor_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/service_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/visualization_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/cv_bridge"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rclcpp"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/libstatistics_collector"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rcl"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rcl_interfaces"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rcl_logging_interface"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rcl_yaml_param_parser"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/type_description_interfaces"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rcpputils"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/statistics_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosgraph_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_typesupport_cpp"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rosidl_typesupport_c"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/tracetools"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/image_transport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/message_filters"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/tf2_geometry_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/tf2"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/tf2_ros"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rclcpp_action"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/action_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/unique_identifier_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/rcl_action"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/tf2_msgs"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/include/tf2_sensor_msgs"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "vsv_shore_observe::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libcv_bridge.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/x86_64-linux-gnu/libimage_transport.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstatic_transform_broadcaster_node.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_cvv.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_face.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libvisualization_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liborocos-kdl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libsensor_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_ros.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/opt/ros/kilted/lib/libmessage_filters.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/kilted/lib/libtf2_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/ros/kilted/lib/librclcpp_action.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/opt/ros/kilted/lib/librclcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/liblibstatistics_collector.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosgraph_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libstatistics_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "/opt/ros/kilted/lib/librcl_action.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcl_yaml_param_parser.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/libtracetools.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "-llttng-ust",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "-llttng-ust-common",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "-rdynamic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/librcl_logging_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/librmw_implementation.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "/opt/ros/kilted/lib/libtype_description_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 78,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 81,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 84,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 87,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 90,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 97,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 100,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 103,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 106,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 109,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 78,
+				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 81,
+				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 112,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 115,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 84,
+				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 87,
+				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 90,
+				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 118,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 121,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 112,
+				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 115,
+				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/kilted/lib/libtf2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/ros/kilted/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 128,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 128,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 131,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 134,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 128,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 128,
+				"fragment" : "/opt/ros/kilted/lib/x86_64-linux-gnu/libfastcdr.so.2.3.6",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 134,
+				"fragment" : "/opt/ros/kilted/lib/librmw.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 153,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_dynamic_typesupport.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 156,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 156,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 131,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 159,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 162,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 165,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 172,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 165,
+				"fragment" : "/opt/ros/kilted/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/opt/ros/kilted/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 165,
+				"fragment" : "/opt/ros/kilted/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 183,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 183,
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_text.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_video.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/opt/ros/kilted/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "vsv_shore_observe",
+	"nameOnDisk" : "vsv_shore_observe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/vsv_shore_observe.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

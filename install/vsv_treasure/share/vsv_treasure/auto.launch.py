@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/vsv_treasure/launch/auto.launch.py

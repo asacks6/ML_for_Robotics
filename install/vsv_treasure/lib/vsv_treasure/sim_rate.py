@@ -1,0 +1,1 @@
+/home/GTL/asacks/ros_workspace/build/vsv_treasure/scripts/sim_rate.py

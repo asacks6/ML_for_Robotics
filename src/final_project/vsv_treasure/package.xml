@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vsv_treasure</name>
+  <version>0.0.0</version>
+  <description>Final project: treasure search with the VSV truck and its arm</description>
+  <maintainer email="asacks@todo.todo">asacks</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>cv_bridge2</depend>
+  <depend>pytorch_models_base</depend>
+  <exec_depend>vrep_vsv_driver</exec_depend>
+  <exec_depend>vrep_ros_teleop</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
+  <exec_depend>joy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating vrep_vsv_driver.egg-info
+writing vrep_vsv_driver.egg-info/PKG-INFO
+writing dependency_links to vrep_vsv_driver.egg-info/dependency_links.txt
+writing entry points to vrep_vsv_driver.egg-info/entry_points.txt
+writing requirements to vrep_vsv_driver.egg-info/requires.txt
+writing top-level names to vrep_vsv_driver.egg-info/top_level.txt
+writing manifest file 'vrep_vsv_driver.egg-info/SOURCES.txt'
+reading manifest file 'vrep_vsv_driver.egg-info/SOURCES.txt'
+writing manifest file 'vrep_vsv_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/python3.12/site-packages/vrep-vsv-driver.egg-link (link to .)
+Installing teleop_geom script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+Installing vsv_arm script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+Installing vsv_arm_ik script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+Installing vsv_driver script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+Installing vsv_odom script to /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/lib/vrep_vsv_driver
+
+Installed /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver
+running symlink_data
+creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index
+creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index/resource_index
+creating /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/resource/vrep_vsv_driver -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/ament_index/resource_index/packages
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/package.xml -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/launch/vsv_pc_min.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/launch/vsv_pc.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver
+symbolically linking /home/GTL/asacks/ros_workspace/build/vrep_vsv_driver/launch/vsv_geom_mux.launch.py -> /home/GTL/asacks/ros_workspace/install/vrep_vsv_driver/share/vrep_vsv_driver

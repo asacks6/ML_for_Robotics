@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/GTL/asacks/ros_workspace/src/final_project/vsv_shore_observe" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/vsv_shore_observe/environment")

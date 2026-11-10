@@ -1,0 +1,4 @@
+[console_scripts]
+arm_follower = vsv_treasure.arm_follower:main
+treasure_detector = vsv_treasure.treasure_detector:main
+truck_follower = vsv_treasure.truck_follower:main
