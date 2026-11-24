@@ -70,7 +70,8 @@ def launch_setup(context):
             remappings=[
                 ('~/joy', '/joy'),
                 ('~/image', '/vrep/kision/image'),
-                ('~/twist', '/arm_ik/twist'),
+                # Orden de la persona en modo ensenanza, antes del limite de alcance del brazo
+                ('~/twist', '/arm_follower/demo_twist'),
                 ],
             output='screen'),
     ]

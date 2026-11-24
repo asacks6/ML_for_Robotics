@@ -25,11 +25,11 @@ class TruckFollower(Node):
     def __init__(self):
         super().__init__("truck_follower")
 
-        self.declare_parameter('~/linear_vel', 0.4)
-        self.declare_parameter('~/target_distance', 2.5)
-        self.declare_parameter('~/k_distance', 0.15)
-        self.declare_parameter('~/k_angle', 0.3)
-        self.declare_parameter('~/approach_limit', 0.04)
+        self.declare_parameter('~/linear_vel', 0.25)
+        self.declare_parameter('~/target_distance', 2.7)
+        # Ganancias por metro recorrido: la trayectoria no depende de la velocidad
+        self.declare_parameter('~/k_distance', 0.375)
+        self.declare_parameter('~/k_angle', 0.75)
         self.declare_parameter('~/arm_position', 1.5)
         self.declare_parameter('~/shore_percentile', 50.0)
         self.declare_parameter('~/base_frame', 'VSV/base')
@@ -38,7 +38,6 @@ class TruckFollower(Node):
         self.target_distance_ = self.get_parameter('~/target_distance').get_parameter_value().double_value
         self.k_distance_ = self.get_parameter('~/k_distance').get_parameter_value().double_value
         self.k_angle_ = self.get_parameter('~/k_angle').get_parameter_value().double_value
-        self.approach_limit_ = self.get_parameter('~/approach_limit').get_parameter_value().double_value
         self.arm_position_ = self.get_parameter('~/arm_position').get_parameter_value().double_value
         self.shore_percentile_ = self.get_parameter('~/shore_percentile').get_parameter_value().double_value
         self.base_frame_ = self.get_parameter('~/base_frame').get_parameter_value().string_value
@@ -120,10 +119,10 @@ class TruckFollower(Node):
         theta = atan2(far - near, far_ahead - self.arm_position_)
         out = Twist()
         out.linear.x = self.linear_vel_
-        # Orilla lejos o que se aleja: girar a la derecha (angular.z negativo)
-        out.angular.z = -self.k_distance_ * y - self.k_angle_ * theta
-        # Hacia la orilla se gira poco, alejarse de ella no tiene limite
-        out.angular.z = max(out.angular.z, -self.approach_limit_)
+        # Orilla lejos o que se aleja: girar a la derecha (angular.z negativo).
+        # El giro es proporcional a la velocidad, asi gira lo mismo por metro recorrido
+        v = self.linear_vel_
+        out.angular.z = v * (-self.k_distance_ * y - self.k_angle_ * theta)
         self.twist_pub_.publish(out)
 
 

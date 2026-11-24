@@ -9,6 +9,7 @@ from rclpy.time import Time
 
 from sensor_msgs.msg import Image
 from geometry_msgs.msg import Twist
+from std_msgs.msg import Float32
 from tf2_ros import TransformException
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
@@ -52,6 +53,7 @@ class ArmFollower(Node):
         self.vertical = 0.0
         self.last_lateral = -1e10
         self.last_depth = -1e10
+        self.sim_ref = None
 
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
@@ -64,7 +66,10 @@ class ArmFollower(Node):
             # Sin modelo estamos grabando la demostracion: el lateral lo pone la persona
             self.get_logger().info("No model: lateral command taken from the joystick")
             self.teleop_sub_ = self.create_subscription(Twist, "~/teleop_twist", self.teleop_callback, 1)
+            # Orden de la persona antes del limite de alcance: es la que se graba como etiqueta
+            self.demo_pub_ = self.create_publisher(Twist, "~/demo_twist", 1)
         self.depth_sub_ = self.create_subscription(Image, "~/depth", self.depth_callback, 1)
+        self.sim_sub_ = self.create_subscription(Float32, "~/sim_time", self.sim_time_callback, 10)
         self.timer = self.create_timer(0.05, self.timer_callback)
 
     def now(self):
@@ -90,6 +95,21 @@ class ArmFollower(Node):
         # La esperanza de la orden suaviza el control frente al argmax
         self.lateral = self.lateral_vel_ * float(res[0, 2] - res[0, 0])
         self.last_lateral = self.now()
+
+    def sim_time_callback(self, msg):
+        # El IK del brazo integra la velocidad en tiempo real. Si el simulador va mas
+        # rapido, el camion avanza mas de lo que el brazo puede seguir
+        now = self.now()
+        if self.sim_ref is None or msg.data < self.sim_ref[1]:
+            self.sim_ref = (now, msg.data)
+            return
+        if now - self.sim_ref[0] < 5.0:
+            return
+        factor = (msg.data - self.sim_ref[1]) / (now - self.sim_ref[0])
+        self.sim_ref = (now, msg.data)
+        if factor > 1.25 or factor < 0.8:
+            self.get_logger().warn("The simulation runs at %.1fx real time, so the arm can't keep up with the truck. "
+                                   "Stop it, click Simulation > Toggle real-time mode, then Play" % factor)
 
     def teleop_callback(self, twist):
         self.lateral = twist.linear.x
@@ -117,6 +137,11 @@ class ArmFollower(Node):
             out.linear.x = self.lateral
         if now - self.last_depth < 0.5:
             out.linear.z = self.vertical
+        if self.model_ == "":
+            demo = Twist()
+            demo.linear.x = out.linear.x
+            demo.linear.z = out.linear.z
+            self.demo_pub_.publish(demo)
         # Estirado del todo el brazo ya no puede subir: cerca del limite no se aleja mas
         try:
             t = self.tf_buffer.lookup_transform(self.base_frame_, self.tool_frame_, Time())

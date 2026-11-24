@@ -22,6 +22,7 @@ def launch_setup(context):
 
     arm_remappings = [
         ('~/depth', '/vrep/kision/depth'),
+        ('~/sim_time', '/vrep/simTime'),
         ('~/twist', '/arm_mux/autoCommand'),
     ]
     if model == '':
@@ -53,9 +54,8 @@ def launch_setup(context):
             parameters=[
                 {'~/linear_vel': float(LaunchConfiguration('linear_vel').perform(context))},
                 {'~/target_distance': float(LaunchConfiguration('target_distance').perform(context))},
-                {'~/k_distance': 0.15},
-                {'~/k_angle': 0.3},
-                {'~/approach_limit': 0.04},
+                {'~/k_distance': 0.375},
+                {'~/k_angle': 0.75},
                 {'~/shore_percentile': 50.0},
                 ],
             remappings=[
@@ -95,9 +95,9 @@ def generate_launch_description():
             description='true: no network, the arm lateral motion comes from the joystick'),
         DeclareLaunchArgument('rviz', default_value='true',
             description='open RViz'),
-        DeclareLaunchArgument('linear_vel', default_value='0.4',
+        DeclareLaunchArgument('linear_vel', default_value='0.25',
             description='truck speed (m/s)'),
-        DeclareLaunchArgument('target_distance', default_value='2.5',
+        DeclareLaunchArgument('target_distance', default_value='2.7',
             description='lateral distance kept between the truck and the shore (m)'),
         OpaqueFunction(function=launch_setup),
     ])

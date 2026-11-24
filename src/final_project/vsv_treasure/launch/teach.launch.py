@@ -10,8 +10,8 @@ def generate_launch_description():
     # brazo de lado con el joystick mientras se graba la demostracion
     return LaunchDescription([
         DeclareLaunchArgument('rviz', default_value='true', description='open RViz'),
-        DeclareLaunchArgument('linear_vel', default_value='0.4', description='truck speed (m/s)'),
-        DeclareLaunchArgument('target_distance', default_value='2.5',
+        DeclareLaunchArgument('linear_vel', default_value='0.25', description='truck speed (m/s)'),
+        DeclareLaunchArgument('target_distance', default_value='2.7',
             description='lateral distance kept between the truck and the shore (m)'),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([get_package_share_directory('vsv_treasure'), '/auto.launch.py']),
