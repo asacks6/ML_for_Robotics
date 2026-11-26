@@ -1,0 +1,7 @@
+# Generados al reconstruir el modelo o al reentrenar: no se suben
+model_ce_74.pt
+model.pt
+train/
+val/
+output_*/
+runs/

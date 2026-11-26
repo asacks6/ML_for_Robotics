@@ -70,7 +70,7 @@ def launch_setup(context):
         launch_ros.actions.Node(
             package='vsv_treasure', executable='treasure_detector', name='treasure_detector',
             parameters=[
-                {'~/threshold': 0.3},
+                {'~/threshold': 0.2},
                 {'~/merge_distance': 3.0},
                 ],
             remappings=[

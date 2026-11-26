@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+from collections import deque
 from math import hypot
 
+import numpy as np
 import rclpy
 from rclpy.node import Node
 from rclpy.time import Time
@@ -15,19 +17,30 @@ class TreasureDetector(Node):
     def __init__(self):
         super().__init__("treasure_detector")
 
-        self.declare_parameter('~/threshold', 0.3)
+        self.declare_parameter('~/threshold', 0.2)
         self.declare_parameter('~/merge_distance', 3.0)
+        # Modelo del detector en el script de la escena: exp(-d^2 / (2 sigma^2)) + U(0, noise)
+        self.declare_parameter('~/sigma', 2.0)
+        self.declare_parameter('~/noise', 0.1)
+        self.declare_parameter('~/grid_step', 0.1)
+        self.declare_parameter('~/grid_margin', 5.0)
         self.declare_parameter('~/world_frame', 'world')
         self.declare_parameter('~/tool_frame', 'VSV/Tool')
         self.threshold_ = self.get_parameter('~/threshold').get_parameter_value().double_value
         self.merge_distance_ = self.get_parameter('~/merge_distance').get_parameter_value().double_value
+        self.sigma_ = self.get_parameter('~/sigma').get_parameter_value().double_value
+        self.noise_ = self.get_parameter('~/noise').get_parameter_value().double_value
+        self.grid_step_ = self.get_parameter('~/grid_step').get_parameter_value().double_value
+        self.grid_margin_ = self.get_parameter('~/grid_margin').get_parameter_value().double_value
         self.world_frame_ = self.get_parameter('~/world_frame').get_parameter_value().string_value
         self.tool_frame_ = self.get_parameter('~/tool_frame').get_parameter_value().string_value
 
-        # Medidas (x, y, valor) del paso en curso por encima del umbral
-        self.samples = []
+        # Ultimos 5 s de medidas (x, y, z, valor): las de antes de un paso tambien informan
+        self.recent = deque(maxlen=100)
+        self.samples = None
+        self.above = 0
         self.below = 0
-        # Objetos ya localizados: [x, y, peso acumulado, valor maximo]
+        # Objetos localizados: {'x', 'y', 'peak', 'samples' con todas sus medidas}
         self.treasures = []
 
         self.tf_buffer = Buffer()
@@ -41,53 +54,76 @@ class TreasureDetector(Node):
             t = self.tf_buffer.lookup_transform(self.world_frame_, self.tool_frame_, Time())
         except TransformException:
             return
-        x = t.transform.translation.x
-        y = t.transform.translation.y
+        p = t.transform.translation
+        sample = (p.x, p.y, p.z, msg.data)
+        # Parado en el mismo sitio no se acumulan medidas
+        if self.recent and hypot(p.x - self.recent[-1][0], p.y - self.recent[-1][1]) < 0.01:
+            return
+        self.recent.append(sample)
+        if self.samples is None:
+            if msg.data > self.threshold_:
+                self.samples = list(self.recent)
+                self.above = 1
+                self.below = 0
+            return
+        self.samples.append(sample)
         if msg.data > self.threshold_:
+            self.above += 1
             self.below = 0
-            # Parado sobre el objeto no se acumulan medidas: sesgarian la media
-            if not self.samples or hypot(x - self.samples[-1][0], y - self.samples[-1][1]) > 0.02:
-                self.samples.append((x, y, msg.data))
-        elif self.samples:
-            # El ruido puede hundir una medida suelta: el paso acaba tras 1 s por debajo
+        else:
+            # El ruido puede hundir una medida suelta: el paso acaba tras 20 medidas por debajo
             self.below += 1
             if self.below > 20:
                 self.end_of_pass()
 
+    def model(self, d2):
+        # Valor esperado del detector a una distancia d: el ruido suma en media noise / 2
+        return np.minimum(np.exp(-d2 / (2 * self.sigma_ ** 2)) + self.noise_ / 2, 1.0)
+
+    def vote(self, samples):
+        # Modelo inverso por votacion: cada punto del suelo cerca del paso recibe el error
+        # cuadratico entre las medidas y lo que el detector habria medido con el objeto alli.
+        # Gana el punto que mejor explica todas las medidas, aunque la herramienta no pasara encima
+        x, y, z, v = samples.T
+        gx = np.arange(x.min() - self.grid_margin_, x.max() + self.grid_margin_, self.grid_step_)
+        gy = np.arange(y.min() - self.grid_margin_, y.max() + self.grid_margin_, self.grid_step_)
+        GX, GY = np.meshgrid(gx, gy, indexing='ij')
+        sse = np.zeros(GX.shape)
+        for xi, yi, zi, vi in samples:
+            sse += (vi - self.model((GX - xi) ** 2 + (GY - yi) ** 2 + zi ** 2)) ** 2
+        k = np.unravel_index(np.argmin(sse), sse.shape)
+        return gx[k[0]], gy[k[1]], np.sqrt(sse[k] / len(samples))
+
     def end_of_pass(self):
-        # Todas las medidas del paso se funden en una sola estimacion: la media de las
-        # posiciones de la herramienta, pesada por lo que la senal supera al umbral
-        weight = sum(v - self.threshold_ for _, _, v in self.samples)
-        x = sum(px * (v - self.threshold_) for px, _, v in self.samples) / weight
-        y = sum(py * (v - self.threshold_) for _, py, v in self.samples) / weight
-        peak = max(v for _, _, v in self.samples)
-        count = len(self.samples)
-        self.samples = []
-        self.below = 0
-        if count < 10:
+        samples = np.array(self.samples)
+        above = self.above
+        self.samples = None
+        if above < 10:
             # Unas pocas medidas sueltas sobre el umbral son ruido del detector
             return
+        x, y, rms = self.vote(samples)
+        peak = samples[:, 3].max()
 
         for i, known in enumerate(self.treasures):
-            if hypot(x - known[0], y - known[1]) < self.merge_distance_:
-                # Mismo objeto visto en otra vuelta: se promedia con lo anterior
-                total = known[2] + weight
-                known[0] = (known[0] * known[2] + x * weight) / total
-                known[1] = (known[1] * known[2] + y * weight) / total
-                known[2] = total
-                known[3] = max(known[3], peak)
-                self.get_logger().info("Treasure %d seen again, now at (%.2f, %.2f)" % (i + 1, known[0], known[1]))
+            if hypot(x - known['x'], y - known['y']) < self.merge_distance_:
+                # Mismo objeto visto en otra vuelta: se vuelve a votar con las medidas de todos los pasos
+                known['samples'] = np.vstack([known['samples'], samples])
+                known['x'], known['y'], rms = self.vote(known['samples'])
+                known['peak'] = max(known['peak'], peak)
+                self.get_logger().info("Treasure %d seen again, now at (%.2f, %.2f), %d measurements, fit error %.3f" % (
+                    i + 1, known['x'], known['y'], len(known['samples']), rms))
                 break
         else:
-            self.treasures.append([x, y, weight, peak])
-            self.get_logger().info("Treasure %d found at (%.2f, %.2f), peak %.2f, %d measurements" % (
-                len(self.treasures), x, y, peak, count))
+            self.treasures.append({'x': x, 'y': y, 'peak': peak, 'samples': samples})
+            self.get_logger().info("Treasure %d found at (%.2f, %.2f), peak %.2f, %d measurements, fit error %.3f" % (
+                len(self.treasures), x, y, peak, len(samples), rms))
         self.publish_markers()
 
     def publish_markers(self):
         markers = MarkerArray()
         stamp = self.get_clock().now().to_msg()
-        for i, (x, y, _, peak) in enumerate(self.treasures):
+        for i, known in enumerate(self.treasures):
+            x, y, peak = known['x'], known['y'], known['peak']
             m = Marker()
             m.header.frame_id = self.world_frame_
             m.header.stamp = stamp
